@@ -9,14 +9,17 @@ namespace BaseIdentity.EntityLayer.Concrete
         public int Id { get; set; }
         public string Title { get; set; }
         public string? Description { get; set; }
-    
+        public string? ContentURL { get; set; }
+        public string? Includes { get; set; }
+        public string? CoverPhoto { get; set; }
         public string? Level { get; set; }
         public string? Price { get; set; }
         public string? Language { get; set; }
         public string? Prerequisities { get; set; }
         public string? WhatYoullLearn { get; set; }
-        public int? Rank { get; set; }
-
+        public string? Rank { get; set; }
+        public string? SuitableFor { get; set; }
+        public string? Tags { get; set; }
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
 

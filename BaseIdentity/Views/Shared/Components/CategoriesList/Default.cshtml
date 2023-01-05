@@ -1,0 +1,13 @@
+﻿@model List<Category>
+
+    <div class="sidebar-box ftco-animate">
+        <div class="categories">
+            <h3 class="heading-3">Popular Categories</h3>
+            @foreach (var item in Model)
+            {
+                <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName @if(item.Courses != null) {<span>@item.Courses.Count</span>}</a></li>
+
+            }
+
+        </div>
+    </div>

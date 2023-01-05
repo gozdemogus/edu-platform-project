@@ -35,6 +35,17 @@
     <None Remove="NETCore.MailKit" />
     <None Remove="MimeKit" />
     <None Remove="Views\Login\" />
+    <None Remove="Views\Instructor\" />
+    <None Remove="Views\Course\" />
+    <None Remove="Views\Shared\Components\CategoriesList\" />
+    <None Remove="Views\Shared\Components\Tags\" />
+    <None Remove="Views\Shared\Components\CommentsByCourse\" />
+    <None Remove="Views\Shared\Components\SendComment\" />
+    <None Remove="Views\Shared\Components\Newsletter\" />
+    <None Remove="Views\Shared\Components\ProfileCard\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Views\Password\" />
+    <None Remove="Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -62,5 +73,16 @@
     <Folder Include="Views\Shared\Components\TopCategories\" />
     <Folder Include="Views\Category\" />
     <Folder Include="Views\Login\" />
+    <Folder Include="Views\Instructor\" />
+    <Folder Include="Views\Course\" />
+    <Folder Include="Views\Shared\Components\CategoriesList\" />
+    <Folder Include="Views\Shared\Components\Tags\" />
+    <Folder Include="Views\Shared\Components\CommentsByCourse\" />
+    <Folder Include="Views\Shared\Components\SendComment\" />
+    <Folder Include="Views\Shared\Components\Newsletter\" />
+    <Folder Include="Views\Shared\Components\ProfileCard\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Password\" />
+    <Folder Include="Views\Cart\" />
   </ItemGroup>
 </Project>

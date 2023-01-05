@@ -14,7 +14,15 @@ namespace BaseIdentity.EntityLayer.Concrete
 		public string? Image { get; set; }
         public string? MailCode { get; set; }
         public string? Phone { get; set; }
-		public bool IsLecturer { get; set; }
+        public string? City { get; set; }
+        public string? About { get; set; }
+        public string? University { get; set; }
+        public string? Department { get; set; }
+        public bool IsLecturer { get; set; }
+        public string? LastActivity { get; set; }
+        public string? Rank { get; set; }
+        public string? Speciality { get; set; }
+
 
         public ICollection<Enrollment> Enrollments { get; set; }
         public ICollection<Course> InstructedCourses { get; set; }

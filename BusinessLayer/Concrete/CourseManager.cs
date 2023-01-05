@@ -15,6 +15,21 @@ namespace BaseIdentity.BusinessLayer.Concrete
             _courseDal = courseDal;
         }
 
+        public List<Course> GetCourseByCategory(int categoryId)
+        {
+           return _courseDal.GetCourseByCategory(categoryId);
+        }
+
+        public Course GetCourseById(int id)
+        {
+          return  _courseDal.GetCourseById(id);
+        }
+
+        public List<Course> GetCourseByLecturer(int LecturerId)
+        {
+          return  _courseDal.GetCourseByLecturer(LecturerId);
+        }
+
         public void TDelete(Course t)
         {
             throw new NotImplementedException();
@@ -22,7 +37,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public Course TGetById(int id)
         {
-            throw new NotImplementedException();
+          return  _courseDal.GetById(id);
         }
 
         public List<Course> TGetList()

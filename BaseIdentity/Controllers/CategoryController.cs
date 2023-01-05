@@ -31,6 +31,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
             return View(values);
         }
+
+
+        //public IActionResult ById(int id)
+        //{
+        //    var values = _categoryService.TGetById(id);
+        //    return View(values);
+        //}
     }
 }
 

@@ -21,7 +21,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public Category TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _categoryDal.GetById(id);
         }
 
         public List<Category> TGetList()
