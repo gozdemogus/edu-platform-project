@@ -1,0 +1,51 @@
+﻿@model List<Enrollment>
+
+@await Component.InvokeAsync("Hero", "Enrolled Courses")
+
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 pr-lg-4">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-12 ftco-animate">
+                            <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                <div class="one-third mb-4 mb-md-0">
+                                    <div class="job-post-item-header align-items-center">
+                                        <span class="subadge">@item.Course.Level</span>
+                                        <h2 class="mr-3 text-black"><a href="#">@item.Course.Title</a></h2>
+                                    </div>
+                                    <div class="job-post-item-body d-block d-md-flex">
+                                        <div class="mr-3"><span class="icon-user" style="color:lightgreen; size:100%"></span> <a href="#">@item.AppUser.Name @item.AppUser.Surname</a></div>
+
+                                        @*<div><span class="icon-book" style="color:orange; size:100%"></span> <a href="/Course/ByCategory/@item.Course.CategoryId">@item.Course.Category.CategoryName</a></div>&nbsp;&nbsp;&nbsp;
+                                        <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.Course.InstructorId">&nbsp; @item.Course.Instructor.Name @item.Course.Instructor.Surname </a></div>*@
+
+                                    </div>
+                                </div>
+
+                                <div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+                                    <div>
+                                        <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                            <span class="icon-heart"></span>
+                                        </a>
+                                    </div>
+                                    <a href="/Course/CourseById/@item.CourseId" class="btn btn-primary py-2">Detail</a>
+                                </div>
+                            </div>
+                        </div><!-- end -->
+                    }
+
+
+                </div>
+                
+            </div>
+
+            @await Component.InvokeAsync("Sidebar")
+
+        </div>
+    </div>
+</section>
+

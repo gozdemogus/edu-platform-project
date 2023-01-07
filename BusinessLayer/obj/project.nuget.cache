@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yv8Pl3MePGPfBgdWQaoJzZxTwJbeKil4sNclJZmo16EOXEwJn8DllU972bOWRsy31Aa+U33e/pP9Ygw2POYR4A==",
+  "dgSpecHash": "vOuxz1vJcCSTndPx4Q0Fv0TMOePTfoAuyZU/p1IrJQPX3pH0574Su1KLJt8qSwW6X98hRFacjfPSSUdkQ0jRjw==",
   "success": true,
-  "projectFilePath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
+  "projectFilePath": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

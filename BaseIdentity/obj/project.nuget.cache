@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQLVhqCBF73PT/yufGBurcZU/7eNZmhxrFgjXC5bN87/AWjGnwwyiTer1YeUnZA9XACGITAraS1VXztaETEgHg==",
+  "dgSpecHash": "zTUN8Ip0MxSj77MeUyZfs31CZuWhgGJJBUSYXvjEINd2/kP3lF0ZLVlhbca1hHsNyWhq3uiMDvEJsheBF02aaQ==",
   "success": true,
-  "projectFilePath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
+  "projectFilePath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
   "expectedPackageFiles": [
     "/Users/gozdemogus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/mailkit/3.2.0/mailkit.3.2.0.nupkg.sha512",

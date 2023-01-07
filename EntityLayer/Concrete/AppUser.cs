@@ -22,11 +22,14 @@ namespace BaseIdentity.EntityLayer.Concrete
         public string? LastActivity { get; set; }
         public string? Rank { get; set; }
         public string? Speciality { get; set; }
+        public string? Website { get; set; }
 
 
         public ICollection<Enrollment> Enrollments { get; set; }
         public ICollection<Course> InstructedCourses { get; set; }
 
+        public int CartId { get; set; }
+        public Cart Cart { get; set; }
     }
 }
 

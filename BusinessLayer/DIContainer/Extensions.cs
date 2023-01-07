@@ -19,6 +19,17 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<ICourseService, CourseManager>();
             services.AddScoped<ICourseDal, EFCourseDal>();
+
+            services.AddScoped<ICartService, CartManager>();
+            services.AddScoped<ICartDal, EFCartDal>();
+
+
+            services.AddScoped<IEnrollmentService, EnrollmentManager>();
+            services.AddScoped<IEnrollmentDal, EFEnrollmentDal>();
+
+
+            services.AddScoped<ICartCourseService, CartCourseManager>();
+            services.AddScoped<ICartCourseDal, EFCartCourseDal>();
         }
     }
 }

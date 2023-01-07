@@ -22,12 +22,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var values = _categoryService.TGetList().Take(4).ToList();
-            var values2 = _categoryService.TGetList().Skip(4).Take(4).ToList();
-            var values3 = _categoryService.TGetList().Skip(8).Take(4).ToList();
+            var values = _categoryService.DetailedCategories().Take(4).ToList();
+            var values2 = _categoryService.DetailedCategories().Skip(4).Take(4).ToList();
+            var values3 = _categoryService.DetailedCategories().Skip(8).Take(4).ToList();
 
             ViewBag.c2 = values2;
             ViewBag.c3 = values3;
+
+
 
             return View(values);
         }

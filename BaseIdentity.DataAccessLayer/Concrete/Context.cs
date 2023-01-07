@@ -39,9 +39,22 @@ namespace BaseIdentity.DataAccessLayer.Concrete
                 .WithMany(u => u.Enrollments)
                 .HasForeignKey(e => e.AppUserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Cart>()
+             .HasOne(c => c.AppUser)
+             .WithOne(a => a.Cart)
+             .HasForeignKey<Cart>(c => c.AppUserId);
+
+    
+
+
         }
 
         public DbSet<Course> Courses { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartCourse> CartCourses { get; set; }
+
+        public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Category> Categories { get; set; }
 
     }

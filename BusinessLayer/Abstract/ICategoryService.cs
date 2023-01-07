@@ -5,6 +5,10 @@ namespace BaseIdentity.BusinessLayer.Abstract
 {
     public interface ICategoryService : IGenericService<Category>
     {
+
+        public List<Category> DetailedCategories();
+
+
     }
 }
 

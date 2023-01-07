@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QshrtvFfwtlKLrx0s5RK4BMfwMLXNyoGWTIo/BKfPt7Q1AMxlw48Fl12iIML0KvK7knd2u3GAEUBq3CvpHnjAQ==",
+  "dgSpecHash": "dX9e6h6bDP1Dn7bRsnltg0mNYQ2oQcAxJVGfVO6i66Gs8XrHvMmBSvCVkdwbkkB2WdUPhduzlTBhdZwEhK4z8g==",
   "success": true,
-  "projectFilePath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
+  "projectFilePath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "/Users/gozdemogus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

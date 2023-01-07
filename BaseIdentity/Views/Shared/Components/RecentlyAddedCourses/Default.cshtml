@@ -1,0 +1,83 @@
+﻿@model List<Course>
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 pr-lg-5">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <span class="subheading">Recently Added Courses</span>
+                        <h2 class="mb-4">Featured Tutorials For This Week</h2>
+                    </div>
+                </div>
+                <div class="row">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-12 ftco-animate">
+                            <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                <div class="one-third mb-4 mb-md-0">
+                                    <div class="job-post-item-header align-items-center">
+                                        <span class="subadge">@item.Level</span>
+                                        <h2 class="mr-3 text-black"><a href="#">@item.Title</a></h2>
+                                    </div>
+                                    <div class="job-post-item-body d-block d-md-flex">
+                                        <div class="mr-3"><span class="icon-money" style="color:lightgreen; size:100%"></span> <a href="#">@item.Price</a></div>
+
+                                        <div><span class="icon-book" style="color:orange; size:100%"></span> <a href="/Course/ByCategory/@item.CategoryId">@item.Category.CategoryName</a></div>&nbsp;&nbsp;&nbsp;
+                                        <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.InstructorId">&nbsp; @item.Instructor.Name @item.Instructor.Surname </a></div>
+
+                                    </div>
+                                </div>
+
+                                <div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
+                                    <div>
+                                        <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                            <span class="icon-heart"></span>
+                                        </a>
+                                    </div>
+                                    <a href="/Course/CourseById/@item.Id" class="btn btn-primary py-2">Detail</a>
+                                </div>
+                            </div>
+                        </div><!-- end -->
+                    }
+
+                </div>
+            </div>
+            <div class="col-lg-3 sidebar">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <h2 class="mb-4">This Week's Top Technologies</h2>
+                    </div>
+                </div>
+                <div class="sidebar-box ftco-animate">
+                    <div class="">
+                        <a href="/Course/ByCategory/4" class="company-wrap"><img  width="120px"  height="120px" style="border-radius:50%"    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png" class="img-fluid" alt="Colorlib Free Template"></a>
+                        <div class="text p-3">
+                            <h3><a href="/Course/ByCategory/4">.NET </a></h3>
+                            @*<p><span class="number">500</span> <span>Open position</span></p>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-box ftco-animate">
+                    <div class="">
+                        <a href="/Course/ByCategory/3" class="company-wrap"><img  width="120px"  height="120px" style="border-radius:50%"   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/225px-Unofficial_JavaScript_logo_2.svg.png" class="img-fluid" alt="Colorlib Free Template"></a>
+                        <div class="text p-3">
+                            <h3><a href="/Course/ByCategory/3">JavaScript</a></h3>
+                            @*<p><span class="number">700</span> <span>Open position</span></p>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-box ftco-animate">
+                    <div class="">
+                        <a href="/Course/ByCategory/5" class="company-wrap"><img width="120px"  height="120px" style="border-radius:50%"  src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/spring-boot-1_5zDxm9B.jpg" class="img-fluid" alt="Colorlib Free Template"></a>
+                        <div class="text p-3">
+                            <h3><a href="/Course/ByCategory/5">Spring Boot</a></h3>
+                            @*<p><span class="number">700</span> <span>Open position</span></p>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

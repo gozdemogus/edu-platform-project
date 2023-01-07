@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {}
+    "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {}
   },
   "projects": {
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
+    "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
+        "projectUniqueName": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
         "projectName": "BaseIdentity.DataAccessLayer",
-        "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
+        "projectPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
         "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-        "outputPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/obj/",
+        "outputPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {
-                "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj"
+              "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
+                "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {
+    "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
+        "projectUniqueName": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
+        "projectPath": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
         "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-        "outputPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/obj/",
+        "outputPath": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"
@@ -113,11 +113,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
-                "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
+              "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
+                "projectPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
               },
-              "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {
-                "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj"
+              "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
+                "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {
+    "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj",
+        "projectUniqueName": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj",
+        "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj",
         "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-        "outputPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/obj/",
+        "outputPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"

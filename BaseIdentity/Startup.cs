@@ -1,6 +1,7 @@
 using BaseIdentity.BusinessLayer.DIContainer;
 using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
+using BaseIdentity.PresentationLayer.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +28,7 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.ContainerDependencies();
-
+        //    services.AddScoped<EnrollmentController>();
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();

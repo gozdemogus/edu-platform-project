@@ -9,6 +9,13 @@ namespace BaseIdentity.DataAccessLayer.Abstract
         List<Course> GetCourseByLecturer(int LecturerId);
         Course GetCourseById(int id);
         public List<Course> GetCourseByCategory(int categoryId);
+
+        public List<Course> FindForCart(int userId);
+
+        public List<Course> SearchCourse(string keyword);
+
+        public List<Course> GetListWithDetail();
+
     }
 }
 

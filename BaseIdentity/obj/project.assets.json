@@ -7292,11 +7292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
+      "projectUniqueName": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
       "projectName": "BaseIdentity",
-      "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
+      "projectPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
       "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-      "outputPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/obj/",
+      "outputPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"
@@ -7311,14 +7311,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
-              "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
+            "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
+              "projectPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
             },
-            "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {
-              "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BusinessLayer/BaseIdentity.BusinessLayer.csproj"
+            "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj": {
+              "projectPath": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj"
             },
-            "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {
-              "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj"
+            "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
+              "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj"
             }
           }
         }

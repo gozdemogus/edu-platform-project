@@ -1,48 +1,50 @@
-﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/CourseController.cs" relfile="BaseIdentity/Controllers/CourseController.cs" line="54" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/SearchCourse.cshtml" relfile="BaseIdentity/Views/Course/SearchCourse.cshtml" line="3" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Views/Course/SearchCourse.cshtml">
+    <Files>
+      <File FileName="BaseIdentity.DataAccessLayer/EntityFramework/EFCourseDal.cs" Line="70" Column="1" />
+      <File FileName="BusinessLayer/Concrete/CourseManager.cs" Line="40" Column="53" />
+      <File FileName="BaseIdentity/Views/Course/SearchCourse.cshtml" Line="17" Column="1" />
+      <File FileName="BaseIdentity/Views/Shared/Components/Sidebar/Default.cshtml" Line="2" Column="1" />
+      <File FileName="BaseIdentity/Controllers/CourseController.cs" Line="54" Column="1" />
+      <File FileName="BaseIdentity/Models/SearchCourseViewModel.cs" Line="10" Column="38" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.DataAccessLayer" expanded="True">
+            <Node name="BaseIdentity.BusinessLayer" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-              <Node name="EntityFramework" expanded="True" />
-              <Node name="Repository" expanded="True" />
+              <Node name="DIContainer" expanded="True" />
             </Node>
-            <Node name="BaseIdentity.EntityLayer" expanded="True">
-              <Node name="Concrete" expanded="True" />
+            <Node name="BaseIdentity.DataAccessLayer" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="EntityFramework" expanded="True" />
             </Node>
             <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="InstructorController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="ViewComponents" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
                 <Node name="Cart" expanded="True" />
                 <Node name="Category" expanded="True" />
-                <Node name="Course" expanded="True" />
+                <Node name="Course" expanded="True">
+                  <Node name="SearchCourse.cshtml" selected="True" />
+                </Node>
+                <Node name="Enrollment" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Instructor" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Password" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="CategoriesList" expanded="True" />
-                    <Node name="CommentsByCourse" expanded="True" />
-                    <Node name="Newsletter" expanded="True" />
-                    <Node name="ProfileCard" expanded="True" />
-                  </Node>
-                </Node>
               </Node>
             </Node>
           </Node>
@@ -50,4 +52,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

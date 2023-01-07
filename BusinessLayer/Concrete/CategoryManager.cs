@@ -14,6 +14,11 @@ namespace BaseIdentity.BusinessLayer.Concrete
             _categoryDal = categoryDal;
         }
 
+        public List<Category> DetailedCategories()
+        {
+            return _categoryDal.DetailedCategories();
+        }
+
         public void TDelete(Category t)
         {
             throw new NotImplementedException();

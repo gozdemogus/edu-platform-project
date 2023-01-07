@@ -20,7 +20,14 @@
                     <h3>@Model.Name @Model.Surname </h3>
                     @if (@Model.IsLecturer == true)
                     {
+
+
                         <p style="color:orange">Lecturer</p>
+                    }
+                    else
+                    {
+                        <p style="color:lightgreen">Student</p>
+
                     }
 
                 </div>
@@ -28,16 +35,16 @@
       
 
             <div class="col-md-3">
-                <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                <p><span>Address:</span>@Model.City</p>
             </div>
             <div class="col-md-3">
-                <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                <p><span>Phone:</span> <a href="tel://1234567920">+ @Model.PhoneNumber</a></p>
             </div>
             <div class="col-md-3">
-                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                <p><span>Email:</span> <a href="mailto:info@yoursite.com">@Model.Email</a></p>
             </div>
             <div class="col-md-3">
-                <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                <p><span>Website</span> <a href="#">@Model.Website</a></p>
             </div>
         </div>
      

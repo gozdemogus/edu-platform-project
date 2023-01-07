@@ -13,7 +13,7 @@ namespace BaseIdentity.EntityLayer.Concrete
         public string? Includes { get; set; }
         public string? CoverPhoto { get; set; }
         public string? Level { get; set; }
-        public string? Price { get; set; }
+        public double? Price { get; set; }
         public string? Language { get; set; }
         public string? Prerequisities { get; set; }
         public string? WhatYoullLearn { get; set; }
@@ -21,12 +21,17 @@ namespace BaseIdentity.EntityLayer.Concrete
         public string? SuitableFor { get; set; }
         public string? Tags { get; set; }
         public int? CategoryId { get; set; }
+        public DateTime? DateAdded { get; set; }
         public Category? Category { get; set; }
 
         public int InstructorId { get; set; }
         public AppUser Instructor { get; set; }
      
         public ICollection<Enrollment> Enrollments { get; set; }
+
+        public List<CartCourse> CartCourses { get; set; }
+
+
 
     }
 }

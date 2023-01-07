@@ -46,6 +46,15 @@
     <None Remove="Views\Account\" />
     <None Remove="Views\Password\" />
     <None Remove="Views\Cart\" />
+    <None Remove="Views\Shared\Components\CartTotal\" />
+    <None Remove="Views\Shared\Components\Payment\" />
+    <None Remove="Views\Enrollment\" />
+    <None Remove="Views\Shared\Components\Badge\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\Shared\Components\TopLecturers\" />
+    <None Remove="Views\Shared\Components\TopCategoriesHome\" />
+    <None Remove="Views\Shared\Components\RecentlyAddedCourses\" />
+    <None Remove="Views\Shared\Components\SidebarCourseDetails\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -84,5 +93,21 @@
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Password\" />
     <Folder Include="Views\Cart\" />
+    <Folder Include="Views\Shared\Components\CartTotal\" />
+    <Folder Include="Views\Shared\Components\Payment\" />
+    <Folder Include="Views\Enrollment\" />
+    <Folder Include="Views\Shared\Components\Badge\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Shared\Components\TopLecturers\" />
+    <Folder Include="Views\Shared\Components\TopCategoriesHome\" />
+    <Folder Include="Views\Shared\Components\RecentlyAddedCourses\" />
+    <Folder Include="Views\Shared\Components\SidebarCourseDetails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ViewComponents\Payment.j">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
   </ItemGroup>
 </Project>

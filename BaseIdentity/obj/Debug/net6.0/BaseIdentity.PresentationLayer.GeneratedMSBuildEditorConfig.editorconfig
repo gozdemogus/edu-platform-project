@@ -9,137 +9,185 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaseIdentity.PresentationLayer
 build_property.RootNamespace = BaseIdentity.PresentationLayer
-build_property.ProjectDir = /Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/
+build_property.ProjectDir = /Users/gozdemogus/Desktop/Edu/BaseIdentity/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity
+build_property.MSBuildProjectDirectory = /Users/gozdemogus/Desktop/Edu/BaseIdentity
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Account/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Cart/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Category/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Course/ByCategory.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/ByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0J5Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Course/CourseById.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/CourseById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0NvdXJzZUJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Course/CourseByLecturer.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/CourseByLecturer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0NvdXJzZUJ5TGVjdHVyZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Course/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Home/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/SearchCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL1NlYXJjaENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Enrollment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5yb2xsbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Home/Privacy.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Instructor/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Instructor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1Y3Rvci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Login/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Password/ForgotPassword.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Password/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmQvRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Password/ForgotPasswordConfirmation.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Password/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmQvRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Password/ResetPassword.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Password/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmQvUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Password/ResetPasswordConfirmation.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Password/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFzc3dvcmQvUmVzZXRQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Register/EmailConfirmed.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Register/EmailConfirmed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvRW1haWxDb25maXJtZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Register/Index.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/BigCategories/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Badge/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmFkZ2UvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/BigCategories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmlnQ2F0ZWdvcmllcy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/CategoriesList/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/CartTotal/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydFRvdGFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/CartTotal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydFRvdGFsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/CategoriesList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2F0ZWdvcmllc0xpc3QvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/CommentsByCourse/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/CommentsByCourse/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ29tbWVudHNCeUNvdXJzZS9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/Hero/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Hero/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSGVyby9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/Newsletter/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Newsletter/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTmV3c2xldHRlci9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/NewTutorials/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/NewTutorials/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTmV3VHV0b3JpYWxzL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/ProfileCard/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Payment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUGF5bWVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/ProfileCard/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUHJvZmlsZUNhcmQvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/SendComment/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/RecentlyAddedCourses/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUmVjZW50bHlBZGRlZENvdXJzZXMvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/SendComment/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2VuZENvbW1lbnQvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/Tags/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Sidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2lkZWJhci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/SidebarCourseDetails/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2lkZWJhckNvdXJzZURldGFpbHMvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/Tags/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGFncy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Components/TopCategories/Default.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/TopCategories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wQ2F0ZWdvcmllcy9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/Error.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/TopCategoriesHome/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wQ2F0ZWdvcmllc0hvbWUvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/TopLecturers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wTGVjdHVyZXJzL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/_Layout.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/_ViewImports.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gozdemogus/Desktop/BaseIdentity-Upschool/BaseIdentity/Views/_ViewStart.cshtml]
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

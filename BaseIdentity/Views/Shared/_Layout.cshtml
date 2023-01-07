@@ -42,15 +42,26 @@
                 <ul class="navbar-nav ml-auto">
                     @*nav-item active olunca degisiyo*@
                     <li class="nav-item"><a href="/Home/Index/" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="/Category/Index/" class="nav-link">Browse Categories</a></li>
+                    <li class="nav-item"><a href="/Category/Index/" class="nav-link">Categories</a></li>
                     <li class="nav-item"><a href="/Instructor/Index/" class="nav-link">Instructors</a></li>
-                    <li class="nav-item"><a href="/Course/Index/" class="nav-link">Course</a></li>
+                    <li class="nav-item"><a href="/Course/Index/" class="nav-link">Courses</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item"><a href="/Enrollment/Index/" class="nav-link">Enrollments</a></li>
+                    }
                     <li class="nav-item"><a href="/Contact/Index/" class="nav-link">Contact</a></li>
                     @if (User.Identity.IsAuthenticated)
                     {
+
+
                         <li class="nav-item cta mr-md-1"><a href="/Account/Index/" class="nav-link"><span class="icon  icon-user"></span> Account</a></li>
                         <li class="nav-item cta mr-md-1"><a href="/Login/Logout/" class="nav-link"><span class="fa fa-sign-out"></span> Logout</a></li>
-                        <li class="nav-item cta cta-colored"><a href="/Cart/Index/" class="nav-link"><span class="icon  icon-shopping-cart"></span> Cart</a></li>
+                        <li class="nav-item cta cta-colored">
+                            <a href="/Cart/Index/" class="nav-link">
+                                <span class="icon  icon-shopping-cart"></span> Cart &nbsp;
+                                @await Component.InvokeAsync("Badge")
+                            </a>
+                        </li>
 
                     }
                     else

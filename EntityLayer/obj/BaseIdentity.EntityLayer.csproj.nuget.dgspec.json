@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {}
+    "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {}
   },
   "projects": {
-    "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj": {
+    "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj",
+        "projectUniqueName": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/BaseIdentity.EntityLayer.csproj",
+        "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj",
         "packagesPath": "/Users/gozdemogus/.nuget/packages/",
-        "outputPath": "/Users/gozdemogus/Desktop/BaseIdentity-Upschool/EntityLayer/obj/",
+        "outputPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gozdemogus/.nuget/NuGet/NuGet.Config"

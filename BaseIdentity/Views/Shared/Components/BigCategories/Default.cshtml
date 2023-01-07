@@ -10,10 +10,13 @@
                         {
                             <div class="col-md-2">
                                 <div class="top-category text-center no-border-left">
-                                    <h3><a href="/Category/Type/@item.CategoryID">@item.CategoryName</a></h3>
-                                    <span class="icon @item.Icon"></span>
+                                    <a href="/Course/ByCategory/@item.CategoryID">
+                                        <h3>
+                                            @item.CategoryName
+                                    </h3>
+                                    <span class="@item.Icon"></span>
                                     <p><span class="number"></span> <span>@item.Description</span></p>
-
+                                    </a>
                                 </div>
                             </div>
                         }

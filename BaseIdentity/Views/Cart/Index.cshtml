@@ -1,1 +1,76 @@
-﻿@await Component.InvokeAsync("Hero", "Cart")
+﻿@model List<Course>
+
+@await Component.InvokeAsync("Hero", "Cart")
+
+
+
+<section class="ftco-section ftco-candidates ftco-candidates-2 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 pr-lg-4">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="team d-md-flex p-4 bg-white">
+
+
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th hidden></th>
+                                    <th>Course Name</th>
+                                    <th>Instructor</th>
+                                    <th>Price</th>
+                                    <th></th>
+
+                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td hidden>@item.Id</td>
+                                        <td><a href="/Course/CourseById/@item.Id">@item.Title</a></td>
+                                        <td>@item.Instructor.Name @item.Instructor.Surname</td>
+                                        <td>@item.Price</td>
+                                        <td><a href="/Cart/RemoveFromCart/@item.Id"><span class="icon-remove" style="font-size: 24px; color:red"></span></a></td>
+                                    </tr>
+                                }
+                            </table>
+                          
+
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="team d-md-flex p-4 bg-white">
+
+                                @await Component.InvokeAsync("Payment")
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+            <div class="col-lg-4 sidebar">
+                <div class="sidebar-box bg-white p-4 ftco-animate">
+                    <h3 class="heading-sidebar">Total Price</h3>
+                    @await Component.InvokeAsync("CartTotal")
+
+                </div>
+
+                <div class="sidebar-box bg-white p-4 ftco-animate">
+                    <h3 class="heading-sidebar">Share Your Info</h3>
+                    <form action="#" class="search-form mb-3">
+                        <div class="form-group">
+                            <span class="icon icon-wallet"></span>
+                            Create an online video course, reach students from around the world and earn money
+                        </div>
+                    </form>
+                </div>
+
+                @await Component.InvokeAsync("CategoriesList")
+
+            </div>
+        </div>
+    </div>
+</section>
+
+

@@ -12,6 +12,7 @@ namespace BaseIdentity.EntityLayer.Concrete
         public Course Course { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        public DateTime EnrollmentDate { get; set; }
     }
 }
 

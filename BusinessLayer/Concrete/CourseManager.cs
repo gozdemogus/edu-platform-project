@@ -15,6 +15,11 @@ namespace BaseIdentity.BusinessLayer.Concrete
             _courseDal = courseDal;
         }
 
+        public List<Course> FindForCart(int userId)
+        {
+          return  _courseDal.FindForCart(userId);
+        }
+
         public List<Course> GetCourseByCategory(int categoryId)
         {
            return _courseDal.GetCourseByCategory(categoryId);
@@ -28,6 +33,16 @@ namespace BaseIdentity.BusinessLayer.Concrete
         public List<Course> GetCourseByLecturer(int LecturerId)
         {
           return  _courseDal.GetCourseByLecturer(LecturerId);
+        }
+
+        public List<Course> GetListWithDetail()
+        {
+            return _courseDal.GetListWithDetail();
+        }
+
+        public List<Course> SearchCourse(string keyword)
+        {
+            return _courseDal.SearchCourse(keyword);
         }
 
         public void TDelete(Course t)
