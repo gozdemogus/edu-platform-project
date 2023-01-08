@@ -45,8 +45,11 @@ namespace BaseIdentity.DataAccessLayer.Concrete
              .WithOne(a => a.Cart)
              .HasForeignKey<Cart>(c => c.AppUserId);
 
-    
 
+            modelBuilder.Entity<Wishlist>()
+          .HasOne(c => c.AppUser)
+          .WithOne(a => a.Wishlist)
+          .HasForeignKey<Wishlist>(c => c.AppUserId);
 
         }
 
@@ -56,6 +59,9 @@ namespace BaseIdentity.DataAccessLayer.Concrete
 
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Wishlist> Wishlists { get; set; }
+        public DbSet<WishlistCourse> WishlistCourses { get; set; }
 
     }
 

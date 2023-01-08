@@ -9,6 +9,7 @@ namespace BaseIdentity.DataAccessLayer.Abstract
         public void RemoveFromCart(int id, int userId);
 
         public Cart GetByOwner(int ownerId);
+
     }
 }
 

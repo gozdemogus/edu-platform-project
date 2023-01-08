@@ -7,6 +7,7 @@ namespace BaseIdentity.BusinessLayer.Abstract
     {
 
         public void AddNewCourseToCart(int cartId, int courseId);
+        public CartCourse FindById(int cartId, int courseId);
 
 
     }

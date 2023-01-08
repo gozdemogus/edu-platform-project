@@ -13,7 +13,7 @@ namespace BaseIdentity.EntityLayer.Concrete
 		public string Surname { get; set; }
 		public string? Image { get; set; }
         public string? MailCode { get; set; }
-        public string? Phone { get; set; }
+    
         public string? City { get; set; }
         public string? About { get; set; }
         public string? University { get; set; }
@@ -30,6 +30,11 @@ namespace BaseIdentity.EntityLayer.Concrete
 
         public int CartId { get; set; }
         public Cart Cart { get; set; }
+
+
+        public int WishlistId { get; set; }
+        public Wishlist Wishlist { get; set; }
+
     }
 }
 

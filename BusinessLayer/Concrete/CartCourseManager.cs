@@ -19,6 +19,11 @@ namespace BaseIdentity.BusinessLayer.Concrete
             _cartCourseDal.AddNewCourseToCart(cartId, courseId);
         }
 
+        public CartCourse FindById(int cartId, int courseId)
+        {
+          return  _cartCourseDal.FindById(cartId, courseId);
+        }
+
         public void TDelete(CartCourse t)
         {
             throw new NotImplementedException();
@@ -36,7 +41,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TInsert(CartCourse t)
         {
-            throw new NotImplementedException();
+            _cartCourseDal.Insert(t);
         }
 
         public void TUpdate(CartCourse t)

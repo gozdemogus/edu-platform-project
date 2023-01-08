@@ -73,6 +73,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public IActionResult SearchCourse(string keyword)
         {
            var values = _CourseService.SearchCourse(keyword);
+            ViewBag.keyword = keyword;
             return View(values);
         }
     }

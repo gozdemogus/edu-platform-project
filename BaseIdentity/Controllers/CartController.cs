@@ -52,12 +52,32 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public async Task<IActionResult> AddToCart(int id)
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var cart = _cartService.GetByOwner(user.Id);
+          
+          //kullanıcıya atanmıs sepet yoksa önce olustur
+            if (cart == null)
+            {
+                Cart cartNew = new Cart();
+                cartNew.AppUserId = user.Id;
+                _cartService.TInsert(cartNew);
+            }
 
-          var cart =   _cartService.GetByOwner(user.Id);
+            var cartAssured = _cartService.GetByOwner(user.Id);
 
-            _cartCourseService.AddNewCourseToCart(cart.Id, id);
+            //sepetin id'si ile cartcourse tablosuna gidip, peki bu idli bi course kaydı var mı diye bakacak
+           var isInCart = _cartCourseService.FindById(cartAssured.Id, id);
 
-            return RedirectToAction("Index");
+            if (isInCart != null) //eklenmis hata verecek
+            {
+                return PartialView("_ErrorMessage", "The item is already in the cart.");
+            }
+            else //eklendi ok!
+            {
+                _cartCourseService.AddNewCourseToCart(cart.Id, id);
+
+                return PartialView("_SuccessMessage", "The item has been added to the cart.");
+            }
+
         }
     }
 

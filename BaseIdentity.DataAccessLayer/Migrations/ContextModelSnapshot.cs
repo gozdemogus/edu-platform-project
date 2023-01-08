@@ -114,9 +114,6 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
@@ -148,6 +145,9 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
                     b.Property<string>("Website")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("WishlistId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -313,6 +313,46 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("Enrollments");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.ToTable("Wishlists");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.WishlistCourse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("WishlistId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("WishlistId");
+
+                    b.ToTable("WishlistCourses");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -482,6 +522,36 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Navigation("Course");
                 });
 
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithOne("Wishlist")
+                        .HasForeignKey("BaseIdentity.EntityLayer.Concrete.Wishlist", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.WishlistCourse", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.Course", "Course")
+                        .WithMany("WishlistCourses")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.Wishlist", "Wishlist")
+                        .WithMany("WishlistCourses")
+                        .HasForeignKey("WishlistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Wishlist");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.AppRole", null)
@@ -541,6 +611,9 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Navigation("Enrollments");
 
                     b.Navigation("InstructedCourses");
+
+                    b.Navigation("Wishlist")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Cart", b =>
@@ -558,6 +631,13 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Navigation("CartCourses");
 
                     b.Navigation("Enrollments");
+
+                    b.Navigation("WishlistCourses");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>
+                {
+                    b.Navigation("WishlistCourses");
                 });
 #pragma warning restore 612, 618
         }

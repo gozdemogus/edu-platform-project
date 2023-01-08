@@ -41,7 +41,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TInsert(Cart t)
         {
-            throw new NotImplementedException();
+            _cartDal.Insert(t);
         }
 
         public void TUpdate(Cart t)

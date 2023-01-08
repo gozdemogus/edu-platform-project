@@ -29,7 +29,6 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\BigCategories\" />
     <None Remove="Views\Shared\Components\Hero\" />
-    <None Remove="Views\Shared\Components\NewTutorials\" />
     <None Remove="Views\Shared\Components\TopCategories\" />
     <None Remove="Views\Category\" />
     <None Remove="NETCore.MailKit" />
@@ -55,6 +54,8 @@
     <None Remove="Views\Shared\Components\TopCategoriesHome\" />
     <None Remove="Views\Shared\Components\RecentlyAddedCourses\" />
     <None Remove="Views\Shared\Components\SidebarCourseDetails\" />
+    <None Remove="Views\Wishlist\" />
+    <None Remove="Views\Shared\Components\WishlistTotal\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -78,7 +79,6 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\BigCategories\" />
     <Folder Include="Views\Shared\Components\Hero\" />
-    <Folder Include="Views\Shared\Components\NewTutorials\" />
     <Folder Include="Views\Shared\Components\TopCategories\" />
     <Folder Include="Views\Category\" />
     <Folder Include="Views\Login\" />
@@ -102,6 +102,8 @@
     <Folder Include="Views\Shared\Components\TopCategoriesHome\" />
     <Folder Include="Views\Shared\Components\RecentlyAddedCourses\" />
     <Folder Include="Views\Shared\Components\SidebarCourseDetails\" />
+    <Folder Include="Views\Wishlist\" />
+    <Folder Include="Views\Shared\Components\WishlistTotal\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="ViewComponents\Payment.j">

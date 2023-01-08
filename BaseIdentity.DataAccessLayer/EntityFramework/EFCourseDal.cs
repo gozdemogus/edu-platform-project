@@ -32,7 +32,7 @@ namespace BaseIdentity.DataAccessLayer.EntityFramework
         {
             using (var context = new Context())
             {
-                var values = context.Courses.Where(x => x.InstructorId == LecturerId).Include(x=>x.Instructor).ToList();
+                var values = context.Courses.Include(x=>x.Category).Where(x => x.InstructorId == LecturerId).Include(x=>x.Instructor).ToList();
                 return values;
             }
         }
@@ -42,7 +42,7 @@ namespace BaseIdentity.DataAccessLayer.EntityFramework
         {
             using (var context = new Context())
             {
-                var values = context.Courses.Where(x => x.CategoryId == categoryId).Include(x => x.Instructor).ToList();
+                var values = context.Courses.Include(x=>x.Category).Where(x => x.CategoryId == categoryId).Include(x => x.Instructor).ToList();
                 return values;
             }
         }
@@ -71,6 +71,7 @@ namespace BaseIdentity.DataAccessLayer.EntityFramework
                 var courses2 = context.Courses.ToList();
 
                 var courses = context.Courses
+                    .Include(x=>x.Category)
                     .Where(x => x.Title.Contains(keyword))
                      .Include(x => x.Instructor)
                      .ToList();

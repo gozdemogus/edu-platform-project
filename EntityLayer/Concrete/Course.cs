@@ -31,7 +31,7 @@ namespace BaseIdentity.EntityLayer.Concrete
 
         public List<CartCourse> CartCourses { get; set; }
 
-
+        public List<WishlistCourse> WishlistCourses { get; set; }
 
     }
 }

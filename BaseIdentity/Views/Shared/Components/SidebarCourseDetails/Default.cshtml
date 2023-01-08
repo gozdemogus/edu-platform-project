@@ -1,4 +1,5 @@
-﻿
+﻿<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
 <div class="col-lg-3 sidebar">
 
@@ -16,20 +17,18 @@
     else
     {
 
-<div class="sidebar-box bg-white p-4 ftco-animate">
-    <h3 class="heading-sidebar">Add To Cart <span class="icon icon-shopping-cart" style="color:gold"></span></h3>
-    <p>Get this course at the most affordable prices and start learning now.</p>
+        <div class="sidebar-box bg-white p-4 ftco-animate">
+            <h3 class="heading-sidebar">Buy This Course<span class="icon icon-shopping-cart" style="color:gold"></span></h3>
+            <p>Get this course at the most affordable prices and start learning now.</p>
 
-    <a href="/Cart/AddToCart/@Model.Id"><button class="btn btn-success">Add To Cart</button>   </a>
+            <a href="/Cart/AddToCart/@Model.Id"><button id="cart" class="btn btn-success">Add To Cart</button>   </a>
+            <br />
+            <div id="message">
+            </div>
 
-</div>
+        </div>
 
     }
-
-
-
-
-
 
     <div class="sidebar-box bg-white p-4 ftco-animate">
         <h3 class="heading-sidebar">Search Course</h3>
@@ -66,3 +65,19 @@
     </div>
 
 </div>
+
+<script>$(document).on('click', '#cart', function (event) {
+        event.preventDefault();
+        $.ajax({
+            url: '/Cart/AddToCart/2',
+            type: 'POST',
+            success: function (response) {
+                // Replace the content of the div with the response from the server
+                $('#message').html(response);
+                setTimeout(function () {
+                    $('#message').fadeOut();
+                }, 3000);
+                $('#message').fadeIn();
+            }
+        });
+    });</script>

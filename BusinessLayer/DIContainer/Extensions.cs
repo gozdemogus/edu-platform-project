@@ -30,6 +30,12 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<ICartCourseService, CartCourseManager>();
             services.AddScoped<ICartCourseDal, EFCartCourseDal>();
+
+            services.AddScoped<IWishlistCourseService, WishlistCourseManager>();
+            services.AddScoped<IWishlistCourseDal, EFWishlistCourseDal>();
+
+            services.AddScoped<IWishlistService, WishlistManager>();
+            services.AddScoped<IWishlistDal, EFWishlistDal>();
         }
     }
 }

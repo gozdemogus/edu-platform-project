@@ -1,4 +1,5 @@
 ﻿@model List<Course>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 @await Component.InvokeAsync("Hero", "Courses")
 
@@ -12,53 +13,77 @@
                     {
                         <div class="col-md-12 ftco-animate">
                             <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                <img src="@item.CoverPhoto" alt="Course cover photo" class="img" style=" border-radius: 50%; width:100px; height:100px">
+                                &nbsp; &nbsp; &nbsp;
                                 <div class="one-third mb-4 mb-md-0">
+
                                     <div class="job-post-item-header align-items-center">
+
                                         <span class="subadge">@item.Level</span>
                                         <h2 class="mr-3 text-black"><a href="#">@item.Title</a></h2>
                                     </div>
+                                    <div class="mr-3"><span class="icon-money" style="color:lightgreen; size:100%"></span> <a href="#">@item.Price</a></div>
+
                                     <div class="job-post-item-body d-block d-md-flex">
-                                        <div class="mr-3"><span class="icon-money" style="color:lightgreen; size:100%"></span> <a href="#">@item.Price</a></div>
-                                      
-                                 <div><span class="icon-book" style="color:orange; size:100%"></span> <a href="/Course/ByCategory/@item.CategoryId">@item.Category.CategoryName</a></div>&nbsp;&nbsp;&nbsp;
-                               <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.InstructorId">&nbsp; @item.Instructor.Name @item.Instructor.Surname </a></div>
+                                        <div><span class="icon-book" style="color:orange; size:100%"></span> <a href="/Course/ByCategory/@item.CategoryId">@item.Category.CategoryName</a></div>&nbsp;&nbsp;&nbsp;
+                                        <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.InstructorId">&nbsp; @item.Instructor.Name @item.Instructor.Surname </a></div>
 
                                     </div>
                                 </div>
 
                                 <div class="one-forth ml-auto d-flex align-items-center mt-4 md-md-0">
                                     <div>
-                                        <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                        <a href="#" class="icon text-center d-flex justify-content-center align-items-center icon mr-2 subButton" data-item-id="@item.Id">
                                             <span class="icon-heart"></span>
                                         </a>
                                     </div>
+
                                     <a href="/Course/CourseById/@item.Id" class="btn btn-primary py-2">Detail</a>
                                 </div>
+
+                            </div>
+                            <div id="message-@item.Id">
                             </div>
                         </div><!-- end -->
                     }
-
-
-                </div>
-                <div class="row mt-5">
-                    <div class="col text-center">
-                        <div class="block-27">
-                            <ul>
-                                <li><a href="#">&lt;</a></li>
-                                <li class="active"><span>1</span></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">&gt;</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
             @await Component.InvokeAsync("Sidebar")
-
         </div>
     </div>
 </section>
 
+<div id="warningMessage"></div>
+
+
+
+<script>
+    $(document).on('click', '.subButton', function (event) {
+        event.preventDefault();
+        var receiver = $(this).data('item-id');
+        var messageDivId = "#message-" + receiver;
+        $.ajax({
+            url: '/Wishlist/AddToWishlist/' + receiver,
+            type: 'POST',
+            success: function (response) {
+                $(messageDivId).html(response);
+                setTimeout(function () {
+                    $(messageDivId).fadeOut();
+                }, 3000);
+                $(messageDivId).fadeIn(); // Add this line to show the error message again
+
+                $(successMessageDivId).html(response);
+                setTimeout(function () {
+                    $(successMessageDivId).fadeOut();
+                }, 3000);
+                $(successMessageDivId).fadeIn(); // Add this line to show the success message again
+
+            }
+
+        });
+
+    });
+
+
+
+</script>

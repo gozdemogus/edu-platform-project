@@ -6,11 +6,11 @@ using BaseIdentity.EntityLayer.Concrete;
 
 namespace BaseIdentity.DataAccessLayer.EntityFramework
 {
-	public class EFCartCourseDal : GenericRepository<CartCourse>, ICartCourseDal
+    public class EFCartCourseDal : GenericRepository<CartCourse>, ICartCourseDal
     {
-		public EFCartCourseDal()
-		{
-		}
+        public EFCartCourseDal()
+        {
+        }
 
         public void AddNewCourseToCart(int cartId, int courseId)
         {
@@ -25,6 +25,14 @@ namespace BaseIdentity.DataAccessLayer.EntityFramework
                 context.SaveChanges();
             }
         }
-    }
-}
 
+        public CartCourse FindById(int cartId, int courseId)
+        {
+            using (var context = new Context())
+            {
+              return  context.CartCourses.Where(x => x.CartId == cartId && x.CourseId == courseId).FirstOrDefault();
+            }
+        }
+    }
+
+}
