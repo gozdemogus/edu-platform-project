@@ -35,6 +35,9 @@ namespace BaseIdentity.EntityLayer.Concrete
         public int WishlistId { get; set; }
         public Wishlist Wishlist { get; set; }
 
+        public List<Comment> Comments { get; set; }
+
+
     }
 }
 

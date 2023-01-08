@@ -51,6 +51,16 @@ namespace BaseIdentity.DataAccessLayer.Concrete
           .WithOne(a => a.Wishlist)
           .HasForeignKey<Wishlist>(c => c.AppUserId);
 
+            modelBuilder.Entity<Comment>()
+          .HasOne(c => c.AppUser)
+          .WithMany(a => a.Comments)
+          .HasForeignKey(c => c.AppUserId);
+
+            modelBuilder.Entity<Comment>()
+                .HasOne(c => c.Course)
+                .WithMany(c => c.Comments)
+                .HasForeignKey(c => c.CourseId);
+
         }
 
         public DbSet<Course> Courses { get; set; }
@@ -62,6 +72,8 @@ namespace BaseIdentity.DataAccessLayer.Concrete
 
         public DbSet<Wishlist> Wishlists { get; set; }
         public DbSet<WishlistCourse> WishlistCourses { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
 
     }
 

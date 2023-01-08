@@ -36,6 +36,9 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<IWishlistService, WishlistManager>();
             services.AddScoped<IWishlistDal, EFWishlistDal>();
+
+            services.AddScoped<ICommentService, CommentManager>();
+            services.AddScoped<ICommentDal, EFCommentDal>();
         }
     }
 }
