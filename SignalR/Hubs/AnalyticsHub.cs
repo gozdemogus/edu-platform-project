@@ -32,7 +32,7 @@ namespace SignalR.Hubs
 
                     await GetAnalytics();
                     await GetTrafficSources();
-
+                    await RandomChartValues();
                 }
             }
             catch (Exception ex)
@@ -41,11 +41,43 @@ namespace SignalR.Hubs
             }
         }
 
+        public async Task RandomChartValues()
+        {
+            int Min = 10;
+            int Max = 100;
+            Random randNum = new Random();
+            int[] test2 = Enumerable
+                .Repeat(0, 5)
+                .Select(i => randNum.Next(Min, Max))
+                .ToArray();
+
+             string[] words1 = new string[] { "C#", "Java", "PHP", "JavaScript", "Kotlin", "Swift", "Go", "Rust", "Python", "C++"};
+
+            var shuffleNames = Shuffle(words1);
+
+            await Clients.All.SendAsync("ChartValues", test2, shuffleNames);
+            System.Threading.Thread.Sleep(2000);
+        }
+
+        public string[] Shuffle(string[] wordArray)
+        {
+            Random random = new Random();
+            for (int i = wordArray.Length - 1; i > 0; i--)
+            {
+                int swapIndex = random.Next(i + 1);
+                string temp = wordArray[i];
+                wordArray[i] = wordArray[swapIndex];
+                wordArray[swapIndex] = temp;
+            }
+            return wordArray;
+        }
+
         public async Task GetAnalytics()
         {
 
             _analyticsUpdateService.UpdateAnalytics();
             var analytics = _context.Analytics.FirstOrDefault(a => a.Id == 1);
+          
             await Clients.All.SendAsync("ReceiveAnalytics", analytics);
             System.Threading.Thread.Sleep(1000);
 

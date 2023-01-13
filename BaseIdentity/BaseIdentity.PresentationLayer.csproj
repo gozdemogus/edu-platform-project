@@ -76,6 +76,7 @@
     <None Remove="Mapping\" />
     <None Remove="Mapping\AutoMappingProfile\" />
     <None Remove="Views\Shared\Components\User\" />
+    <None Remove="Views\Shared\Components\Messages\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -145,6 +146,7 @@
     <Folder Include="Mapping\" />
     <Folder Include="Mapping\AutoMappingProfile\" />
     <Folder Include="Views\Shared\Components\User\" />
+    <Folder Include="Views\Shared\Components\Messages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />

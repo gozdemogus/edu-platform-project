@@ -1,314 +1,157 @@
-﻿<div class="row">
-    <div class="col-xl-9 grid-margin-lg-0 grid-margin stretch-card">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Top Sellers</h4>
-                <div class="table-responsive mt-3">
-                    <table class="table table-header-bg">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Country
-                                </th>
-                                <th>
-                                    Revenue
-                                </th>
-                                <th>
-                                    Vs Last Month
-                                </th>
-                                <th>
-                                    Goal Reached
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <i class="flag-icon flag-icon-us mr-2" title="us" id="us"></i> United States
-                                </td>
-                                <td>
-                                    $911,200
-                                </td>
-                                <td>
-                                    <div class="text-success"><i class="icon-arrow-up mr-2"></i>+60%</div>
-                                </td>
-                                <td>
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            25%
-                                        </div>
-                                    </div>
-                                </td>
+﻿@using BaseIdentity.EntityLayer.Concrete
+@model TodoList
 
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="flag-icon flag-icon-at mr-2" title="us" id="at"></i> Austria
-                                </td>
-                                <td>
-                                    $821,600
-                                </td>
-                                <td>
-                                    <div class="text-danger"><i class="icon-arrow-down mr-2"></i>-40%</div>
-                                </td>
-                                <td>
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            50%
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="flag-icon flag-icon-fr mr-2" title="us" id="fr"></i> France
-                                </td>
-                                <td>
-                                    $323,700
-                                </td>
-                                <td>
-                                    <div class="text-success"><i class="icon-arrow-up mr-2"></i>+40%</div>
-                                </td>
-                                <td>
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            10%
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="py-1">
-                                    <i class="flag-icon flag-icon-de mr-2" title="us" id="de"></i> Germany
-                                </td>
-                                <td>
-                                    $833,205
-                                </td>
-                                <td>
-                                    <div class="text-danger"><i class="icon-arrow-down mr-2"></i>-80%</div>
-                                </td>
-                                <td>
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            70%
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="pb-0">
-                                    <i class="flag-icon flag-icon-ae mr-2" title="ae" id="ae"></i> united arab emirates
-                                </td>
-                                <td class="pb-0">
-                                    $232,243
-                                </td>
-                                <td class="pb-0">
-                                    <div class="text-success"><i class="icon-arrow-up mr-2"></i>+80%</div>
-                                </td>
-                                <td class="pb-0">
-                                    <div class="row">
-                                        <div class="col-sm-10">
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            0%
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
+<div class="card-body">
+    <h4 class="card-title">Your To-Do List</h4>
+    <a href="/Admin/TodoList/AddNewTodoItem/" class="btn btn-success"> <i class="icon-circle-plus"></i>&nbsp; Add New</a>
+    <a href="/Admin/TodoList/Index/" class="btn btn-primary"> <i class="icon icon-target"></i>&nbsp; Go to All</a>
 
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-3 grid-margin-lg-0 grid-margin stretch-card">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title mb-3">Overall rating</h4>
-                <div class="d-flex">
-                    <div>
-                        <h4 class="text-dark font-weight-bold mb-2 mr-2">4.3</h4>
-                    </div>
-                    <div>
-                        <select id="over-all-rating" name="rating" autocomplete="off">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
-                </div>
-                <p class="mb-4">Based on 186 reviews</p>
-                <div class="row">
-                    <div class="col-sm-2 pr-0">
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">5</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-9 pl-2">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="progress progress-lg mt-1">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 p-lg-0">
-                                80%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-sm-2 pr-0">
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">4</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-9 pl-2">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="progress progress-lg mt-1">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 p-lg-0">
-                                45%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-sm-2 pr-0">
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">3</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-9 pl-2">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="progress progress-lg mt-1">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 p-lg-0">
-                                30%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-sm-2 pr-0">
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">2</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-9 pl-2">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="progress progress-lg mt-1">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 8%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 p-lg-0">
-                                8%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-sm-2 pr-0">
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">5</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-9 pl-2">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <div class="progress progress-lg mt-1">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 1%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2 p-lg-0">
-                                1%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="mb-2 mt-3 mb-3 text-dark font-weight-bold">Rating by category</p>
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">4.3</div>
-                            </div>
-                            <div class="mr-2">
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                            <div><p>Work/Management</p></div>
-                        </div>
-                        <div class="d-flex">
-                            <div>
-                                <div class="text-dark font-weight-bold mb-2 mr-2">3.5</div>
-                            </div>
-                            <div class="mr-2">
-                                <i class="fa fa-star text-warning"></i>
-                            </div>
-                            <div><p>Salary/Culture</p></div>
-                        </div>
-                    </div>
-                </div>
+    <div class="table-responsive mt-3">
+        <table class="table table-header-bg">
+            <thead>
+                <tr>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Deadline
+                    </th>
+                    <th>
+                        Status
+                    </th>
 
-            </div>
-        </div>
+                    <th>
+
+                    </th>
+                    <th>
+                        Details
+                    </th>
+                    <th>
+                        Edit
+                    </th>
+                    <th>
+                        Delete
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.TodoItems)
+                {
+                    <tr>
+                        <td>
+                            <span class="checkmark" style="color:blue">✔</span>
+                            @item.Description
+
+                        </td>
+                        <td>
+                            @item.Deadline
+                        </td>
+                        <td>
+                            @if (item.Completed == true)
+                            {
+
+
+                                <label class="badge badge-success">Completed</label>
+
+                            }
+                            else
+                            {
+                                <label class="badge badge-danger">Pending</label>
+
+                            }
+                        </td>
+
+                        <td>
+                            <select class="form-control" data-item-id="@item.Id" onchange="updateStatus(this)">
+                                <option value="false" @(item.Completed ? "" : "selected")>Pending </option>
+                                <option value="true" @(item.Completed ? "selected" : "")>Completed</option>
+                            </select>
+                        </td>
+                        <td>
+                            <a href="#" id="subButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                <span class="icon-open" style="color:rebeccapurple"></span>
+                            </a>
+                            <div id="message-@item.Id"></div>
+                        </td>
+
+                        <td>
+                            <a href="/Admin/TodoList/Edit/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                <span class="icon-paper" style="color:lawngreen"></span>
+                            </a>
+                        </td>
+
+
+                        <td>
+                            <a href="/Admin/TodoList/Remove/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                <span class="icon-trash" style="color:red"></span>
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
     </div>
 </div>
+
+
+
+<script>function updateStatus(select) {
+        event.preventDefault();
+
+        var status = select.value;
+        var itemId = select.dataset.itemId;
+
+        $.ajax({
+            type: "POST",
+            url: '/Admin/TodoList/Change', // update with the correct URL
+            data: { id: itemId, status: status },
+            success: function (response) {
+                location.reload();
+            }
+        });
+    }
+
+    $(document).on('click', '#subButton', function (event) {
+        event.preventDefault();
+        var receiver = $(this).data('item-id');
+        var messageDivId = "#message-" + receiver;
+        $.ajax({
+            url: '/Admin/TodoList/GetDetail/' + receiver,
+            type: 'POST',
+            success: function (response) {
+                $(messageDivId).html(response);
+                setTimeout(function () {
+                    $(messageDivId).fadeOut();
+                }, 3000);
+                $(messageDivId).fadeIn(); // Add this line to show the error message again
+
+                $(successMessageDivId).html(response);
+                setTimeout(function () {
+                    $(successMessageDivId).fadeOut();
+                }, 3000);
+                $(successMessageDivId).fadeIn(); // Add this line to show the success message again
+
+            }
+
+        });
+    });
+
+        //$(document).on('click', '#delButton', function (e) {
+        //    e.preventDefault(); // prevent the link from redirecting the page
+
+        //    var itemId = $(this).data('item-id');
+        //    var url = '/Admin/TodoList/Remove/' + itemId;
+
+        //    $.ajax({
+        //        type: 'DELETE',
+        //        url: url,
+        //        success: function (result) {
+        //            location.reload();
+        //        },
+        //        error: function (xhr, status, error) {
+        //            // handle the error
+        //        }
+        //    });
+        //});</script>

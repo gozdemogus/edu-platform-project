@@ -16,6 +16,9 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
        // [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
+
+        //http://numbersapi.com/1/13/date
+
             return View();
         }
 
