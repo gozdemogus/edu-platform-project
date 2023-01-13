@@ -1,0 +1,32 @@
+﻿@using BaseIdentity.EntityLayer.Concrete
+@model TodoItem
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">
+                Edit To-Do Item
+            </p>
+            <form method="post">
+                <div class="form-group">
+                    <label for="fgf">Description</label>
+                    <input type="text" value="@Model.Description" class="form-control" id="fgf" name="description" placeholder="Description">
+                </div>
+                <div class="form-group">
+                    <label for="sdf">Deadline</label>
+                    <input type="date" value="@Model.Deadline" class="form-control" id="sdf" name="deadline" placeholder="Deadline">
+                </div>
+                <div class="form-group">
+                    <label for="sfr">Details</label>
+                    <input type="text" class="form-control" value="@Model.Details" id="sfr" name="details" placeholder="Details">
+                </div>
+
+                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

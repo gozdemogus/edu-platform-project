@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -17,12 +18,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
         private readonly SignInManager<AppUser> _signInManager;
         private readonly UserManager<AppUser> _userManager;
+        private readonly ITodoListService _todoListService;
 
 
-        public LoginController(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager)
+        public LoginController(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager, ITodoListService todoListService)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _todoListService = todoListService;
         }
 
         [HttpGet]
@@ -41,6 +44,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
             // if (result.Succeeded && appUser.EmailConfirmed == true)
             if (result.Succeeded && confirmed == true)
             {
+              
                 //  var url = Url.RouteUrl("areas", new { controller = "Employee", action = "Index", area = "Employee" });
                 //  return Redirect(url);
                 return RedirectToAction("Index", "Home");

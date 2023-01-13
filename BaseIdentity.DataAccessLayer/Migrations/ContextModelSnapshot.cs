@@ -149,6 +149,9 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Property<int>("WishlistId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("dateOfBirth")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -342,6 +345,57 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("Enrollments");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.TodoItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Completed")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("Deadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Details")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastUpdate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("TodoListId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TodoListId");
+
+                    b.ToTable("TodoItems");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.TodoList", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TodoLists");
                 });
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>
@@ -570,6 +624,28 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Navigation("Course");
                 });
 
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.TodoItem", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.TodoList", "TodoList")
+                        .WithMany("TodoItems")
+                        .HasForeignKey("TodoListId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TodoList");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.TodoList", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithMany("TodoLists")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>
                 {
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
@@ -662,6 +738,8 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
                     b.Navigation("InstructedCourses");
 
+                    b.Navigation("TodoLists");
+
                     b.Navigation("Wishlist")
                         .IsRequired();
                 });
@@ -685,6 +763,11 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Navigation("Enrollments");
 
                     b.Navigation("WishlistCourses");
+                });
+
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.TodoList", b =>
+                {
+                    b.Navigation("TodoItems");
                 });
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Wishlist", b =>

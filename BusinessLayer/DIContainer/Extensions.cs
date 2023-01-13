@@ -39,6 +39,12 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<ICommentService, CommentManager>();
             services.AddScoped<ICommentDal, EFCommentDal>();
+
+            services.AddScoped<ITodoListService, TodoListManager>();
+            services.AddScoped<ITodoListDal, EFTodoListDal>();
+
+            services.AddScoped<ITodoItemService, TodoItemManager>();
+            services.AddScoped<ITodoItemDal, EFTodoItemDal>();
         }
     }
 }

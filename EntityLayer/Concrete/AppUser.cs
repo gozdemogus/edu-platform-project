@@ -23,7 +23,7 @@ namespace BaseIdentity.EntityLayer.Concrete
         public string? Rank { get; set; }
         public string? Speciality { get; set; }
         public string? Website { get; set; }
-
+        public DateTime dateOfBirth { get; set; }
 
         public ICollection<Enrollment> Enrollments { get; set; }
         public ICollection<Course> InstructedCourses { get; set; }
@@ -36,6 +36,7 @@ namespace BaseIdentity.EntityLayer.Concrete
         public Wishlist Wishlist { get; set; }
 
         public List<Comment> Comments { get; set; }
+        public ICollection<TodoList> TodoLists { get; set; }
 
 
     }

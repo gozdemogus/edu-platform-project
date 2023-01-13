@@ -1,0 +1,12 @@
+/Users/gozdemogus/Desktop/Edu/DTOLayer/bin/Debug/net6.0/DTOLayer.deps.json
+/Users/gozdemogus/Desktop/Edu/DTOLayer/bin/Debug/net6.0/DTOLayer.dll
+/Users/gozdemogus/Desktop/Edu/DTOLayer/bin/Debug/net6.0/DTOLayer.pdb
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.csproj.AssemblyReference.cache
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.AssemblyInfoInputs.cache
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.AssemblyInfo.cs
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.csproj.CoreCompileInputs.cache
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.dll
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/refint/DTOLayer.dll
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/DTOLayer.pdb
+/Users/gozdemogus/Desktop/Edu/DTOLayer/obj/Debug/net6.0/ref/DTOLayer.dll

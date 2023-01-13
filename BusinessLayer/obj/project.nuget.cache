@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vOuxz1vJcCSTndPx4Q0Fv0TMOePTfoAuyZU/p1IrJQPX3pH0574Su1KLJt8qSwW6X98hRFacjfPSSUdkQ0jRjw==",
+  "dgSpecHash": "f+XDGx/IIg64yCse/X6b1E1tMSfuTXDE7io8kuh4Ce25PecPi02bXy9tb3gucIPaMRGMUtEktlDKxGgOxJaqHA==",
   "success": true,
   "projectFilePath": "/Users/gozdemogus/Desktop/Edu/BusinessLayer/BaseIdentity.BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "/Users/gozdemogus/.nuget/packages/fluentvalidation/11.2.1/fluentvalidation.11.2.1.nupkg.sha512",
+    "/Users/gozdemogus/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "/Users/gozdemogus/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.2.1/fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

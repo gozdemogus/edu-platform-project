@@ -1,0 +1,194 @@
+﻿@using BaseIdentity.EntityLayer.Concrete
+@model TodoList
+
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+@if (ViewBag.nolist == true)
+{
+    <div class="row">
+        <div class="col-xl-9 grid-margin-lg-0 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">You don't have any to-do list.</h4>
+                    <p><a href="/Admin/TodoList/Add/" class="btn btn-primary  py-2 px-4">Create</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+    <div class="row" style="width:100%">
+        <div class="col-xl-9 grid-margin-lg-0 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Your To-Do List</h4>
+                    <a href="/Admin/TodoList/AddNewTodoItem/" class="btn btn-success"> <i class="icon-circle-plus"></i>Add New</a>
+
+                    <div class="table-responsive mt-3">
+                        <table class="table table-header-bg">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Description
+                                    </th>
+                                    <th>
+                                        Deadline
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    
+                                    <th>
+
+                                    </th>
+                                    <th>
+                                        Details
+                                    </th>
+                                    <th>
+                                        Edit
+                                    </th>
+                                    <th>
+                                        Delete
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.TodoItems)
+                                {
+                                    <tr>
+                                        <td>
+                                            <span class="checkmark">✔</span>
+                                            @item.Description
+
+                                        </td>
+                                        <td>
+                                            @item.Deadline
+                                        </td>
+                                        <td>
+                                            @if (item.Completed == true)
+                                            {
+
+
+                                                <label class="badge badge-success">Completed</label>
+
+                                            }
+                                            else
+                                            {
+                                                <label class="badge badge-danger">Pending</label>
+
+                                            }
+                                        </td>
+
+                                        <td>
+                                            <select class="form-control" data-item-id="@item.Id" onchange="updateStatus(this)">
+                                                <option value="false" @(item.Completed ? "" : "selected")>Pending </option>
+                                                <option value="true" @(item.Completed ? "selected" : "")>Completed</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <a href="#" id="subButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                                <span class="icon-open"></span>
+                                            </a>
+                                            <div id="message-@item.Id"></div>
+                                        </td>
+
+                                        <td>
+                                            <a href="/Admin/TodoList/Edit/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                                <span class="icon-paper"></span>
+                                            </a>
+                                        </td>
+
+
+                                        <td>
+                                            <a href="/Admin/TodoList/Remove/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                                <span class="icon-trash"></span>
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+
+    function updateStatus(select) {
+        event.preventDefault();
+
+        var status = select.value;
+        var itemId = select.dataset.itemId;
+
+        $.ajax({
+            type: "POST",
+            url: '/Admin/TodoList/Change', // update with the correct URL
+            data: { id: itemId, status: status },
+            success: function (response) {
+                location.reload();
+            }
+        });
+    }
+
+    $(document).on('click', '#subButton', function (event) {
+        event.preventDefault();
+        var receiver = $(this).data('item-id');
+        var messageDivId = "#message-" + receiver;
+        $.ajax({
+            url: '/Admin/TodoList/GetDetail/' + receiver,
+            type: 'POST',
+            success: function (response) {
+                $(messageDivId).html(response);
+                setTimeout(function () {
+                    $(messageDivId).fadeOut();
+                }, 3000);
+                $(messageDivId).fadeIn(); // Add this line to show the error message again
+
+                $(successMessageDivId).html(response);
+                setTimeout(function () {
+                    $(successMessageDivId).fadeOut();
+                }, 3000);
+                $(successMessageDivId).fadeIn(); // Add this line to show the success message again
+
+            }
+
+        });
+    });
+
+        //$(document).on('click', '#delButton', function (e) {
+        //    e.preventDefault(); // prevent the link from redirecting the page
+
+        //    var itemId = $(this).data('item-id');
+        //    var url = '/Admin/TodoList/Remove/' + itemId;
+
+        //    $.ajax({
+        //        type: 'DELETE',
+        //        url: url,
+        //        success: function (result) {
+        //            location.reload();
+        //        },
+        //        error: function (xhr, status, error) {
+        //            // handle the error
+        //        }
+        //    });
+        //});
+
+
+ 
+
+
+</script>

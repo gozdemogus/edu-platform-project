@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "A+zdUW2wfUsmySH+TgXRbX8pCnCwz5xajHmo0RmUmuI=",
+  "Source": "SignalR",
+  "BasePath": "_content/SignalR",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalR/wwwroot",
+      "Source": "SignalR",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/SignalR/wwwroot/",
+      "BasePath": "_content/SignalR",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/PdfReports/user.pdf",
+      "PackagePath": "staticwebassets/PdfReports/user.pdf"
+    },
+    {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -143,6 +151,2598 @@
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/lib/microsoft/signalr/dist/browser/signalr.js",
+      "PackagePath": "staticwebassets/lib/microsoft/signalr/dist/browser/signalr.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/lib/microsoft/signalr/dist/browser/signalr.min.js",
+      "PackagePath": "staticwebassets/lib/microsoft/signalr/dist/browser/signalr.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/CHANGELOG.md",
+      "PackagePath": "staticwebassets/regal/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/LICENSE.md",
+      "PackagePath": "staticwebassets/regal/LICENSE.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/README.md",
+      "PackagePath": "staticwebassets/regal/README.md"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/css/maps/style.css.map",
+      "PackagePath": "staticwebassets/regal/css/maps/style.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/css/style.css",
+      "PackagePath": "staticwebassets/regal/css/style.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/docs/documentation.html",
+      "PackagePath": "staticwebassets/regal/docs/documentation.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/docs/documentation.js",
+      "PackagePath": "staticwebassets/regal/docs/documentation.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Bold.eot",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Bold.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Bold.ttf",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Bold.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Bold.woff",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Bold.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Bold.woff2",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Bold.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Regular.eot",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Regular.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Regular.ttf",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Regular.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Regular.woff",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Regular.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/fonts/karla/Karla-Regular.woff2",
+      "PackagePath": "staticwebassets/regal/fonts/karla/Karla-Regular.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/gulpfile.js",
+      "PackagePath": "staticwebassets/regal/gulpfile.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/auth/lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets/regal/images/auth/lockscreen-bg.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/auth/login-bg.jpg",
+      "PackagePath": "staticwebassets/regal/images/auth/login-bg.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/auth/register-bg.jpg",
+      "PackagePath": "staticwebassets/regal/images/auth/register-bg.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face1.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face13.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face13.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face2.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face28.png",
+      "PackagePath": "staticwebassets/regal/images/faces/face28.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face3.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face4.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face4.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face5.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face5.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face6.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face6.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/faces/face7.jpg",
+      "PackagePath": "staticwebassets/regal/images/faces/face7.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/favicon.png",
+      "PackagePath": "staticwebassets/regal/images/favicon.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/logo-dark.svg",
+      "PackagePath": "staticwebassets/regal/images/logo-dark.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/logo-mini.svg",
+      "PackagePath": "staticwebassets/regal/images/logo-mini.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/images/logo.svg",
+      "PackagePath": "staticwebassets/regal/images/logo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/index.html",
+      "PackagePath": "staticwebassets/regal/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/chart.js",
+      "PackagePath": "staticwebassets/regal/js/chart.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/dashboard.js",
+      "PackagePath": "staticwebassets/regal/js/dashboard.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/file-upload.js",
+      "PackagePath": "staticwebassets/regal/js/file-upload.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/hoverable-collapse.js",
+      "PackagePath": "staticwebassets/regal/js/hoverable-collapse.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/off-canvas.js",
+      "PackagePath": "staticwebassets/regal/js/off-canvas.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/select2.js",
+      "PackagePath": "staticwebassets/regal/js/select2.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/template.js",
+      "PackagePath": "staticwebassets/regal/js/template.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/js/typeahead.js",
+      "PackagePath": "staticwebassets/regal/js/typeahead.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/package.json",
+      "PackagePath": "staticwebassets/regal/package.json"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/charts/chartjs.html",
+      "PackagePath": "staticwebassets/regal/pages/charts/chartjs.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/forms/basic_elements.html",
+      "PackagePath": "staticwebassets/regal/pages/forms/basic_elements.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/icons/feather-icons.html",
+      "PackagePath": "staticwebassets/regal/pages/icons/feather-icons.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/samples/lock-screen.html",
+      "PackagePath": "staticwebassets/regal/pages/samples/lock-screen.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/samples/login-2.html",
+      "PackagePath": "staticwebassets/regal/pages/samples/login-2.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/samples/login.html",
+      "PackagePath": "staticwebassets/regal/pages/samples/login.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/samples/register-2.html",
+      "PackagePath": "staticwebassets/regal/pages/samples/register-2.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/samples/register.html",
+      "PackagePath": "staticwebassets/regal/pages/samples/register.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/tables/basic-table.html",
+      "PackagePath": "staticwebassets/regal/pages/tables/basic-table.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/ui-features/buttons.html",
+      "PackagePath": "staticwebassets/regal/pages/ui-features/buttons.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/pages/ui-features/typography.html",
+      "PackagePath": "staticwebassets/regal/pages/ui-features/typography.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/partials/_footer.html",
+      "PackagePath": "staticwebassets/regal/partials/_footer.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/partials/_navbar.html",
+      "PackagePath": "staticwebassets/regal/partials/_navbar.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/partials/_sidebar.html",
+      "PackagePath": "staticwebassets/regal/partials/_sidebar.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/preview.jpg",
+      "PackagePath": "staticwebassets/regal/preview.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_background.scss",
+      "PackagePath": "staticwebassets/regal/scss/_background.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_dashboard.scss",
+      "PackagePath": "staticwebassets/regal/scss/_dashboard.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_demo.scss",
+      "PackagePath": "staticwebassets/regal/scss/_demo.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_fonts.scss",
+      "PackagePath": "staticwebassets/regal/scss/_fonts.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_footer.scss",
+      "PackagePath": "staticwebassets/regal/scss/_footer.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_functions.scss",
+      "PackagePath": "staticwebassets/regal/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_layouts.scss",
+      "PackagePath": "staticwebassets/regal/scss/_layouts.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_misc.scss",
+      "PackagePath": "staticwebassets/regal/scss/_misc.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/regal/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_reset.scss",
+      "PackagePath": "staticwebassets/regal/scss/_reset.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_sidebar.scss",
+      "PackagePath": "staticwebassets/regal/scss/_sidebar.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_typography.scss",
+      "PackagePath": "staticwebassets/regal/scss/_typography.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/regal/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_variables.scss",
+      "PackagePath": "staticwebassets/regal/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets/regal/scss/_vertical-wrapper.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/common.scss",
+      "PackagePath": "staticwebassets/regal/scss/common.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_bootstrap-progress.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_buttons.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_cards.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_cards.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_checkbox-radio.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_checkbox-radio.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_dropdown.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_forms.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_forms.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_icons.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_icons.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_lists.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_lists.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_preview.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_preview.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_tables.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_tables.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/_toggle-switch.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/_toggle-switch.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/plugin-overrides/_jquery-file-upload.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/plugin-overrides/_jquery-file-upload.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/plugin-overrides/_progressbar-js.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/plugin-overrides/_progressbar-js.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/plugin-overrides/_rating.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/plugin-overrides/_rating.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/plugin-overrides/_select2.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/plugin-overrides/_select2.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/components/plugin-overrides/_typeahead.scss",
+      "PackagePath": "staticwebassets/regal/scss/components/plugin-overrides/_typeahead.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/landing-screens/_auth.scss",
+      "PackagePath": "staticwebassets/regal/scss/landing-screens/_auth.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/mixins/_animation.scss",
+      "PackagePath": "staticwebassets/regal/scss/mixins/_animation.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/mixins/_blockqoute.scss",
+      "PackagePath": "staticwebassets/regal/scss/mixins/_blockqoute.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/regal/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/mixins/_cards.scss",
+      "PackagePath": "staticwebassets/regal/scss/mixins/_cards.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/mixins/_misc.scss",
+      "PackagePath": "staticwebassets/regal/scss/mixins/_misc.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/scss/style.scss",
+      "PackagePath": "staticwebassets/regal/scss/style.scss"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/base/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/regal/vendors/base/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/base/vendor.bundle.base.css",
+      "PackagePath": "staticwebassets/regal/vendors/base/vendor.bundle.base.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/base/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/regal/vendors/base/vendor.bundle.base.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/feather/feather.css",
+      "PackagePath": "staticwebassets/regal/vendors/feather/feather.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/feather/fonts/feather-webfont.eot",
+      "PackagePath": "staticwebassets/regal/vendors/feather/fonts/feather-webfont.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/feather/fonts/feather-webfont.svg",
+      "PackagePath": "staticwebassets/regal/vendors/feather/fonts/feather-webfont.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/feather/fonts/feather-webfont.ttf",
+      "PackagePath": "staticwebassets/regal/vendors/feather/fonts/feather-webfont.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/feather/fonts/feather-webfont.woff",
+      "PackagePath": "staticwebassets/regal/vendors/feather/fonts/feather-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/css/flag-icon.min.css",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/css/flag-icon.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ad.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ad.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ae.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ae.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/af.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/af.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ag.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ag.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ai.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ai.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/al.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/al.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/am.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/am.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ao.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ao.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/aq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/aq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ar.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ar.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/as.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/as.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/at.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/at.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/au.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/au.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/aw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/aw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ax.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ax.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/az.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/az.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ba.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ba.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/be.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/be.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/br.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/br.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/by.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/by.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/bz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/bz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ca.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ca.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ch.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ch.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ci.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ci.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ck.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ck.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/co.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/co.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/cz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/cz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/de.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/de.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/dj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/dj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/dk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/dk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/dm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/dm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/do.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/do.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/dz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/dz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ec.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ec.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ee.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ee.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/eg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/eg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/eh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/eh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/er.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/er.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/es-ct.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/es-ct.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/es.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/es.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/et.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/et.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/eu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/eu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/fr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/fr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ga.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ga.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gb-eng.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gb-eng.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gb-nir.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gb-nir.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gb-sct.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gb-sct.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gb-wls.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gb-wls.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ge.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ge.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/gy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/gy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/hk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/hk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/hm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/hm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/hn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/hn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/hr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/hr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ht.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ht.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/hu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/hu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/id.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/id.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ie.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ie.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/il.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/il.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/im.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/im.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/in.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/in.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/io.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/io.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/iq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/iq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ir.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ir.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/is.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/is.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/it.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/it.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/je.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/je.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/jm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/jm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/jo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/jo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/jp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/jp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ke.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ke.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ki.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ki.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/km.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/km.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ky.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ky.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/kz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/kz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/la.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/la.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/li.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/li.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ls.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ls.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/lv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/lv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ly.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ly.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ma.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ma.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/md.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/md.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/me.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/me.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ml.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ml.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ms.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ms.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/my.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/my.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/mz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/mz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/na.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/na.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ne.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ne.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ng.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ng.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ni.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ni.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/no.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/no.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/np.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/np.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/nz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/nz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/om.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/om.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pe.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pe.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ph.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ph.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ps.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ps.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/pw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/pw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/py.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/py.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/qa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/qa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/re.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/re.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ro.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ro.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/rs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/rs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ru.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ru.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/rw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/rw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/se.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/se.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/si.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/si.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/so.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/so.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ss.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ss.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/st.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/st.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/sz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/sz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/td.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/td.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/th.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/th.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/to.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/to.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/tz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/tz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ua.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ua.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ug.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ug.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/um.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/um.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/un.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/un.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/us.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/us.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/uy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/uy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/uz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/uz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/va.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/va.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/vc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/vc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ve.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ve.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/vg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/vg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/vi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/vi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/vn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/vn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/vu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/vu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/wf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/wf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ws.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ws.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/xk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/xk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/ye.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/ye.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/yt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/yt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/za.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/za.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/zm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/zm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/1x1/zw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/1x1/zw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ad.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ad.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ae.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ae.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/af.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/af.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ag.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ag.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ai.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ai.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/al.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/al.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/am.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/am.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ao.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ao.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/aq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/aq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ar.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ar.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/as.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/as.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/at.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/at.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/au.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/au.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/aw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/aw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ax.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ax.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/az.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/az.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ba.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ba.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/be.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/be.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/br.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/br.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/by.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/by.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/bz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/bz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ca.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ca.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ch.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ch.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ci.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ci.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ck.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ck.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/co.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/co.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/cz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/cz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/de.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/de.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/dj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/dj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/dk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/dk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/dm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/dm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/do.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/do.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/dz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/dz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ec.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ec.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ee.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ee.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/eg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/eg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/eh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/eh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/er.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/er.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/es-ct.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/es-ct.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/es.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/es.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/et.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/et.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/eu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/eu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/fr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/fr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ga.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ga.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gb-eng.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gb-eng.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gb-nir.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gb-nir.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gb-sct.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gb-sct.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gb-wls.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gb-wls.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ge.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ge.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/gy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/gy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/hk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/hk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/hm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/hm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/hn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/hn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/hr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/hr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ht.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ht.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/hu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/hu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/id.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/id.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ie.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ie.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/il.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/il.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/im.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/im.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/in.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/in.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/io.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/io.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/iq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/iq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ir.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ir.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/is.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/is.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/it.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/it.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/je.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/je.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/jm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/jm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/jo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/jo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/jp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/jp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ke.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ke.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ki.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ki.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/km.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/km.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ky.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ky.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/kz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/kz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/la.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/la.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/li.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/li.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ls.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ls.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/lv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/lv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ly.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ly.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ma.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ma.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/md.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/md.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/me.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/me.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ml.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ml.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mo.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mo.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mp.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mp.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mq.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mq.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ms.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ms.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/my.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/my.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/mz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/mz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/na.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/na.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ne.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ne.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ng.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ng.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ni.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ni.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/no.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/no.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/np.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/np.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/nz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/nz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/om.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/om.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pe.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pe.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ph.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ph.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ps.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ps.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/pw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/pw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/py.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/py.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/qa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/qa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/re.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/re.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ro.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ro.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/rs.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/rs.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ru.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ru.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/rw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/rw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sa.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sa.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sb.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sb.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sd.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sd.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/se.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/se.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sh.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sh.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/si.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/si.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/so.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/so.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ss.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ss.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/st.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/st.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sx.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sx.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/sz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/sz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/td.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/td.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/th.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/th.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tj.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tj.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tl.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tl.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/to.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/to.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tr.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tr.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tv.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tv.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/tz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/tz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ua.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ua.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ug.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ug.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/um.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/um.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/un.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/un.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/us.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/us.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/uy.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/uy.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/uz.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/uz.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/va.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/va.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/vc.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/vc.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ve.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ve.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/vg.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/vg.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/vi.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/vi.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/vn.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/vn.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/vu.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/vu.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/wf.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/wf.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ws.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ws.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/xk.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/xk.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/ye.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/ye.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/yt.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/yt.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/za.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/za.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/zm.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/zm.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/flag-icon-css/flags/4x3/zw.svg",
+      "PackagePath": "staticwebassets/regal/vendors/flag-icon-css/flags/4x3/zw.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/font-awesome/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/regal/vendors/font-awesome/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-bar-rating/fontawesome-stars-o.css",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-bar-rating/fontawesome-stars-o.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-bar-rating/fontawesome-stars.css",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-bar-rating/fontawesome-stars.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-bar-rating/jquery.barrating.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-bar-rating/jquery.barrating.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-bar-rating/jquery.barrating.min.js.map",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-bar-rating/jquery.barrating.min.js.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-file-upload/jquery.uploadfile.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-file-upload/jquery.uploadfile.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery-file-upload/uploadfile.css",
+      "PackagePath": "staticwebassets/regal/vendors/jquery-file-upload/uploadfile.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/jquery.repeater/jquery.repeater.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/jquery.repeater/jquery.repeater.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/css/materialdesignicons.min.css",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/css/materialdesignicons.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/css/materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/css/materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/fonts/materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/fonts/materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/regal/vendors/mdi/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/progressbar.js/progressbar.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/progressbar.js/progressbar.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/select2-bootstrap-theme/select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets/regal/vendors/select2-bootstrap-theme/select2-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/select2/select2.min.css",
+      "PackagePath": "staticwebassets/regal/vendors/select2/select2.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/select2/select2.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/select2/select2.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/regal/vendors/typeahead.js/typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets/regal/vendors/typeahead.js/typeahead.bundle.min.js"
     },
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/blog-single.html",
@@ -859,94 +3459,6 @@
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/scss/style.scss",
       "PackagePath": "staticwebassets/tema/scss/style.scss"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/css/creditly.css",
-      "PackagePath": "staticwebassets/web 2/css/creditly.css"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/css/font-awesome.css",
-      "PackagePath": "staticwebassets/web 2/css/font-awesome.css"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/css/style.css",
-      "PackagePath": "staticwebassets/web 2/css/style.css"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/FontAwesome.otf",
-      "PackagePath": "staticwebassets/web 2/fonts/FontAwesome.otf"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets/web 2/fonts/fontawesome-webfont.eot"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets/web 2/fonts/fontawesome-webfont.svg"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets/web 2/fonts/fontawesome-webfont.ttf"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets/web 2/fonts/fontawesome-webfont.woff"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets/web 2/fonts/fontawesome-webfont.woff2"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/glyphicons-halflings-regular.woff",
-      "PackagePath": "staticwebassets/web 2/fonts/glyphicons-halflings-regular.woff"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/fonts/glyphicons-halflings-regular.woff2",
-      "PackagePath": "staticwebassets/web 2/fonts/glyphicons-halflings-regular.woff2"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/images/3.jpg",
-      "PackagePath": "staticwebassets/web 2/images/3.jpg"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/index.html",
-      "PackagePath": "staticwebassets/web 2/index.html"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/js/creditly.js",
-      "PackagePath": "staticwebassets/web 2/js/creditly.js"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/js/jquery-2.1.4.min.js",
-      "PackagePath": "staticwebassets/web 2/js/jquery-2.1.4.min.js"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web 2/w3layouts-License.txt",
-      "PackagePath": "staticwebassets/web 2/w3layouts-License.txt"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/css/style.css",
-      "PackagePath": "staticwebassets/web/css/style.css"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/images/banner.jpg",
-      "PackagePath": "staticwebassets/web/images/banner.jpg"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/images/btn.png",
-      "PackagePath": "staticwebassets/web/images/btn.png"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/images/strip.png",
-      "PackagePath": "staticwebassets/web/images/strip.png"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/index.html",
-      "PackagePath": "staticwebassets/web/index.html"
-    },
-    {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/web/w3layouts-License.txt",
-      "PackagePath": "staticwebassets/web/w3layouts-License.txt"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.BaseIdentity.Microsoft.AspNetCore.StaticWebAssets.props",

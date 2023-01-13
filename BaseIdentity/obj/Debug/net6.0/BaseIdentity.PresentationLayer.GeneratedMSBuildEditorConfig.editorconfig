@@ -16,6 +16,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gozdemogus/Desktop/Edu/BaseIdentity
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2VhcmNoL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/Shared/Components/AddTodoList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRkVG9kb0xpc3QvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/Shared/Components/ToDoList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9Eb0xpc3QvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/TodoList/AddNewTodoItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9kb0xpc3QvQWRkTmV3VG9kb0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/TodoList/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9kb0xpc3QvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/TodoList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9kb0xpc3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/Translate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJhbnNsYXRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -168,12 +204,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wTGVjdHVyZXJzL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/User/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVXNlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/WishlistTotal/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvV2lzaGxpc3RUb3RhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/_AreaLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BcmVhTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/_ErrorMessage.cshtml]
