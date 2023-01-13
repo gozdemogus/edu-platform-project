@@ -76,7 +76,8 @@
     <None Remove="Mapping\" />
     <None Remove="Mapping\AutoMappingProfile\" />
     <None Remove="Views\Shared\Components\User\" />
-    <None Remove="Views\Shared\Components\Messages\" />
+    <None Remove="Areas\Admin\Views\Shared\Components\Messages\" />
+    <None Remove="Views\Error\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -146,7 +147,9 @@
     <Folder Include="Mapping\" />
     <Folder Include="Mapping\AutoMappingProfile\" />
     <Folder Include="Views\Shared\Components\User\" />
-    <Folder Include="Views\Shared\Components\Messages\" />
+    <Folder Include="Areas\Admin\Views\Shared\Components\Messages\" />
+    <Folder Include="wwwroot\UserImage\" />
+    <Folder Include="Views\Error\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />
@@ -918,5 +921,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\PdfReports\" />
+    <Content Remove="wwwroot\UserImage\" />
   </ItemGroup>
 </Project>

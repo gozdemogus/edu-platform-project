@@ -3,53 +3,57 @@
 @await Component.InvokeAsync("Hero", "Your Profile")
 
 
-<section class="ftco-section contact-section bg-light">
+<section class="ftco-section ftco-candidates ftco-candidates-2 bg-light">
     <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-            <div class="col-md-12 mb-4">
-                <h2 class="h3">Contact Information</h2>
-            </div>
-            <div class="w-100"></div>
+        <div class="row">
+            <div class="col-lg-8 pr-lg-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="team d-md-flex p-4 bg-white">
+                            <div class="bio mr-5">
+                                <img src="~/UserImage/@Model.Image" alt="Image placeholder" width="100" height="100" sstyle="border-radius:50%;" class="img-fluid mb-4">
+                            </div>
+                            <div class="desc">
+                                <h3>@Model.Name @Model.Surname </h3>
+                                @if (@Model.IsLecturer == true)
+                                {
+                                    <p style="color:orange">Lecturer</p>
+                                }
+                                else
+                                {
+                                    <p style="color:lightgreen">Trainee</p>
+                                }
+
+                                <div class="col-md-4">
+                                    <p><i class="icon icon-globe"></i><span>&nbsp; City:</span>@Model.City</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p><i class="icon icon-phone"></i><span>&nbsp; Phone:</span><a href="tel://@Model.PhoneNumber">+ @Model.PhoneNumber</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p><i class="icon icon-envelope"></i><span>&nbsp; Email:</span> <a href="mailto:@Model.Email">@Model.Email</a></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p><i class="icon icon-book"></i><span>&nbsp; Website</span><a href="@Model.Website">@Model.Website</a></p>
+                                </div>
+
+                            </div>
+                        </div>
 
 
-            <div class="col-md-12">
-                <div class="bio mr-5">
-                    <img src="@Model.Image" alt="Image placeholder" width="100" height="100" class="img-fluid mb-4">
+                    </div>
                 </div>
-                <div class="desc">
-                    <h3>@Model.Name @Model.Surname </h3>
-                    @if (@Model.IsLecturer == true)
-                    {
-
-
-                        <p style="color:orange">Lecturer</p>
-                    }
-                    else
-                    {
-                        <p style="color:lightgreen">Student</p>
-
-                    }
+                <div class="team d-md-flex p-4 bg-white">
+                    <a href="/Account/UserEditProfile/" class="btn btn-success"> <i class="icon icon-heart"></i>&nbsp; Edit Profile</a>
+                    &nbsp;   &nbsp;   &nbsp;
+                    <a href="/Account/DeleteAccount/" class="btn btn-primary"> <i class="icon icon-remove"></i>&nbsp; Delete Account</a>
+                    &nbsp;   &nbsp;   &nbsp;
+                    <a href="/Account/ResetPassword/" class="btn btn-secondary"> <i class="icon icon-key"></i>&nbsp; Reset Password</a>
 
                 </div>
-            </div>
-      
 
-            <div class="col-md-3">
-                <p><span>Address:</span>@Model.City</p>
-            </div>
-            <div class="col-md-3">
-                <p><span>Phone:</span> <a href="tel://1234567920">+ @Model.PhoneNumber</a></p>
-            </div>
-            <div class="col-md-3">
-                <p><span>Email:</span> <a href="mailto:info@yoursite.com">@Model.Email</a></p>
-            </div>
-            <div class="col-md-3">
-                <p><span>Website</span> <a href="#">@Model.Website</a></p>
             </div>
         </div>
-     
     </div>
 </section>
-
-
 

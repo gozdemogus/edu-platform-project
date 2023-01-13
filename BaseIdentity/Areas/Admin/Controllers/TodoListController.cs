@@ -101,13 +101,33 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
            var todoListByUSer =  _todoListService.getTodoListByUser(user.Id);
 
-            TodoItem todoItem = new TodoItem();
-            todoItem.Description = description;
-            todoItem.Details = details;
-            todoItem.Deadline = deadline;
-            todoItem.TodoListId = todoListByUSer.Id;
+            if(todoListByUSer != null)
+            {
+                TodoItem todoItem = new TodoItem();
+                todoItem.Description = description;
+                todoItem.Details = details;
+                todoItem.Deadline = deadline;
+                todoItem.TodoListId = todoListByUSer.Id;
 
-            _todoItemService.TInsert(todoItem);
+                _todoItemService.TInsert(todoItem);
+            }
+            else
+            {
+                TodoList todoList = new TodoList();
+                todoList.UserId = user.Id;
+
+                _todoListService.TInsert(todoList);
+                var todoListByUSer2 = _todoListService.getTodoListByUser(user.Id);
+
+                TodoItem todoItem = new TodoItem();
+                todoItem.Description = description;
+                todoItem.Details = details;
+                todoItem.Deadline = deadline;
+                todoItem.TodoListId = todoListByUSer2.Id;
+
+                _todoItemService.TInsert(todoItem);
+            }
+
 
             var url = Url.RouteUrl("areas", new { controller = "TodoList", action = "Index", area = "Admin" });
             return Redirect(url);

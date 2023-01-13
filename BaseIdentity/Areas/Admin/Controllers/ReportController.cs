@@ -153,7 +153,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             document.Add(summary);
 
             //Add  a photo
-            string photoPath = user.Image;
+            string photoPath = "wwwroot/UserImage/" + user.Image;
             Image photo = Image.GetInstance(photoPath);
             photo.ScaleToFit(100f, 150f);
             photo.SetAbsolutePosition(450f, 750f);

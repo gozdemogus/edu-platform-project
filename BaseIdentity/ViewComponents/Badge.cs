@@ -24,9 +24,13 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var course = _courseService.FindForCart(user.Id);
-           ViewBag.Count = course.Count;
+            if(User.Identity.Name != null)
+            {
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+                var course = _courseService.FindForCart(user.Id);
+                ViewBag.Count = course.Count;
+
+            }
 
 
             return View();

@@ -39,16 +39,24 @@ namespace BaseIdentity.PresentationLayer.Controllers
         {
             var result = await _signInManager.PasswordSignInAsync(appUser.UserName, appUser.PasswordHash, false, true);
             var user = await _userManager.FindByNameAsync(appUser.UserName);
-            var confirmed = user.EmailConfirmed;
-
-            // if (result.Succeeded && appUser.EmailConfirmed == true)
-            if (result.Succeeded && confirmed == true)
+            if(user != null)
             {
-              
-                //  var url = Url.RouteUrl("areas", new { controller = "Employee", action = "Index", area = "Employee" });
-                //  return Redirect(url);
-                return RedirectToAction("Index", "Home");
+                var confirmed = user.EmailConfirmed;
+
+                // if (result.Succeeded && appUser.EmailConfirmed == true)
+                if (result.Succeeded && confirmed == true)
+                {
+                    //  var url = Url.RouteUrl("areas", new { controller = "Employee", action = "Index", area = "Employee" });
+                    //  return Redirect(url);
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("error", "An error occured");
+
+                }
             }
+          
             return View();
         }
 

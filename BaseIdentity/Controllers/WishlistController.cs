@@ -30,9 +30,17 @@ namespace BaseIdentity.PresentationLayer.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var wishlistByUser = _wishlistService.FindByUser(user.Id);
-            var wishlistCourses = _wishlistCourseService.CoursesByWishlist(wishlistByUser.Id);
-            var courses = wishlistCourses.Select(wc => wc.Course).ToList();
-            return View(courses);
+           if(wishlistByUser == null)
+            {
+                ViewBag.wlistnull = true;
+            }
+            else
+            {
+                var wishlistCourses = _wishlistCourseService.CoursesByWishlist(wishlistByUser.Id);
+                var courses = wishlistCourses.Select(wc => wc.Course).ToList();
+                return View(courses);
+            }
+            return View();
         }
 
         // TODO bu method refaktor edilecek!!

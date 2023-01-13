@@ -102,10 +102,10 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                             <p class="mb-0 font-weight-normal float-left dropdown-header">Settings</p>
-                            <a class="dropdown-item preview-item">
+                            <a class="dropdown-item preview-item" href="/Account/Index/">
                                 <i class="icon-head"></i> Profile
                             </a>
-                            <a class="dropdown-item preview-item">
+                            <a class="dropdown-item preview-item" href="/Login/Logout/">
                                 <i class="icon-inbox"></i> Logout
                             </a>
                         </div>
@@ -137,8 +137,8 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Admin/User/Index">
-                            <i class="icon-box menu-icon"></i>
-                            <span class="menu-title">Users</span>
+                            <i class="icon-file menu-icon"></i>
+                            <span class="menu-title">Users Documents</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -154,30 +154,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="~/regal/pages/forms/basic_elements.html">
-                            <i class="icon-file menu-icon"></i>
-                            <span class="menu-title">Form elements</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/regal/pages/charts/chartjs.html">
-                            <i class="icon-pie-graph menu-icon"></i>
-                            <span class="menu-title">Charts</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/regal/pages/tables/basic-table.html">
-                            <i class="icon-command menu-icon"></i>
-                            <span class="menu-title">Tables</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/regal/pages/icons/feather-icons.html">
-                            <i class="icon-help menu-icon"></i>
-                            <span class="menu-title">Icons</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="~/regal/#auth" aria-expanded="false" aria-controls="auth">
                             <i class="icon-head menu-icon"></i>
                             <span class="menu-title">User Pages</span>
@@ -186,29 +162,16 @@
                         <div class="collapse" id="auth">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="~/regal/pages/samples/login.html"> Login </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="~/regal/pages/samples/login-2.html"> Login 2 </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="~/regal/pages/samples/register.html"> Register </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="~/regal/pages/samples/register-2.html"> Register 2 </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="~/regal/pages/samples/lock-screen.html"> Lockscreen </a></li>
-                            </ul>
+                                  </ul>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/regal/docs/documentation.html">
-                            <i class="icon-book menu-icon"></i>
-                            <span class="menu-title">Documentation</span>
-                        </a>
-                    </li>
+                   
                 </ul>
             </nav>
             <!-- partial -->
             <div class="main-panel">
                 <div class="content-wrapper">
-
-
                     @RenderBody()
-
-
                 </div>
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->

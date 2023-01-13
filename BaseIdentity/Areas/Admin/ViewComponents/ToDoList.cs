@@ -23,10 +23,12 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.ViewComponents
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var values = _todoListService.getTodoListByUser(user.Id);
-
-            if (values.UserId == null)
+            if(values != null)
             {
-                ViewBag.nolist = true;
+                if (values.UserId == 0)
+                {
+                    ViewBag.nolist = true;
+                }
             }
 
             return View(values);

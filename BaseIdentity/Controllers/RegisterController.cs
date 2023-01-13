@@ -122,8 +122,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
                 return RedirectToAction("Index", "Login");
             }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "The code that send is not matched. Try again.");
+                return View();
+            }
 
-            return View();
+           
         }
     }
 }
