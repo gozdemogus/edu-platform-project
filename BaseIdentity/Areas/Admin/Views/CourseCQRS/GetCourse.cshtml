@@ -1,0 +1,28 @@
+﻿@using BaseIdentity.PresentationLayer.CQRS.Results.CourseResults
+@model GetCourseByIdQueryResult
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<div class="container" style="width:75%">
+
+
+    <h2>Edit Course</h2>
+
+    <form method="post">
+        <input type="hidden" name="CourseId" />
+        <label>Title</label>
+        <input type="text" name="Title" class="form-control" />
+        <br />
+        <label>Language</label>
+        <input type="text" name="Language" class="form-control" />
+        <br />
+        <label>Price</label>
+        <input type="text" name="Price" class="form-control" />
+        <br />
+        <button class="btn btn-success">Update</button>
+    </form>
+
+</div>

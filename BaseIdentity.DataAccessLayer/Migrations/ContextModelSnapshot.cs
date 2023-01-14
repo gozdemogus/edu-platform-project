@@ -313,7 +313,7 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Property<string>("Includes")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("InstructorId")
+                    b.Property<int?>("InstructorId")
                         .HasColumnType("int");
 
                     b.Property<string>("Language")
@@ -628,8 +628,7 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "Instructor")
                         .WithMany("InstructedCourses")
                         .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Category");
 

@@ -79,6 +79,16 @@
     <None Remove="Areas\Admin\Views\Shared\Components\Messages\" />
     <None Remove="Views\Error\" />
     <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="CQRS\" />
+    <None Remove="CQRS\Commands\" />
+    <None Remove="CQRS\Handlers\" />
+    <None Remove="CQRS\Queries\" />
+    <None Remove="CQRS\Results\" />
+    <None Remove="CQRS\Results\CourseResults\" />
+    <None Remove="CQRS\Queries\CourseQueries\" />
+    <None Remove="CQRS\Handlers\CourseHandlers\" />
+    <None Remove="Areas\Admin\Views\CourseCQRS\" />
+    <None Remove="CQRS\Commands\CourseCommands\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -152,6 +162,16 @@
     <Folder Include="Areas\Admin\Views\Shared\Components\Messages\" />
     <Folder Include="wwwroot\UserImage\" />
     <Folder Include="Views\Error\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="CQRS\Commands\" />
+    <Folder Include="CQRS\Handlers\" />
+    <Folder Include="CQRS\Queries\" />
+    <Folder Include="CQRS\Results\" />
+    <Folder Include="CQRS\Results\CourseResults\" />
+    <Folder Include="CQRS\Queries\CourseQueries\" />
+    <Folder Include="CQRS\Handlers\CourseHandlers\" />
+    <Folder Include="Areas\Admin\Views\CourseCQRS\" />
+    <Folder Include="CQRS\Commands\CourseCommands\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />

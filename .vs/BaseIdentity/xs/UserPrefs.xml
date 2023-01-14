@@ -1,7 +1,59 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Views/CourseCQRS/Index.cshtml">
+    <Files>
+      <File FileName="BaseIdentity/CQRS/Results/CourseResults/GetAllCourseQueryResult.cs" Line="8" Column="16" />
+      <File FileName="BaseIdentity/CQRS/Queries/CourseQueries/GetAllCourseQuery.cs" Line="1" Column="1" />
+      <File FileName="BaseIdentity/CQRS/Handlers/CourseHandlers/GetAllCourseQueryHandler.cs" Line="29" Column="27" />
+      <File FileName="BaseIdentity/Areas/Admin/Controllers/CourseCQRSController.cs" Line="25" Column="61" />
+      <File FileName="BaseIdentity/Areas/Admin/Controllers/HomeController.cs" Line="15" Column="1" />
+      <File FileName="BaseIdentity/Startup.cs" Line="37" Column="60" />
+      <File FileName="BaseIdentity/Areas/Admin/Views/CourseCQRS/Index.cshtml" Line="1" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="CourseCQRS" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="CQRS" expanded="True">
+                <Node name="Handlers" expanded="True">
+                  <Node name="CourseHandlers" expanded="True" />
+                </Node>
+                <Node name="Queries" expanded="True">
+                  <Node name="CourseQueries" expanded="True" />
+                </Node>
+                <Node name="Results" expanded="True">
+                  <Node name="CourseResults" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/CourseController.cs" relfile="BaseIdentity/Controllers/CourseController.cs" line="38" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/CQRS/Handlers/CourseHandlers/GetAllCourseQueryHandler.cs" relfile="BaseIdentity/CQRS/Handlers/CourseHandlers/GetAllCourseQueryHandler.cs" line="39" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/CQRS/Handlers/CourseHandlers/GetAllCourseQueryHandler.cs" relfile="BaseIdentity/CQRS/Handlers/CourseHandlers/GetAllCourseQueryHandler.cs" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,31 +62,4 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/CourseController.cs" relfile="BaseIdentity/Controllers/CourseController.cs" line="38" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Controllers/ReportController.cs">
-    <Files>
-      <File FileName="BaseIdentity/Areas/Admin/Views/User/Index.cshtml" Line="36" Column="130" />
-      <File FileName="BaseIdentity/Areas/Admin/Controllers/ReportController.cs" Line="158" Column="42" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.EntityLayer" expanded="True" />
-            <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="wwwroot" expanded="True">
-                <Node name="UserImage" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
 </Properties>

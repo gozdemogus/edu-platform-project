@@ -48,6 +48,7 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<IContactService, ContactManager>();
             services.AddScoped<IContactDal, EFContactDal>();
+
         }
     }
 }

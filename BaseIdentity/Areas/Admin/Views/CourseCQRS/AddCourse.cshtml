@@ -1,0 +1,32 @@
+﻿@using BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
+@model CreateCourseCommand
+
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<div class="container" style="width:75%">
+    <form method="post">
+        <label>Title</label>
+        <input type="text" name="Title" class="form-control" />
+        <br />
+        <label>Language</label>
+        <input type="text" name="Language" class="form-control" />
+        <br />
+        <label>Price</label>
+        <input type="text" name="Price" class="form-control" />
+        <br />
+        <label>Description</label>
+        <input type="text" name="Description" class="form-control" />
+        <br />
+        <label>Cover Photo</label>
+        <input type="text" name="CoverPhoto" class="form-control" />
+        <br />
+        <label>Level</label>
+        <input type="text" name="Level" class="form-control" />
+        <br />
+        <input type="submit" value="Create" class="btn btn-success" />
+    </form>
+</div>

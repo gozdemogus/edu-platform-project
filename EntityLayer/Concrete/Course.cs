@@ -24,8 +24,8 @@ namespace BaseIdentity.EntityLayer.Concrete
         public DateTime? DateAdded { get; set; }
         public Category? Category { get; set; }
 
-        public int InstructorId { get; set; }
-        public AppUser Instructor { get; set; }
+        public int? InstructorId { get; set; }
+        public AppUser? Instructor { get; set; }
      
         public ICollection<Enrollment> Enrollments { get; set; }
 

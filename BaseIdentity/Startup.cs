@@ -2,6 +2,7 @@ using BaseIdentity.BusinessLayer.DIContainer;
 using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Controllers;
+using BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,7 +32,16 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.ContainerDependencies();
-        //    services.AddScoped<EnrollmentController>();
+            //    services.AddScoped<EnrollmentController>();
+
+            services.AddScoped<GetAllCourseQueryHandler>();
+            services.AddScoped<GetCourseByIdQueryHandler>();
+            services.AddScoped<CreateCourseCommandHandler>();
+            services.AddScoped<RemoveCourseCommandHandler>();
+            services.AddScoped<UpdateCourseCommandHandler>();
+
+
+
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider);
             services.Configure<DataProtectionTokenProviderOptions>(opts => opts.TokenLifespan = TimeSpan.FromHours(10));
