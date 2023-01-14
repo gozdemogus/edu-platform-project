@@ -1,5 +1,7 @@
-﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -8,82 +10,26 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/CourseController.cs" relfile="BaseIdentity/Controllers/CourseController.cs" line="38" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Controllers/ReportController.cs">
     <Files>
-      <File FileName="BaseIdentity/Areas/Admin/Views/Home/Index.cshtml" Line="149" Column="28" />
-      <File FileName="BaseIdentity/Views/Shared/_AreaLayout.cshtml" Line="95" Column="39" />
-      <File FileName="BaseIdentity/Views/Shared/Components/Messages/Default.cshtml" Line="1" Column="1" />
-      <File FileName="SignalR/Hubs/AnalyticsHub.cs" Line="60" Column="10" />
+      <File FileName="BaseIdentity/Areas/Admin/Views/User/Index.cshtml" Line="36" Column="130" />
+      <File FileName="BaseIdentity/Areas/Admin/Controllers/ReportController.cs" Line="158" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.EntityLayer" expanded="True" />
             <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
-                  <Node name="ViewComponents" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Home" expanded="True" />
-                    <Node name="Search" expanded="True" />
-                    <Node name="Shared" expanded="True">
-                      <Node name="Components" expanded="True">
-                        <Node name="ToDoList" expanded="True" />
-                      </Node>
-                    </Node>
-                    <Node name="TodoList" expanded="True" />
-                    <Node name="Translate" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="ViewComponents" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Cart" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Messages" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="regal" expanded="True">
-                  <Node name=".git" expanded="True" />
-                  <Node name="css" expanded="True">
-                    <Node name="maps" expanded="True" />
-                  </Node>
-                  <Node name="docs" expanded="True" />
-                  <Node name="fonts" expanded="True" />
-                  <Node name="images" expanded="True">
-                    <Node name="auth" expanded="True" />
-                    <Node name="faces" expanded="True" />
-                  </Node>
-                  <Node name="pages" expanded="True">
-                    <Node name="icons" expanded="True" />
-                  </Node>
-                  <Node name="partials" expanded="True" />
-                  <Node name="scss" expanded="True">
-                    <Node name="components" expanded="True" />
-                    <Node name="landing-screens" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="SignalR" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Hubs" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+                <Node name="UserImage" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -91,6 +37,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

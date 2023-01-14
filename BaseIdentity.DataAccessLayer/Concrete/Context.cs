@@ -87,6 +87,9 @@ namespace BaseIdentity.DataAccessLayer.Concrete
         public DbSet<Comment> Comments { get; set; }
         public DbSet<TodoList> TodoLists { get; set; }
         public DbSet<TodoItem> TodoItems { get; set; }
+
+        public DbSet<Contact> Contacts { get; set; }
+
     }
 
 

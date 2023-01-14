@@ -78,6 +78,7 @@
     <None Remove="Views\Shared\Components\User\" />
     <None Remove="Areas\Admin\Views\Shared\Components\Messages\" />
     <None Remove="Views\Error\" />
+    <None Remove="FluentValidation.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -96,6 +97,7 @@
     <PackageReference Include="MimeKit" Version="3.4.3" />
     <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="ClosedXML" Version="0.97.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Register\" />

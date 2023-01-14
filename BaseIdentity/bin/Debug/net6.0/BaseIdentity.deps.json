@@ -12,6 +12,7 @@
           "BusinessLayer": "1.0.0",
           "ClosedXML": "0.97.0",
           "EntityLayer": "1.0.0",
+          "FluentValidation.AspNetCore": "11.2.2",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore": "5.0.17",

@@ -45,6 +45,9 @@ namespace BaseIdentity.BusinessLayer.DIContainer
 
             services.AddScoped<ITodoItemService, TodoItemManager>();
             services.AddScoped<ITodoItemDal, EFTodoItemDal>();
+
+            services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EFContactDal>();
         }
     }
 }
