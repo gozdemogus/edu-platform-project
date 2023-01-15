@@ -1,8 +1,11 @@
 ﻿using System;
 using BaseIdentity.BusinessLayer.Abstract;
+using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 using BaseIdentity.BusinessLayer.Concrete;
+using BaseIdentity.BusinessLayer.Concrete.ConcreteUOW;
 using BaseIdentity.DataAccessLayer.Abstract;
 using BaseIdentity.DataAccessLayer.EntityFramework;
+using BaseIdentity.DataAccessLayer.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BaseIdentity.BusinessLayer.DIContainer
@@ -49,6 +52,10 @@ namespace BaseIdentity.BusinessLayer.DIContainer
             services.AddScoped<IContactService, ContactManager>();
             services.AddScoped<IContactDal, EFContactDal>();
 
+            services.AddScoped<IAccountService, AccountManager>();
+            services.AddScoped<IAccountDal, EFAccountDal>();
+
+            services.AddScoped<IUOWDal, UOWDal>();
         }
     }
 }

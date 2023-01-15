@@ -19,6 +19,26 @@ namespace APIPayment.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("APICampaign.DAL.Entities.CampaignAssignee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CampaignId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CampaignId");
+
+                    b.ToTable("CampaignAssignee");
+                });
+
             modelBuilder.Entity("APIPayment.DAL.Entities.Campaign", b =>
                 {
                     b.Property<int>("Id")
@@ -26,8 +46,8 @@ namespace APIPayment.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CampaignName")
-                        .HasColumnType("int");
+                    b.Property<string>("CampaignName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
@@ -41,30 +61,25 @@ namespace APIPayment.Migrations
                     b.Property<DateTime?>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.ToTable("Campaigns");
                 });
 
-            modelBuilder.Entity("HotelAPI.DAL.Entities.Credit", b =>
+            modelBuilder.Entity("APICampaign.DAL.Entities.CampaignAssignee", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.HasOne("APIPayment.DAL.Entities.Campaign", "Campaign")
+                        .WithMany("CampaignAssignees")
+                        .HasForeignKey("CampaignId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
+                    b.Navigation("Campaign");
+                });
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Credits");
+            modelBuilder.Entity("APIPayment.DAL.Entities.Campaign", b =>
+                {
+                    b.Navigation("CampaignAssignees");
                 });
 #pragma warning restore 612, 618
         }

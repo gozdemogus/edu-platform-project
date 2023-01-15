@@ -153,11 +153,16 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             document.Add(summary);
 
             //Add  a photo
-            string photoPath = "wwwroot/UserImage/" + user.Image;
-            Image photo = Image.GetInstance(photoPath);
-            photo.ScaleToFit(100f, 150f);
-            photo.SetAbsolutePosition(450f, 750f);
-            document.Add(photo);
+            if(user.Image != null)
+            {
+                string photoPath = "wwwroot/UserImage/" + user.Image;
+                Image photo = Image.GetInstance(photoPath);
+                photo.ScaleToFit(100f, 150f);
+                photo.SetAbsolutePosition(450f, 750f);
+                document.Add(photo);
+            }
+
+         
 
             document.Add(new Paragraph("\n")); //add empty line 
 

@@ -1,0 +1,65 @@
+﻿@using BaseIdentity.PresentationLayer.Areas.Admin.Models
+@model CampaignViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+<div class=col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 style="color:lawngreen">Define New Campaign</h1>
+            <p class="card-description">
+
+            </p>
+            <form method="post">
+
+                <label>Campaign Name</label>
+                <input type="text" name="CampaignName" class="form-control" />
+                <br />
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary text-white">$</span>
+                        </div>
+                        <input type="text" name="DiscountAmount" class="form-control" aria-label="Amount (to the nearest dollar)" />
+                    </div>
+                </div>
+                <br />
+                
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-warning text-white">CODE</span>
+                        </div>
+                        <input type="text" name="Code" class="form-control" aria-label="Amount (to the nearest dollar)" />
+                    </div>
+                </div>
+
+
+                @*<label>User</label>
+        <select name="UserId" class="form-control">
+            @foreach (var user in ViewBag.Users)
+            {
+                <option value="@user.Id">@user.Name @user.Surname</option>
+            }
+        </select>
+        <br />*@
+
+                <div class="form-group">
+                    <label for="sdf">StartDate</label>
+                    <input type="date" class="form-control" id="sdf" name="StartDate" placeholder="StartDate">
+                </div>
+
+                <div class="form-group">
+                    <label for="sdf">EndDate</label>
+                    <input type="date" class="form-control" id="sdf" name="EndDate" placeholder="EndDate">
+                </div>
+
+                <input type="submit" value="Create" class="btn btn-success" />
+            </form>
+        </div>
+    </div>
+</div>

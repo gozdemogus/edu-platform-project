@@ -1,0 +1,58 @@
+﻿@using BaseIdentity.PresentationLayer.Areas.Admin.Models
+
+@model List<CampaignViewModel>
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<div class=col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 style="color:lawngreen">Campaign Index</h1>
+            <p class="card-description">
+
+            </p>
+            <table class="table table-bordered" style="table-layout:fixed;">
+                <tr style="color:black">
+                    <th>#</th>
+                    <th>Campaign Name</th>
+                    <th>Code</th>
+                    <th>DiscountAmount</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.CampaignName</td>
+                        <td>@item.Code</td>
+                        <td>@item.DiscountAmount $</td>
+                        <td>@item.StartDate</td>
+                        <td>@item.EndDate</td>
+                        <td>
+                            <a href="/Admin/Campaign/Update/@item.Id" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                <span class="icon-paper"></span>
+                            </a>
+                        </td>
+
+
+                        <td>
+                            <a href="/Admin/Campaign/Delete/@item.Id" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                <span class="icon-trash" style="color:red"></span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+            <br />
+            <br />
+            <a href="/Admin/Campaign/AddCampaign/">
+                <button class="btn btn-success">Add Campaign</button>
+            </a>
+        </div>
+
+    </div>
+</div>

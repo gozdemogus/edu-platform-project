@@ -38,6 +38,7 @@ namespace BaseIdentity.EntityLayer.Concrete
         public List<Comment> Comments { get; set; }
         public ICollection<TodoList> TodoLists { get; set; }
 
+        public Account Account { get; set; }
 
     }
 }

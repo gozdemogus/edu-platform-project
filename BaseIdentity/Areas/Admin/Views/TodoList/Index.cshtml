@@ -66,7 +66,7 @@
                                 {
                                     <tr>
                                         <td>
-                                            <span class="checkmark">✔</span>
+                                            <span class="checkmark" style="color:blue">✔</span>
                                             @item.Description
 
                                         </td>
@@ -96,21 +96,21 @@
                                         </td>
                                         <td>
                                             <a href="#" id="subButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
-                                                <span class="icon-open"></span>
+                                                <span class="icon-open" style="color:purple"></span>
                                             </a>
                                             <div id="message-@item.Id"></div>
                                         </td>
 
                                         <td>
                                             <a href="/Admin/TodoList/Edit/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
-                                                <span class="icon-paper"></span>
+                                                <span class="icon-paper" style="color:lawngreen"></span>
                                             </a>
                                         </td>
 
 
                                         <td>
                                             <a href="/Admin/TodoList/Remove/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
-                                                <span class="icon-trash"></span>
+                                                <span class="icon-trash" style="color:red"></span>
                                             </a>
                                         </td>
 

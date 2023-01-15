@@ -1,13 +1,24 @@
-﻿<div class="main" style="width:500px"  >
+﻿
+<div class="main" style="width:500px"  >
     <h2> Payment</h2>
     <div id="myAccordion" class="nl-accordion">
         <ul>
-          
-                <input type="radio" id="nl-radio-1" name="nl-radio" class="nl-radio" checked="checked" />
-                <label class="nl-label" for="nl-radio-1" style="color: orange"  >Payment Card</label>
+            <li>
+                <input type="radio" id="nl-radio-2" name="nl-radio" class="nl-radio" checked="checked" />
+                <label class="nl-label" for="nl-radio-2" style="color: orange">Site Credits</label>
+                <div class="check w3ls"></div>
+
+                <h6 style="color:lawngreen">
+                    Your Credit Balance: @ViewBag.balance $
+                </h6>
+            </li>
+            <br />
+            <li>
+                <input type="radio" id="nl-radio-1" name="nl-radio" class="nl-radio"  />
+                <label class="nl-label" for="nl-radio-1" style="color: orange"> &nbsp; Payment Card</label>
                 <div class="nl-content">
                     <div class="agileits_w3layouts_tab1 agileits_w3layouts_tab">
-                        <form asp-action="Enroll"  asp-controller="Enrollment" method="post" class="creditly-card-form agileinfo_form">
+                        <form asp-action="" asp-controller="" method="post" class="creditly-card-form agileinfo_form">
                             <section class="creditly-wrapper wthree w3_agileits_wrapper">
                                 <div class="first-row form-group">
                                     <div class="controls">
@@ -34,16 +45,17 @@
                                         <div class="clear"> </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-success"><span>Make a payment <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>
                             </section>
                         </form>
                     </div>
                 </div>
-        <br />
+            </li>
+            <br />
+            <li>
                 <input type="radio" id="nl-radio-2" name="nl-radio" class="nl-radio" />
-                <label class="nl-label" for="nl-radio-2" style="color: orange"   >PayPal</label>
+                <label class="nl-label" for="nl-radio-2" style="color: orange">PayPal</label>
                 <div class="check w3ls"></div>
-         
+            </li>
         </ul>
     </div>
   

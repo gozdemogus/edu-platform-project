@@ -19,6 +19,31 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Account", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AccountNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Balance")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique()
+                        .HasFilter("[AppUserId] IS NOT NULL");
+
+                    b.ToTable("Accounts");
+                });
+
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.AppRole", b =>
                 {
                     b.Property<int>("Id")
@@ -569,6 +594,15 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Account", b =>
+                {
+                    b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithOne("Account")
+                        .HasForeignKey("BaseIdentity.EntityLayer.Concrete.Account", "AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.Cart", b =>
                 {
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "AppUser")
@@ -758,6 +792,9 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
             modelBuilder.Entity("BaseIdentity.EntityLayer.Concrete.AppUser", b =>
                 {
+                    b.Navigation("Account")
+                        .IsRequired();
+
                     b.Navigation("Cart")
                         .IsRequired();
 

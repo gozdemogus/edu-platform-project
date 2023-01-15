@@ -44,6 +44,9 @@ namespace WebApplication1
 
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider);
+
+            services.AddHttpClient();
+
             services.Configure<DataProtectionTokenProviderOptions>(opts => opts.TokenLifespan = TimeSpan.FromHours(10));
             services.AddControllersWithViews();
             services.AddMvc(config =>

@@ -17,12 +17,16 @@
     <None Remove="DIContainer\" />
     <None Remove="ValidationRules\" />
     <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Abstract\AbstractUOW\" />
+    <None Remove="Concrete\ConcreteUOW\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
     <Folder Include="DIContainer\" />
     <Folder Include="ValidationRules\" />
+    <Folder Include="Abstract\AbstractUOW\" />
+    <Folder Include="Concrete\ConcreteUOW\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />

@@ -21,12 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Models\" />
     <None Remove="Controllers\" />
     <None Remove="DAL\Entities\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="DAL\Entities\" />
   </ItemGroup>

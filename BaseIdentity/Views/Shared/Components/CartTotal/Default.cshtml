@@ -1,7 +1,30 @@
 ﻿<div class="sidebar-box bg-white p-4 ftco-animate">
     @*<h3 class="heading-sidebar">Total Price</h3>*@
     <div class="border border-green p-4">
-    
-        <span class="badge badge-success" style=" font-size:200% "> <span class="icon-money" style="font-size: 200%;"></span> &nbsp;  @ViewBag.Total $</span>
+        <center>
+            <span class="badge badge-success" style=" font-size:200% "> <span class="icon-money" style="font-size: 200%;"></span> &nbsp;  @ViewBag.Total $</span>
+
+        </center>
     </div>
+    <br /><br />
+          <center>
+              <form asp-action="DoPayment" asp-controller="AccountBalance" method="post">
+                  <input type="hidden" name="total" value="@ViewBag.Total" />
+                  <input type="submit" value="Pay" class="btn btn-primary  py-2 px-5">
+
+              </form>
+
+          </center>
+   
 </div>
+
+@*<script>
+    $.ajax({
+    type: "POST",
+    url: '/AccountBalance/DoPayment',
+    data: { amount: '@ViewBag.total' },
+    success: function(data) {
+        // Do something with the data returned from the server
+    }
+});
+</script>*@

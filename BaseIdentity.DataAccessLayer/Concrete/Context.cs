@@ -71,6 +71,10 @@ namespace BaseIdentity.DataAccessLayer.Concrete
                 .WithOne(i => i.TodoList)
                 .HasForeignKey(i => i.TodoListId);
 
+            modelBuilder.Entity<AppUser>()
+    .HasOne(a => a.Account)
+    .WithOne(b => b.AppUser)
+    .HasForeignKey<Account>(b => b.AppUserId);
 
         }
 
@@ -89,6 +93,8 @@ namespace BaseIdentity.DataAccessLayer.Concrete
         public DbSet<TodoItem> TodoItems { get; set; }
 
         public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Account> Accounts { get; set; }
 
     }
 

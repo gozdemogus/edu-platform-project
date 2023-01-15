@@ -144,7 +144,15 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         public async Task<IActionResult> Edit(TodoItem todoItem)
         {
            var tdItem = _todoItemService.TGetById(todoItem.Id);
-            tdItem.Deadline = todoItem.Deadline;
+
+            if (todoItem.Deadline != null)
+            {
+                tdItem.Deadline = todoItem.Deadline;
+            }
+
+
+
+          //  tdItem.Deadline = todoItem.Deadline;
             tdItem.Description = todoItem.Description;
             tdItem.Details = todoItem.Details;
             tdItem.LastUpdate = DateTime.Now;

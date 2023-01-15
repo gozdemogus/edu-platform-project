@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using APIPayment.DAL.Entities;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using UpSchool_WebApi.DAL;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -23,7 +24,7 @@ namespace APIPayment.Controllers
         {
             using (var context = new Context())
             {
-                var values = context.Campaigns.ToList();
+                var values = context.Campaigns.Include(c => c.CampaignAssignees).ToList();
                 return Ok(values);
             }
         }
@@ -40,12 +41,13 @@ namespace APIPayment.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult CampaignGetByUser(int id)
+        public IActionResult CampaignGet(int id)
         {
             using (var context=new Context())
             {
-                var values = context.Campaigns.Where(x=>x.UserId == id).ToList();
-                if(values == null)
+                var values = context.Campaigns.Find(id);
+                                 
+                if (values == null)
                 {
                     return NotFound();
                 }
@@ -88,14 +90,21 @@ namespace APIPayment.Controllers
                 }
                 else
                 {
-                    values.UserId = campaign.UserId;
+                 //   values.CampaignAssignees = campaign.CampaignAssignees;
                     values.Code = campaign.Code;
 
                     values.CampaignName = campaign.CampaignName;
                     values.DiscountAmount = campaign.DiscountAmount;
 
-                    values.StartDate = campaign.StartDate;
-                    values.EndDate = campaign.EndDate;
+                    if(campaign.StartDate != null)
+                    {
+                        values.StartDate = campaign.StartDate;
+                    }
+                  if(campaign.EndDate!= null)
+                    {
+                        values.EndDate = campaign.EndDate;
+                    }
+                
                     context.Update(values);
                     context.SaveChanges();
                     return Ok();

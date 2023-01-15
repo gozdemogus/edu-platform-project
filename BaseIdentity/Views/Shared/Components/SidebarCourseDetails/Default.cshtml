@@ -79,7 +79,7 @@
 <script>$(document).on('click', '#cart', function (event) {
         event.preventDefault();
         $.ajax({
-            url: '/Cart/AddToCart/2',
+            url: '/Cart/AddToCart/' + @Model.Id,
             type: 'POST',
             success: function (response) {
                 // Replace the content of the div with the response from the server

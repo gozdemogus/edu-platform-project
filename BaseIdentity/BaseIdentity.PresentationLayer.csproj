@@ -89,6 +89,7 @@
     <None Remove="CQRS\Handlers\CourseHandlers\" />
     <None Remove="Areas\Admin\Views\CourseCQRS\" />
     <None Remove="CQRS\Commands\CourseCommands\" />
+    <None Remove="Areas\Admin\Views\Campaign\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -172,6 +173,7 @@
     <Folder Include="CQRS\Handlers\CourseHandlers\" />
     <Folder Include="Areas\Admin\Views\CourseCQRS\" />
     <Folder Include="CQRS\Commands\CourseCommands\" />
+    <Folder Include="Areas\Admin\Views\Campaign\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />
