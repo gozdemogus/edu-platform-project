@@ -12,22 +12,35 @@
 <table class="table table-bordered">
     <tr>
         <th>#</th>
+        <th>Cover Photo</th>
         <th>Title</th>
         <th>Language</th>
         <th>Price</th>
-        <th>Delete</th>
-        <th>Update</th>
+        <th>Description</th>
+        <th>ContentURL</th>
+        <th>Level</th>
+
+        <th></th>
+        <th></th>
 
     </tr>
     @foreach (var item in Model)
     {
         <tr>
             <td>@item.Id</td>
+            <td>
+                <center>
+                    <img src="@item.CoverPhoto" alt="" width="50" height="50">
+                </center>
+            </td>
             <td>@item.Title</td>
             <td>@item.Language</td>
-            <td>@item.Price</td>
-            <td><a href="/Admin/CourseCQRS/GetCourse/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
-            <td><a href="/Admin/CourseCQRS/Delete/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td>@item.Price $</td>
+            <td>@item.Description</td>
+            <td>@item.ContentURL</td>
+            <td>@item.Level</td>
+            <td><a href="/Admin/CourseCQRS/GetCourse/@item.Id" class="btn btn-success">Update</a></td>
+            <td><a href="/Admin/CourseCQRS/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
         </tr>
     }
 </table>

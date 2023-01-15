@@ -19,6 +19,10 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
             values.Title = command.Title;
             values.Language = command.Language;
             values.Price = command.Price;
+            values.Level = command.Level;
+            values.ContentURL = command.ContentURL;
+            values.CoverPhoto = command.CoverPhoto;
+            values.Description = command.Description;
             _context.SaveChanges();
         }
     }

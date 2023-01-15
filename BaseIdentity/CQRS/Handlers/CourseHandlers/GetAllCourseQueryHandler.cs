@@ -23,7 +23,11 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
                 Id = x.Id,
                 Title = x.Title,
                 Language = x.Language,
-                Price= (double)x.Price
+                Price= (double)x.Price,
+                Description =x.Description,
+                CoverPhoto=x.CoverPhoto,
+                ContentURL=x.ContentURL,
+                Level=x.Level
             }).AsNoTracking().ToList();
 
             return values;

@@ -22,8 +22,12 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
                 CourseId = values.Id,
                 Language = values.Language,
                 Price = (double)values.Price,
-                Title = values.Title
-            };
+                Title = values.Title,
+                Level = values.Level,
+                ContentURL = values.ContentURL,
+                CoverPhoto = values.CoverPhoto,
+                Description = values.Description
+        };
         }
     }
 }

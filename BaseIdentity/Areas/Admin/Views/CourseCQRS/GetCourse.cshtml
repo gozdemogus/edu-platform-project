@@ -12,15 +12,36 @@
     <h2>Edit Course</h2>
 
     <form method="post">
-        <input type="hidden" name="CourseId" />
+        <input type="hidden" name="CourseId" value="@Model.CourseId" />
         <label>Title</label>
-        <input type="text" name="Title" class="form-control" />
+        <input type="text" name="Title" class="form-control" value="@Model.Title" />
         <br />
         <label>Language</label>
-        <input type="text" name="Language" class="form-control" />
+        <select name="Language" id="languages" class="form-control">
+            <option value="Turkish" @(Model.Language == "Turkish" ? "selected" : "")>Turkish</option>
+            <option value="English" @(Model.Language == "English" ? "selected" : "")>English</option>
+            <option value="German" @(Model.Language == "German" ? "selected" : "")>German</option>
+            <option value="French" @(Model.Language == "French" ? "selected" : "")>French</option>
+        </select>
         <br />
         <label>Price</label>
-        <input type="text" name="Price" class="form-control" />
+        <input type="text" name="Price" class="form-control" value="@Model.Price" />
+        <br />
+        <label>Description</label>
+        <input type="text" name="Description" class="form-control" value="@Model.Description" />
+        <br />
+        <label>Content Url</label>
+        <input type="text" name="ContentURL" class="form-control" value="@Model.ContentURL" />
+        <br />
+        <label>Cover Photo</label>
+        <input type="text" name="CoverPhoto" class="form-control" value="@Model.CoverPhoto" />
+        <br />
+        <label>Level</label>
+        <select name="Level" id="languages" class="form-control">
+            <option value="Beginner" @(Model.Language == "Beginner" ? "selected" : "")>Beginner</option>
+            <option value="Middle" @(Model.Language == "Middle" ? "selected" : "")>Middle</option>
+            <option value="Advanced" @(Model.Language == "Advanced" ? "selected" : "")>Advanced</option>
+        </select>
         <br />
         <button class="btn btn-success">Update</button>
     </form>
