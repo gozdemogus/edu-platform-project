@@ -1,4 +1,6 @@
 ﻿using System;
+using BaseIdentity.EntityLayer.Concrete;
+
 namespace BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
 {
 	public class UpdateCourseCommand
@@ -11,6 +13,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
         public string? ContentURL { get; set; }
         public string? CoverPhoto { get; set; }
         public string? Level { get; set; }
+        public int? CategoryId { get; set; }
     }
 }
 

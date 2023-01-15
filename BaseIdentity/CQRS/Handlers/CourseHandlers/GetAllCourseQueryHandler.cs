@@ -18,7 +18,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
 
         public List<GetAllCourseQueryResult> Handle()
         {
-            var values = _context.Courses.Select(x => new GetAllCourseQueryResult
+            var values = _context.Courses.Include(x=>x.Category).Select(x => new GetAllCourseQueryResult
             {
                 Id = x.Id,
                 Title = x.Title,
@@ -27,7 +27,9 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
                 Description =x.Description,
                 CoverPhoto=x.CoverPhoto,
                 ContentURL=x.ContentURL,
-                Level=x.Level
+                Level=x.Level,
+                CategoryId = x.CategoryId,
+                Category=x.Category
             }).AsNoTracking().ToList();
 
             return values;

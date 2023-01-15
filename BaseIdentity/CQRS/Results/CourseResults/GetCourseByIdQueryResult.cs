@@ -1,4 +1,6 @@
 ﻿using System;
+using BaseIdentity.EntityLayer.Concrete;
+
 namespace BaseIdentity.PresentationLayer.CQRS.Results.CourseResults
 {
 	public class GetCourseByIdQueryResult
@@ -11,6 +13,8 @@ namespace BaseIdentity.PresentationLayer.CQRS.Results.CourseResults
         public string? ContentURL { get; set; }
         public string? CoverPhoto { get; set; }
         public string? Level { get; set; }
+        public int? CategoryId { get; set; }
+        public Category? Category { get; set; }
     }
 }
 

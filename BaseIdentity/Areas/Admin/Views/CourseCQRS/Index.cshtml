@@ -7,7 +7,7 @@
     Layout = "~/Views/Shared/_AreaLayout.cshtml";
 }
 
-<h1>Index</h1>
+<h1 style="color:lawngreen">Index</h1>
 
 <table class="table table-bordered">
     <tr>
@@ -19,6 +19,7 @@
         <th>Description</th>
         <th>ContentURL</th>
         <th>Level</th>
+        <th>Category</th>
 
         <th></th>
         <th></th>
@@ -39,6 +40,8 @@
             <td>@item.Description</td>
             <td>@item.ContentURL</td>
             <td>@item.Level</td>
+            <td>@item.Category?.CategoryName</td>
+
             <td><a href="/Admin/CourseCQRS/GetCourse/@item.Id" class="btn btn-success">Update</a></td>
             <td><a href="/Admin/CourseCQRS/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
         </tr>

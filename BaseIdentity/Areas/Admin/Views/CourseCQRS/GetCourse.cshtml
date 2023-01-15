@@ -6,11 +6,10 @@
 }
 
 
-<div class="container" style="width:75%">
 
+<h2 style="color:lawngreen">Edit Course</h2>
 
-    <h2>Edit Course</h2>
-
+<div class="container" style="width:60%">
     <form method="post">
         <input type="hidden" name="CourseId" value="@Model.CourseId" />
         <label>Title</label>
@@ -35,6 +34,14 @@
         <br />
         <label>Cover Photo</label>
         <input type="text" name="CoverPhoto" class="form-control" value="@Model.CoverPhoto" />
+        <br />
+        <label>Category</label>
+        <select name="CategoryId" class="form-control">
+            @foreach (var category in ViewBag.Categories)
+            {
+                <option value="@category.CategoryID">@category.CategoryName</option>
+            }
+        </select>
         <br />
         <label>Level</label>
         <select name="Level" id="languages" class="form-control">

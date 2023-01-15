@@ -25,7 +25,8 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
 				Description = command.Description,
 				ContentURL = command.ContentURL,
 				CoverPhoto = command.CoverPhoto,
-				Level = command.Level
+				Level = command.Level,
+				CategoryId =command.CategoryId
 			});
 
 			_context.SaveChanges();

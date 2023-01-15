@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands;
 using BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers;
 using BaseIdentity.PresentationLayer.CQRS.Queries.CourseQueries;
@@ -21,17 +22,21 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         private readonly CreateCourseCommandHandler _createCourseCommandHandler;
         private readonly RemoveCourseCommandHandler _removeCourseCommandHandler;
         private readonly UpdateCourseCommandHandler _updateCourseCommandHandler;
+        private readonly ICategoryService _categoryService;
 
 
 
-        public CourseCQRSController(GetAllCourseQueryHandler getAllCourseQueryHandler, GetCourseByIdQueryHandler getCourseByIdQueryHandler, CreateCourseCommandHandler createCourseCommandHandler, RemoveCourseCommandHandler removeCourseCommandHandler, UpdateCourseCommandHandler updateCourseCommandHandler)
+        public CourseCQRSController(GetAllCourseQueryHandler getAllCourseQueryHandler, GetCourseByIdQueryHandler getCourseByIdQueryHandler, CreateCourseCommandHandler createCourseCommandHandler, RemoveCourseCommandHandler removeCourseCommandHandler, UpdateCourseCommandHandler updateCourseCommandHandler, ICategoryService categoryService)
         {
             _getAllCourseQueryHandler = getAllCourseQueryHandler;
             _getCourseByIdQueryHandler = getCourseByIdQueryHandler;
             _createCourseCommandHandler = createCourseCommandHandler;
             _removeCourseCommandHandler = removeCourseCommandHandler;
             _updateCourseCommandHandler = updateCourseCommandHandler;
+            _categoryService = categoryService;
         }
+
+
 
         // GET: /<controller>/
         public IActionResult Index()
@@ -43,6 +48,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetCourse(int id)
         {
+            ViewBag.Categories = _categoryService.TGetList();
             var values = _getCourseByIdQueryHandler.Handle(new GetCourseByIdQuery(id));
             return View(values);
         }
@@ -60,6 +66,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult AddCourse()
         {
+            ViewBag.Categories = _categoryService.TGetList();
             return View();
         }
 

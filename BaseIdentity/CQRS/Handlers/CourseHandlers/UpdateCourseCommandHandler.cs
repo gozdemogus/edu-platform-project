@@ -23,6 +23,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
             values.ContentURL = command.ContentURL;
             values.CoverPhoto = command.CoverPhoto;
             values.Description = command.Description;
+            values.CategoryId = command.CategoryId;
             _context.SaveChanges();
         }
     }
