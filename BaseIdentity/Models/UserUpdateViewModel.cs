@@ -18,6 +18,7 @@ namespace BaseIdentity.PresentationLayer.Models
         public string University { get; set; }
         public string Department { get; set; }
         public string City { get; set; }
+        public string Speciality { get; set; }
 
         public string ImageUrl { get; set; }
         public IFormFile Image { get; set; }

@@ -95,10 +95,19 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
             userUpdateViewModel.Name = values.Name;
             userUpdateViewModel.Surname = values.Surname;
+
             userUpdateViewModel.UserName = values.UserName;
             userUpdateViewModel.ImageUrl = values.Image;
+
             userUpdateViewModel.Email = values.Email;
             userUpdateViewModel.PhoneNumber = values.PhoneNumber;
+
+            userUpdateViewModel.Speciality = values.Speciality;
+            userUpdateViewModel.Website = values.Website;
+            userUpdateViewModel.Department = values.Department;
+            userUpdateViewModel.About = values.About;
+            userUpdateViewModel.University = values.University;
+            userUpdateViewModel.City = values.City;
          
 
             return View(userUpdateViewModel);
@@ -132,7 +141,8 @@ namespace BaseIdentity.PresentationLayer.Controllers
             values.About = model.About;
             values.City = model.City;
             values.University = model.University;
-            values.City = model.City;
+            values.Website = model.Website;
+            values.Speciality = model.Speciality;
          
 
             var saved = await _userManager.UpdateAsync(values);

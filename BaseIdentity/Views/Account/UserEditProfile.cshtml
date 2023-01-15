@@ -50,17 +50,28 @@
                                     </div>
                                 </div>
 
-
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">About</label>
                                     <input type="text" asp-for="About" class="form-control" />
                                 </div>
 
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3">Speciality</label>
+                                    <input type="text" asp-for="Speciality" class="form-control" />
+                                </div>
 
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">Website</label>
                                     <input type="text" asp-for="Website" class="form-control" />
                                 </div>
+
+                            @*<div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-warning text-white">Web</span>
+                                </div>
+                                <input type="text" asp-for="Website" class="form-control" />
+                            </div>
+                                <br />*@
 
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">University</label>
@@ -78,8 +89,8 @@
                                 <button type="submit" class="btn btn-success"><i class="icon icon-check"></i>&nbsp; &nbsp;Submit</button>
                                 @*<button class="btn btn-light">Cancel</button>
 
-                                    <a href="/User/UserEditProfile/" type="submit" class="btn btn-primary">Submit</a>*@
-                            <a href="/Account/Index/" type="submit" class="btn btn-warning" style="color:white"><i class="icon icon-arrow-left"></i>&nbsp; &nbsp;Cancel</a>
+        <a href="/User/UserEditProfile/" type="submit" class="btn btn-primary">Submit</a>*@
+                                <a href="/Account/Index/" type="submit" class="btn btn-warning" style="color:white"><i class="icon icon-arrow-left"></i>&nbsp; &nbsp;Cancel</a>
 
                             </form>
 
