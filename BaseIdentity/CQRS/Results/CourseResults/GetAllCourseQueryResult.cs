@@ -15,6 +15,8 @@ namespace BaseIdentity.PresentationLayer.CQRS.Results.CourseResults
         public string? Level { get; set; }
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
+        public int? InstructorId { get; set; }
+        public AppUser? Instructor { get; set; }
     }
 }
 

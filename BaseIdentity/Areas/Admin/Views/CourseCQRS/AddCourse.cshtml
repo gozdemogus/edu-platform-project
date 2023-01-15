@@ -5,45 +5,61 @@
 @{
     Layout = "~/Views/Shared/_AreaLayout.cshtml";
 }
-<h1 style="color:lawngreen">Add Course</h1>
 
-<div class="container" style="width:60%">
-    <form method="post">
-        <label>Title</label>
-        <input type="text" name="Title" class="form-control" />
-        <br />
-        <label>Language</label>
-        <select name="Language" id="languages" class="form-control">
-            <option value="Turkish">Turkish</option>
-            <option value="English">English</option>
-            <option value="German">German</option>
-            <option value="French">French</option>
-        </select>
-        <br />
-        <label>Price</label>
-        <input type="text" name="Price" class="form-control" />
-        <br />
-        <label>Description</label>
-        <input type="text" name="Description" class="form-control" />
-        <br />
-        <label>Cover Photo</label>
-        <input type="text" name="CoverPhoto" class="form-control" />
-        <br />
-        <label>Level</label>
-        <select name="Level" id="languages" class="form-control">
-            <option value="Beginner">Beginner</option>
-            <option value="Middle">Middle</option>
-            <option value="Advanced">Advanced</option>
-        </select>
-        <br />
-        <label>Category</label>
-        <select name="CategoryId" class="form-control">
-            @foreach (var category in ViewBag.Categories)
-            {
-                <option value="@category.CategoryID">@category.CategoryName</option>
-            }
-        </select>
-        <br />
-        <input type="submit" value="Create" class="btn btn-success" />
-    </form>
+<div class=col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 style="color:lawngreen">Add Course</h1>
+            <p class="card-description">
+               
+            </p>
+            <form method="post">
+                <label>Title</label>
+                <input type="text" name="Title" class="form-control" />
+                <br />
+                <label>Language</label>
+                <div class="form-group">
+                    <select name="Language" id="languages" class="form-control">
+                        <option value="Turkish">Turkish</option>
+                        <option value="English">English</option>
+                        <option value="German">German</option>
+                        <option value="French">French</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary text-white">$</span>
+                        </div>
+                        <input type="text" name="Price" class="form-control" aria-label="Amount (to the nearest dollar)" />
+                    </div>
+                </div>
+
+                <label>Description</label>
+                <input type="text" name="Description" class="form-control" />
+                <br />
+                <label>Cover Photo</label>
+                <input type="text" name="CoverPhoto" class="form-control" />
+                <br />
+
+                <label>Level</label>
+                <select name="Level" id="level" class="form-control">
+                    <option value="Beginner">Beginner</option>
+                    <option value="Middle">Middle</option>
+                    <option value="Advanced">Advanced</option>
+                </select>
+                <br />
+                <label>Category</label>
+                <select name="CategoryId" class="form-control">
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }
+                </select>
+                <br />
+                <input type="submit" value="Create" class="btn btn-success" />
+            </form>
+        </div>
+    </div>
 </div>

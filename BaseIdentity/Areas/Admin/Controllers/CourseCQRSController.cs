@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BaseIdentity.BusinessLayer.Abstract;
+using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands;
 using BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers;
 using BaseIdentity.PresentationLayer.CQRS.Queries.CourseQueries;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,10 +26,11 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         private readonly RemoveCourseCommandHandler _removeCourseCommandHandler;
         private readonly UpdateCourseCommandHandler _updateCourseCommandHandler;
         private readonly ICategoryService _categoryService;
+        private readonly UserManager<AppUser> _userManager;
 
 
 
-        public CourseCQRSController(GetAllCourseQueryHandler getAllCourseQueryHandler, GetCourseByIdQueryHandler getCourseByIdQueryHandler, CreateCourseCommandHandler createCourseCommandHandler, RemoveCourseCommandHandler removeCourseCommandHandler, UpdateCourseCommandHandler updateCourseCommandHandler, ICategoryService categoryService)
+        public CourseCQRSController(GetAllCourseQueryHandler getAllCourseQueryHandler, GetCourseByIdQueryHandler getCourseByIdQueryHandler, CreateCourseCommandHandler createCourseCommandHandler, RemoveCourseCommandHandler removeCourseCommandHandler, UpdateCourseCommandHandler updateCourseCommandHandler, ICategoryService categoryService, UserManager<AppUser> userManager)
         {
             _getAllCourseQueryHandler = getAllCourseQueryHandler;
             _getCourseByIdQueryHandler = getCourseByIdQueryHandler;
@@ -34,6 +38,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             _removeCourseCommandHandler = removeCourseCommandHandler;
             _updateCourseCommandHandler = updateCourseCommandHandler;
             _categoryService = categoryService;
+            _userManager = userManager;
         }
 
 
@@ -46,8 +51,11 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetCourse(int id)
+        public async Task<IActionResult> GetCourse(int id)
         {
+            ViewBag.Instructors = await _userManager.Users.Where(u => u.IsLecturer == true).ToListAsync();
+
+
             ViewBag.Categories = _categoryService.TGetList();
             var values = _getCourseByIdQueryHandler.Handle(new GetCourseByIdQuery(id));
             return View(values);
@@ -64,8 +72,11 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 
 
         [HttpGet]
-        public IActionResult AddCourse()
+        public async Task<IActionResult> AddCourse()
         {
+            ViewBag.Instructors = await _userManager.Users.Where(u => u.IsLecturer == true).ToListAsync();
+
+
             ViewBag.Categories = _categoryService.TGetList();
             return View();
         }

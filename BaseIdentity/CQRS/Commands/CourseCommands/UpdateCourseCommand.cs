@@ -14,6 +14,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
         public string? CoverPhoto { get; set; }
         public string? Level { get; set; }
         public int? CategoryId { get; set; }
+        public int? InstructorId { get; set; }
     }
 }
 

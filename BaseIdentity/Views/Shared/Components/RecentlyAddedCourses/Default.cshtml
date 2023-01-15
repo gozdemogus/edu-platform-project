@@ -29,7 +29,7 @@
 
                                         <div class="job-post-item-body d-block d-md-flex">
                                             <div><span class="icon-book" style="color:orange; size:100%"></span> <a href="/Course/ByCategory/@item.CategoryId">@item.Category.CategoryName</a></div>&nbsp;&nbsp;&nbsp;
-                                            <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.InstructorId">&nbsp; @item.Instructor.Name @item.Instructor.Surname </a></div>
+                                            <div><span class="icon-user" style="color:lightskyblue; size:100%"></span><a href="/Course/CourseByLecturer/@item.InstructorId">&nbsp; @item.Instructor?.Name @item.Instructor?.Surname </a></div>
 
                                         </div>
                                     </div>

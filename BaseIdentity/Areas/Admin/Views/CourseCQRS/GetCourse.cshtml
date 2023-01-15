@@ -6,51 +6,78 @@
 }
 
 
+<div class=col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 style="color:lawngreen">Edit Course</h1>
+            <p class="card-description">
 
-<h2 style="color:lawngreen">Edit Course</h2>
-
-<div class="container" style="width:60%">
-    <form method="post">
-        <input type="hidden" name="CourseId" value="@Model.CourseId" />
-        <label>Title</label>
-        <input type="text" name="Title" class="form-control" value="@Model.Title" />
-        <br />
-        <label>Language</label>
-        <select name="Language" id="languages" class="form-control">
-            <option value="Turkish" @(Model.Language == "Turkish" ? "selected" : "")>Turkish</option>
-            <option value="English" @(Model.Language == "English" ? "selected" : "")>English</option>
-            <option value="German" @(Model.Language == "German" ? "selected" : "")>German</option>
-            <option value="French" @(Model.Language == "French" ? "selected" : "")>French</option>
-        </select>
-        <br />
-        <label>Price</label>
-        <input type="text" name="Price" class="form-control" value="@Model.Price" />
-        <br />
-        <label>Description</label>
-        <input type="text" name="Description" class="form-control" value="@Model.Description" />
-        <br />
-        <label>Content Url</label>
-        <input type="text" name="ContentURL" class="form-control" value="@Model.ContentURL" />
-        <br />
-        <label>Cover Photo</label>
-        <input type="text" name="CoverPhoto" class="form-control" value="@Model.CoverPhoto" />
-        <br />
-        <label>Category</label>
-        <select name="CategoryId" class="form-control">
-            @foreach (var category in ViewBag.Categories)
-            {
-                <option value="@category.CategoryID">@category.CategoryName</option>
-            }
-        </select>
-        <br />
-        <label>Level</label>
-        <select name="Level" id="languages" class="form-control">
-            <option value="Beginner" @(Model.Language == "Beginner" ? "selected" : "")>Beginner</option>
-            <option value="Middle" @(Model.Language == "Middle" ? "selected" : "")>Middle</option>
-            <option value="Advanced" @(Model.Language == "Advanced" ? "selected" : "")>Advanced</option>
-        </select>
-        <br />
-        <button class="btn btn-success">Update</button>
-    </form>
-
+            </p>
+         
+            <form method="post">
+                <input type="hidden" name="CourseId" value="@Model.CourseId" />
+                <label>Title</label>
+                <input type="text" name="Title" class="form-control" value="@Model.Title" />
+                <br />
+                <label>Language</label>
+                <select name="Language" id="languages" class="form-control">
+                    <option value="Turkish" @(Model.Language == "Turkish" ? "selected" : "")>Turkish</option>
+                    <option value="English" @(Model.Language == "English" ? "selected" : "")>English</option>
+                    <option value="German" @(Model.Language == "German" ? "selected" : "")>German</option>
+                    <option value="French" @(Model.Language == "French" ? "selected" : "")>French</option>
+                </select>
+                <br />
+                <label>Price</label>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary text-white">$</span>
+                        </div>
+                        <input type="text" name="Price" value="@Model.Price" class="form-control" aria-label="Amount (to the nearest dollar)" />
+                    </div>
+                </div>
+                <br />
+                <label>Description</label>
+                <input type="text" name="Description" class="form-control" value="@Model.Description" />
+                <br />
+                <label>Content Url</label>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-warning text-white">URL</span>
+                        </div>
+                        <input type="text" name="ContentURL" class="form-control" value="@Model.ContentURL" />
+                    </div>
+                </div>
+                <br />
+                <label>Cover Photo</label>
+                <input type="text" name="CoverPhoto" class="form-control" value="@Model.CoverPhoto" />
+                <br />
+                <label>Category</label>
+                <select name="CategoryId" class="form-control">
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }
+                </select>
+                <br />
+                <label>Level</label>
+                <select name="Level" id="languages" class="form-control">
+                    <option value="Beginner" @(Model.Language == "Beginner" ? "selected" : "")>Beginner</option>
+                    <option value="Middle" @(Model.Language == "Middle" ? "selected" : "")>Middle</option>
+                    <option value="Advanced" @(Model.Language == "Advanced" ? "selected" : "")>Advanced</option>
+                </select>
+                <br />
+                <label>Instructor</label>
+                <select name="InstructorId" class="form-control">
+                    @foreach (var instructor in ViewBag.Instructors)
+                    {
+                        <option value="@instructor.Id">@instructor.Name @instructor.Surname</option>
+                    }
+                </select>
+                <br />
+                <button class="btn btn-success">Update</button>
+            </form>
+        </div>
+    </div>
 </div>

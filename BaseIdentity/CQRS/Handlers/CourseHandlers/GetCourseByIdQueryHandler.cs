@@ -26,7 +26,9 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
                 Level = values.Level,
                 ContentURL = values.ContentURL,
                 CoverPhoto = values.CoverPhoto,
-                Description = values.Description
+                Description = values.Description,
+                CategoryId = values.CategoryId,
+                InstructorId = values.InstructorId
         };
         }
     }

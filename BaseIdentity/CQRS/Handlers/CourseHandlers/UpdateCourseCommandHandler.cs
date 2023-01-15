@@ -24,6 +24,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
             values.CoverPhoto = command.CoverPhoto;
             values.Description = command.Description;
             values.CategoryId = command.CategoryId;
+            values.InstructorId = command.InstructorId;
             _context.SaveChanges();
         }
     }

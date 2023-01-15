@@ -1,4 +1,6 @@
 ﻿using System;
+using BaseIdentity.EntityLayer.Concrete;
+
 namespace BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
 {
 	//eklemek istenilen properties
@@ -12,7 +14,7 @@ namespace BaseIdentity.PresentationLayer.CQRS.Commands.CourseCommands
         public double? Price { get; set; }
         public string? Language { get; set; }
         public int? CategoryId { get; set; }
-
+        public int? InstructorId { get; set; }
     }
 }
 

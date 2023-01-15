@@ -7,48 +7,69 @@
     Layout = "~/Views/Shared/_AreaLayout.cshtml";
 }
 
-<h1 style="color:lawngreen">Index</h1>
 
-<table class="table table-bordered">
-    <tr>
-        <th>#</th>
-        <th>Cover Photo</th>
-        <th>Title</th>
-        <th>Language</th>
-        <th>Price</th>
-        <th>Description</th>
-        <th>ContentURL</th>
-        <th>Level</th>
-        <th>Category</th>
+<div class=col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 style="color:lawngreen">Index</h1>
+            <p class="card-description">
 
-        <th></th>
-        <th></th>
+            </p>
+                <table class="table table-bordered"  style="table-layout:fixed;">
+                    <tr style="color:black">
+                        <th>#</th>
+                        <th>Cover Photo</th>
+                        <th>Title</th>
+                        <th>Language</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                        <th>Content URL</th>
+                        <th>Level</th>
+                        <th>Category</th>
+                        <th>Lecturer</th>
+                        <th> Update</th>
+                        <th> Delete</th>
 
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.Id</td>
-            <td>
-                <center>
-                    <img src="@item.CoverPhoto" alt="" width="50" height="50">
-                </center>
-            </td>
-            <td>@item.Title</td>
-            <td>@item.Language</td>
-            <td>@item.Price $</td>
-            <td>@item.Description</td>
-            <td>@item.ContentURL</td>
-            <td>@item.Level</td>
-            <td>@item.Category?.CategoryName</td>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>
+                                <center>
+                                    <img src="@item.CoverPhoto" alt="" width="50" height="50">
+                                </center>
+                            </td>
+                            <td>@item.Title</td>
+                            <td>@item.Language</td>
+                            <td>@item.Price $</td>
+                            <td>@item.Description</td>
+                            <td>@item.ContentURL</td>
+                            <td>@item.Level</td>
+                            <td>@item.Category?.CategoryName</td>
+                            <td>@item.Instructor?.Name @item.Instructor?.Surname </td>
+                   
+                            <td>
+                                <a href="/Admin/CourseCQRS/GetCourse/@item.Id"  class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                    <span class="icon-paper"></span>
+                                </a>
+                            </td>
 
-            <td><a href="/Admin/CourseCQRS/GetCourse/@item.Id" class="btn btn-success">Update</a></td>
-            <td><a href="/Admin/CourseCQRS/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
-        </tr>
-    }
-</table>
-<br />
-<br />
-<a href="/Admin/CourseCQRS/AddCourse/">
-    <button class="btn btn-success">Add Course</button>
-</a>
+
+                            <td>
+                                <a href="/Admin/CourseCQRS/Delete/@item.Id"  class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                    <span class="icon-trash" style="color:red"></span>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+                <br />
+                <br />
+                <a href="/Admin/CourseCQRS/AddCourse/">
+                    <button class="btn btn-success">Add Course</button>
+                </a>
+            </div>
+       
+        </div>
+</div>

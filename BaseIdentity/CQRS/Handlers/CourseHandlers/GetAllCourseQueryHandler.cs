@@ -29,7 +29,9 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
                 ContentURL=x.ContentURL,
                 Level=x.Level,
                 CategoryId = x.CategoryId,
-                Category=x.Category
+                Category=x.Category,
+                InstructorId = x.InstructorId,
+                Instructor=x.Instructor
             }).AsNoTracking().ToList();
 
             return values;
