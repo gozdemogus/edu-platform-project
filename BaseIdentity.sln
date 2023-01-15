@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR", "SignalR\SignalR.csproj", "{7AEFD194-0B72-4593-9591-3A58DF2C190E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Payment", "HotelAPI\API-Payment.csproj", "{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Campaign", "API-Campaign\API-Campaign.csproj", "{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

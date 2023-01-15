@@ -1,24 +1,12 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}|UpSchool_WebApi">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelAPI/DAL/Context.cs">
-    <Files>
-      <File FileName="HotelAPI/DAL/Context.cs" Line="18" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseIdentity" expanded="True">
-            <Node name="API-Payment" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DAL" expanded="True">
-                <Node name="Entities" expanded="True" />
-                <Node name="Context.cs" selected="True" />
-              </Node>
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
+            <Node name="API-Campaign" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -40,6 +28,5 @@
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.API-Payment PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
