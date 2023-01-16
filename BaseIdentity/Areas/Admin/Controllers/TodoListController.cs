@@ -36,7 +36,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
            var values =  _todoListService.getTodoListByUser(user.Id);
 
-            if(values.UserId == null)
+            if (object.ReferenceEquals(values, null))
             {
                 ViewBag.nolist = true;
             }

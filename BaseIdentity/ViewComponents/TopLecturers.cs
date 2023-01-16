@@ -18,8 +18,12 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
+            var usersInRole = await _userManager.GetUsersInRoleAsync("Lecturer");
             var users = await _userManager.Users
-           .Where(u => u.IsLecturer == true).Include(x => x.InstructedCourses).ToListAsync();
+                .Include(x => x.InstructedCourses)
+                .Where(u => usersInRole.Contains(u))
+                .ToListAsync();
+
 
             return View(users);
         }

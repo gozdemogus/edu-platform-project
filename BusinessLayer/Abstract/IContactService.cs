@@ -3,9 +3,9 @@ using BaseIdentity.EntityLayer.Concrete;
 
 namespace BaseIdentity.BusinessLayer.Abstract
 {
-	public interface IContactService : IGenericService<Contact>
+    public interface IContactService : IGenericService<Contact>
     {
-		
-	}
+     
+    }
 }
 

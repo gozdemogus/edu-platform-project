@@ -18,7 +18,9 @@ namespace BaseIdentity.EntityLayer.Concrete
         public string? About { get; set; }
         public string? University { get; set; }
         public string? Department { get; set; }
-        public bool IsLecturer { get; set; }
+
+       
+
         public string? LastActivity { get; set; }
         public string? Rank { get; set; }
         public string? Speciality { get; set; }

@@ -102,6 +102,10 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                             <p class="mb-0 font-weight-normal float-left dropdown-header">Settings</p>
+                            <a class="dropdown-item preview-item" href="/Home/Index/">
+                                <i class="icon-sun"></i> Home
+                            </a>
+
                             <a class="dropdown-item preview-item" href="/Account/Index/">
                                 <i class="icon-head"></i> Profile
                             </a>
@@ -129,30 +133,37 @@
                 @await Component.InvokeAsync("User")
 
                 <ul class="nav">
+
                     <li class="nav-item">
-                        <a class="nav-link" href="/Admin/Translate/Index">
-                            <i class="icon-globe menu-icon"></i>
-                            <span class="menu-title">Translator</span>
+                        <a class="nav-link" href="/Admin/Role/Index/">
+                            <i class="icon-head menu-icon"></i>
+                            <span class="menu-title">Role</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Role/UserList/">
+                            <i class="icon-paper-clip menu-icon"></i>
+                            <span class="menu-title">User - Role</span>
+                        </a>
+                    </li>
+
+
+
                     <li class="nav-item">
                         <a class="nav-link" href="/Admin/User/Index">
                             <i class="icon-file menu-icon"></i>
-                            <span class="menu-title">Users Documents</span>
+                            <span class="menu-title">User - Document</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Admin/Search/Index/">
-                            <i class="icon-sun menu-icon"></i>
-                            <span class="menu-title">Search on Web</span>
-                        </a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="/Admin/TodoList/Index/">
                             <i class="icon-plus menu-icon"></i>
                             <span class="menu-title">To Do List</span>
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="/Admin/CourseCQRS/Index/">
                             <i class="icon-book menu-icon"></i>
@@ -166,11 +177,28 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="~/regal/#auth" aria-expanded="false" aria-controls="auth">
-                            <i class="icon-head menu-icon"></i>
-                            <span class="menu-title">User Pages</span>
+                        <a class="nav-link" href="/Admin/Contact/Index/">
+                            <i class="icon-sun menu-icon"></i>
+                            <span class="menu-title">Contact</span>
                         </a>
                     </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Translate/Index">
+                            <i class="icon-globe menu-icon"></i>
+                            <span class="menu-title">Translator</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Search/Index/">
+                            <i class="icon-paper menu-icon"></i>
+                            <span class="menu-title">Search on Web</span>
+                        </a>
+                    </li>
+
 
                 </ul>
             </nav>

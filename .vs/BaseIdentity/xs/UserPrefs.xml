@@ -1,13 +1,24 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}" ItemName="API-Campaign" ConfigurationId="UpSchool_WebApi" />
+        <StartupItem ItemId="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}" ItemName="BaseIdentity.PresentationLayer" ConfigurationId="WebApplication1" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Views/Campaign/Update.cshtml">
-    <Files>
-      <File FileName="BaseIdentity/Areas/Admin/Views/Campaign/Update.cshtml" Line="63" Column="10" />
-      <File FileName="BaseIdentity/Areas/Admin/Controllers/CampaignController.cs" Line="89" Column="1" />
-      <File FileName="BaseIdentity/Areas/Admin/Views/CourseCQRS/GetCourse.cshtml" Line="1" Column="1" />
-      <File FileName="BaseIdentity/Areas/Admin/Views/Campaign/AddCampaign.cshtml" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Views/Role/AssignRole.cshtml">
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="938" Y="594" Width="641" Height="481">
+        <Files>
+          <File FileName="BaseIdentity/Areas/Admin/Views/Role/AssignRole.cshtml" Line="14" Column="33" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -18,16 +29,42 @@
                   <Node name="Controllers" expanded="True" />
                   <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Campaign" expanded="True">
-                      <Node name="Update.cshtml" selected="True" />
-                    </Node>
                     <Node name="CourseCQRS" expanded="True" />
-                    <Node name="TodoList" expanded="True" />
+                    <Node name="Role" expanded="True">
+                      <Node name="AssignRole.cshtml" selected="True" />
+                    </Node>
+                    <Node name="User" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Mapping" expanded="True">
+                <Node name="AutoMapperProfile" expanded="True" />
+              </Node>
+              <Node name="ViewComponents" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
+                <Node name="Account" expanded="True" />
+                <Node name="Cart" expanded="True" />
+                <Node name="Contact" expanded="True" />
+                <Node name="Course" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Instructor" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Password" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="CartTotal" expanded="True" />
+                    <Node name="RecentlyAddedCourses" expanded="True" />
+                    <Node name="SidebarCourseDetails" expanded="True" />
+                    <Node name="User" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="DTOLayer" expanded="True">
+              <Node name="DTOs" expanded="True">
+                <Node name="ContactDTO" expanded="True" />
+                <Node name="TodoItemDTOs" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -38,20 +75,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/CourseController.cs" relfile="BaseIdentity/Controllers/CourseController.cs" line="38" column="1" />
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CampaignController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CampaignController.cs" line="40" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="94" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}" ItemName="API-Campaign" ConfigurationId="UpSchool_WebApi" />
-        <StartupItem ItemId="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}" ItemName="BaseIdentity.PresentationLayer" ConfigurationId="WebApplication1" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

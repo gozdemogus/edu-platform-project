@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.BusinessLayer.ValidationRules.UserValidation;
 using BaseIdentity.EntityLayer.Concrete;
@@ -20,6 +21,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IContactService _contactService;
+        private readonly IMapper _mapper;
 
         public ContactController(IContactService contactService, UserManager<AppUser> userManager)
         {
@@ -56,8 +58,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 contact.Email = user.Email;
             }
             contact.Date = DateTime.Now;
-            ContactValidator validationRules = new ContactValidator();
+
+            //VALIDATION
+            AddContactValidator validationRules = new AddContactValidator();
             ValidationResult result = validationRules.Validate(contact);
+
             if (result.IsValid)
             {
                 _contactService.TInsert(contact);
@@ -73,7 +78,6 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 return View(contact);
             }
         }
-
 
     }
 }

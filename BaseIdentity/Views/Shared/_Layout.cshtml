@@ -33,11 +33,22 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container-fluid px-md-4	">
-            <a class="navbar-brand" href="/Home/Index/">Edumy</a>
+            <a class="navbar-brand" href="/Home/Index/">Edumy Online</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
+            <br />
+            @if (User.IsInRole("Admin"))
+            {
+                <div>
+                    <center>
+                        <a href="/Admin/Home/Index/">
+                            <span class="badge badge-primary" style="color:yellow"> <span class="icon-user" style="font-size: 200%;"></span> &nbsp; Admin</span>
+                        </a>
+                    </center>
+                </div>
 
+            }
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     @*nav-item active olunca degisiyo*@

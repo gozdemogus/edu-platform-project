@@ -1,9 +1,6 @@
-﻿@model AppUser
+﻿@model UserSignInViewModel
 
 @await Component.InvokeAsync("Hero", "Login")
-
-
-
 
 <section class="ftco-section bg-light">
 
@@ -20,16 +17,16 @@
                     <div class="row form-group mb-5">
                         <div class="col-md-12 mb-3 mb-md-0">
                             <label class="font-weight-bold" for="fullname">Username</label>
-                            <input type="text" id="fullname" class="form-control" asp-for="UserName">
-                            <span asp-validation-for="UserName" class="text-danger"></span>
+                            <input type="text" id="fullname" placeholder="Username" class="form-control" asp-for="username">
+                            <span asp-validation-for="username" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="row form-group mb-5">
                         <div class="col-md-12 mb-3 mb-md-0">
                             <label class="font-weight-bold" for="fullname">Password</label>
-                            <input type="password" id="fullname" class="form-control" asp-for="PasswordHash">
-                            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                            <input type="password" id="fullname" placeholder="Password" class="form-control" asp-for="password">
+                            <span asp-validation-for="password" class="text-danger"></span>
                         </div>
                     </div>
 

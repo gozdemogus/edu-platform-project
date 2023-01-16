@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QuVfeammayvfkVf8PGJksFZad8Pxds/oJvi/JUmo062xxw+j21fM3tqZRde6Frrl1LB1qm/YTDy+67997fF5iw==",
+  "dgSpecHash": "aR8A7NxhPElEF76Zfcdr5yQ0gCvLOxRGetWYwdiMhMMUxgzthjObWkmcyZbQzdrN/NUyda4K/4zY3JQZBlNFsg==",
   "success": true,
   "projectFilePath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/BaseIdentity.PresentationLayer.csproj",
   "expectedPackageFiles": [
+    "/Users/gozdemogus/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/gozdemogus/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/bouncycastle/1.8.9/bouncycastle.1.8.9.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/closedxml/0.97.0/closedxml.0.97.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/documentformat.openxml/2.16.0/documentformat.openxml.2.16.0.nupkg.sha512",
@@ -54,8 +56,8 @@
     "/Users/gozdemogus/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.extensions.objectpool/2.2.0/microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
-    "/Users/gozdemogus/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "/Users/gozdemogus/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/gozdemogus/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/gozdemogus/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.extensions.webencoders/2.2.0/microsoft.extensions.webencoders.2.2.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.identity.client/4.14.0/microsoft.identity.client.4.14.0.nupkg.sha512",
     "/Users/gozdemogus/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.6.0/microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",

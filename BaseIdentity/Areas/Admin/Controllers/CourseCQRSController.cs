@@ -53,8 +53,8 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCourse(int id)
         {
-            ViewBag.Instructors = await _userManager.Users.Where(u => u.IsLecturer == true).ToListAsync();
-
+            var lecturers = await _userManager.GetUsersInRoleAsync("Lecturer");
+            ViewBag.Instructors = lecturers;
 
             ViewBag.Categories = _categoryService.TGetList();
             var values = _getCourseByIdQueryHandler.Handle(new GetCourseByIdQuery(id));
@@ -74,7 +74,8 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> AddCourse()
         {
-            ViewBag.Instructors = await _userManager.Users.Where(u => u.IsLecturer == true).ToListAsync();
+            var admins = await _userManager.GetUsersInRoleAsync("Admin");
+            ViewBag.Instructors = admins;
 
 
             ViewBag.Categories = _categoryService.TGetList();

@@ -25,8 +25,7 @@ namespace BaseIdentity.DataAccessLayer.Concrete
             modelBuilder.Entity<Course>()
                 .HasOne(c => c.Instructor)
                 .WithMany(u => u.InstructedCourses)
-                .HasForeignKey(c => c.InstructorId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(c => c.InstructorId);
 
             modelBuilder.Entity<Enrollment>()
     .HasOne(e => e.Course)

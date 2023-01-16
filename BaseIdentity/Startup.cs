@@ -3,6 +3,10 @@ using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Controllers;
 using BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers;
+using BaseIdentity.PresentationLayer.Models;
+using DTOLayer.DTOs.AppUserDTOs;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +38,11 @@ namespace WebApplication1
             services.ContainerDependencies();
             //    services.AddScoped<EnrollmentController>();
 
+            //AutoMapper ekle
+            services.AddAutoMapper(typeof(Startup));
+
+            services.CustomValidator();
+
             services.AddScoped<GetAllCourseQueryHandler>();
             services.AddScoped<GetCourseByIdQueryHandler>();
             services.AddScoped<CreateCourseCommandHandler>();
@@ -43,12 +52,15 @@ namespace WebApplication1
 
 
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider);
+            services.AddIdentity<AppUser, AppRole>()
+                .AddEntityFrameworkStores<Context>()
+                .AddErrorDescriber<CustomIdentityValidator>()
+                .AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider);
 
             services.AddHttpClient();
 
             services.Configure<DataProtectionTokenProviderOptions>(opts => opts.TokenLifespan = TimeSpan.FromHours(10));
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddFluentValidation();
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -78,10 +90,10 @@ namespace WebApplication1
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthentication();
             app.UseRouting();
 
-            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

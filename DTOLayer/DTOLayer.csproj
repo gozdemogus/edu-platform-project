@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\TodoItemDTOs\" />
+    <None Remove="DTOs\AppUserDTOs\" />
+    <None Remove="DTOs\ContactDTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\TodoItemDTOs\" />
+    <Folder Include="DTOs\AppUserDTOs\" />
+    <Folder Include="DTOs\ContactDTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\BaseIdentity.EntityLayer.csproj" />
+  </ItemGroup>
 </Project>

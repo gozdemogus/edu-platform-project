@@ -2261,6 +2261,19 @@
           "bin/placeholder/BaseIdentity.DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -6993,6 +7006,11 @@
       "path": "../BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj",
       "msbuildProject": "../BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
     },
+    "DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../DTOLayer/DTOLayer.csproj",
+      "msbuildProject": "../DTOLayer/DTOLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/BaseIdentity.EntityLayer.csproj",
@@ -7002,6 +7020,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BaseIdentity.DataAccessLayer >= 1.0.0",
+      "DTOLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2"
     ]
@@ -7033,6 +7052,9 @@
           "projectReferences": {
             "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj": {
               "projectPath": "/Users/gozdemogus/Desktop/Edu/BaseIdentity.DataAccessLayer/BaseIdentity.DataAccessLayer.csproj"
+            },
+            "/Users/gozdemogus/Desktop/Edu/DTOLayer/DTOLayer.csproj": {
+              "projectPath": "/Users/gozdemogus/Desktop/Edu/DTOLayer/DTOLayer.csproj"
             },
             "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj": {
               "projectPath": "/Users/gozdemogus/Desktop/Edu/EntityLayer/BaseIdentity.EntityLayer.csproj"

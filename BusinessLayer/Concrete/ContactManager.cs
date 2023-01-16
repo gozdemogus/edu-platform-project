@@ -16,17 +16,17 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TDelete(Contact t)
         {
-            throw new NotImplementedException();
+            _contactDal.Delete(t);
         }
 
         public Contact TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _contactDal.GetById(id);
         }
 
         public List<Contact> TGetList()
         {
-            throw new NotImplementedException();
+          return  _contactDal.GetList();
         }
 
         public void TInsert(Contact t)

@@ -109,9 +109,6 @@ namespace BaseIdentity.DataAccessLayer.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsLecturer")
-                        .HasColumnType("bit");
-
                     b.Property<string>("LastActivity")
                         .HasColumnType("nvarchar(max)");
 
@@ -660,8 +657,7 @@ namespace BaseIdentity.DataAccessLayer.Migrations
 
                     b.HasOne("BaseIdentity.EntityLayer.Concrete.AppUser", "Instructor")
                         .WithMany("InstructedCourses")
-                        .HasForeignKey("InstructorId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .HasForeignKey("InstructorId");
 
                     b.Navigation("Category");
 

@@ -195,7 +195,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
                     document.Add(new Paragraph("\n")); //add empty line 
                 }
             }
-            if (user.IsLecturer == true)
+            if(User.IsInRole("Lecturer"))
             {
                
                 int idlecturer = int.Parse(id);

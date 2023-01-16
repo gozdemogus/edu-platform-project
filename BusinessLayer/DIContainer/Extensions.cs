@@ -3,9 +3,15 @@ using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 using BaseIdentity.BusinessLayer.Concrete;
 using BaseIdentity.BusinessLayer.Concrete.ConcreteUOW;
+using BaseIdentity.BusinessLayer.ValidationRules.TodoItemValidation;
+using BaseIdentity.BusinessLayer.ValidationRules.UserValidation;
 using BaseIdentity.DataAccessLayer.Abstract;
 using BaseIdentity.DataAccessLayer.EntityFramework;
 using BaseIdentity.DataAccessLayer.UnitOfWork;
+using BaseIdentity.EntityLayer.Concrete;
+using DTOLayer.DTOs.AppUserDTOs;
+using DTOLayer.DTOs.TodoItemDTOs;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BaseIdentity.BusinessLayer.DIContainer
@@ -56,6 +62,18 @@ namespace BaseIdentity.BusinessLayer.DIContainer
             services.AddScoped<IAccountDal, EFAccountDal>();
 
             services.AddScoped<IUOWDal, UOWDal>();
+
+         
+        }
+
+        //validation icin
+        public static void CustomValidator(this IServiceCollection services)
+        {
+          //  services.AddTransient<IValidator<AddTodoItemDTO>, AddTodoItemValidator>();
+         //   services.AddTransient<IValidator<UpdateTodoItemDTO>, UpdateTodoItemValidator>();
+
+            services.AddTransient<IValidator<Contact>, AddContactValidator>();
+
         }
     }
 }

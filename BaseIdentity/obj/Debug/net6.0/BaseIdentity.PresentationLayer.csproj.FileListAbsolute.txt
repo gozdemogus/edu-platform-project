@@ -243,3 +243,7 @@
 /Users/gozdemogus/Desktop/Edu/BaseIdentity/obj/Debug/net6.0/BaseIdentity.pdb
 /Users/gozdemogus/Desktop/Edu/BaseIdentity/obj/Debug/net6.0/BaseIdentity.PresentationLayer.genruntimeconfig.cache
 /Users/gozdemogus/Desktop/Edu/BaseIdentity/obj/Debug/net6.0/ref/BaseIdentity.dll
+/Users/gozdemogus/Desktop/Edu/BaseIdentity/bin/Debug/net6.0/AutoMapper.dll
+/Users/gozdemogus/Desktop/Edu/BaseIdentity/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/gozdemogus/Desktop/Edu/BaseIdentity/bin/Debug/net6.0/DTOLayer.dll
+/Users/gozdemogus/Desktop/Edu/BaseIdentity/bin/Debug/net6.0/DTOLayer.pdb

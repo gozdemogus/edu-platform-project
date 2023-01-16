@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BaseIdentity.DataAccessLayer\BaseIdentity.DataAccessLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\BaseIdentity.EntityLayer.csproj" />
+    <ProjectReference Include="..\DTOLayer\DTOLayer.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Abstract\" />
@@ -19,6 +20,8 @@
     <None Remove="FluentValidation.AspNetCore" />
     <None Remove="Abstract\AbstractUOW\" />
     <None Remove="Concrete\ConcreteUOW\" />
+    <None Remove="ValidationRules\AppUserValidation\" />
+    <None Remove="ValidationRules\TodoItemValidation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
@@ -27,6 +30,8 @@
     <Folder Include="ValidationRules\" />
     <Folder Include="Abstract\AbstractUOW\" />
     <Folder Include="Concrete\ConcreteUOW\" />
+    <Folder Include="ValidationRules\AppUserValidation\" />
+    <Folder Include="ValidationRules\TodoItemValidation\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />

@@ -16,6 +16,9 @@
     <ProjectReference Include="..\EntityLayer\BaseIdentity.EntityLayer.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\DTOLayer\DTOLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore" />
@@ -74,7 +77,6 @@
     <None Remove="Areas\Admin\Views\TodoList\" />
     <None Remove="Areas\Admin\Views\Shared\Components\AddTodoList\" />
     <None Remove="Mapping\" />
-    <None Remove="Mapping\AutoMappingProfile\" />
     <None Remove="Views\Shared\Components\User\" />
     <None Remove="Areas\Admin\Views\Shared\Components\Messages\" />
     <None Remove="Views\Error\" />
@@ -90,6 +92,9 @@
     <None Remove="Areas\Admin\Views\CourseCQRS\" />
     <None Remove="CQRS\Commands\CourseCommands\" />
     <None Remove="Areas\Admin\Views\Campaign\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Mapping\AutoMapperProfile\" />
+    <None Remove="Areas\Admin\Views\Contact\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -109,6 +114,7 @@
     <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="ClosedXML" Version="0.97.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Register\" />
@@ -158,7 +164,6 @@
     <Folder Include="Areas\Admin\Views\TodoList\" />
     <Folder Include="Areas\Admin\Views\Shared\Components\AddTodoList\" />
     <Folder Include="Mapping\" />
-    <Folder Include="Mapping\AutoMappingProfile\" />
     <Folder Include="Views\Shared\Components\User\" />
     <Folder Include="Areas\Admin\Views\Shared\Components\Messages\" />
     <Folder Include="wwwroot\UserImage\" />
@@ -174,6 +179,9 @@
     <Folder Include="Areas\Admin\Views\CourseCQRS\" />
     <Folder Include="CQRS\Commands\CourseCommands\" />
     <Folder Include="Areas\Admin\Views\Campaign\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Mapping\AutoMapperProfile\" />
+    <Folder Include="Areas\Admin\Views\Contact\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />

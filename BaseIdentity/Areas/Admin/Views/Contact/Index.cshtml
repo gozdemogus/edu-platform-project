@@ -1,0 +1,80 @@
+﻿@model List<ListContactDTO>
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<div class="row" style="width:100%">
+    <div class="col-xl-9 grid-margin-lg-0 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"></h4>
+                <h1 style="color:lawngreen">Contact Messages</h1>
+
+                <div class="table-responsive mt-3">
+                    <table class="table table-header-bg">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Subject
+                                </th>
+
+                                <th>
+                                    Message
+                                </th>
+                                <th>
+                                    Details
+                                </th>
+                                <th>
+                                    Delete
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @item.Id
+                                    </td>
+                                    <td>
+                                        <span class="checkmark" style="color:blue">✔</span>
+                                        @item.Date
+
+                                    </td>
+                                    <td>
+                                        @item.Subject
+                                    </td>
+                                    <td>
+                                        @item.Message
+                                    </td>
+                                    <td>
+                                        <a href="/Admin/Contact/GetById/@item.Id" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
+                                            <span class="icon-open" style="color:purple"></span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/Admin/Contact/Delete/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                            <span class="icon-trash" style="color:red"></span>
+                                        </a>
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

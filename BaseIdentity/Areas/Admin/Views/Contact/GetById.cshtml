@@ -1,0 +1,23 @@
+﻿@model GetByIdContactDTO
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1>  @Model.Subject </h1>
+            <p class="card-description">
+
+            </p>
+            <p><b>From: </b>@Model.Name</p>
+            <p><b>Date: </b>@Model.Date</p>
+            <p></p>
+            <p>@Model.Message</p>
+            <p>
+                <b>Contact: </b><a href="mailto:@Model.Email">Send email</a>
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿@model List<UserWithRoles>
+
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<div class="container">
+    <br /><br />
+    <div class="card">
+        <div class="card-body">
+            <h1>User - Roles List</h1>
+
+
+            <table class="table table-bordered">
+                <tr>
+                    <th>Username</th>
+                    <th>Roles</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.User.UserName</td>
+                        <td>
+                            @{
+                                var roleList = string.Join(", ", item.Roles);
+                            }
+                            @roleList
+                        </td>
+                        <td><a href="/Admin/Role/AssignRole/@item.User.Id" class="btn btn-dark">Assign</a></td>
+                    </tr>
+                }
+            </table>
+
+        </div>
+    </div>
+</div>

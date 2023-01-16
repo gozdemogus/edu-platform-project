@@ -1,0 +1,28 @@
+﻿@model RoleViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+
+<div class="container">
+    <br /><br />
+    <div class="card">
+        <div class="card-body">
+
+            <h1>Add Role</h1>
+            <form method="post">
+                <label>Role Name</label>
+                <input type="text" name="RoleName" class="form-control" />
+                <span class="text-danger" asp-validation-for="RoleName">
+                </span>
+
+                <br /><br />
+                <button class="btn btn-warning">Add</button>
+            </form>
+        </div>
+
+    </div>
+</div>

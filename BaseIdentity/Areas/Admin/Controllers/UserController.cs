@@ -28,6 +28,29 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             var values = _userManager.Users.ToList();
             return View(values);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(AppUser appUser)
+        {
+            var values = _userManager.Users.ToList();
+            return View(values);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Detail(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+
+            return View(user);
+        }
     }
 }
 

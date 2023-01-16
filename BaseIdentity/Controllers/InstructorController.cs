@@ -25,8 +25,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
         // GET: /<controller>/
         public async Task<IActionResult> IndexAsync()
         {
+            var usersInRole = await _userManager.GetUsersInRoleAsync("Lecturer");
             var users = await _userManager.Users
-           .Where(u => u.IsLecturer == true).Include(x=>x.InstructedCourses).ToListAsync();
+                .Include(x => x.InstructedCourses)
+                .Where(u => usersInRole.Contains(u))
+                .ToListAsync();
 
             return View(users);
         }

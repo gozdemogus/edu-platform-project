@@ -39,7 +39,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
                 var values = JsonConvert.DeserializeObject<List<CampaignViewModel>>(jsonData);
                 return View(values); 
             }
-            return View();
+                return View();
         }
 
         [HttpGet]
