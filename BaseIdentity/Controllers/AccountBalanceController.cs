@@ -16,11 +16,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IAccountService _accountService;
+        private readonly RoleManager<AppRole> _roleManager;
 
-        public AccountBalanceController(IAccountService accountService, UserManager<AppUser> userManager)
+
+        public AccountBalanceController(IAccountService accountService, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager)
         {
             _accountService = accountService;
             _userManager = userManager;
+            _roleManager = roleManager;
         }
 
         //[HttpGet]
@@ -33,12 +36,12 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public async Task<IActionResult> DoPayment(decimal total)
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-
             var valueSender = _accountService.TGetByID(user.Id);
-            var valueReceiver = _accountService.TGetByID(3);
+            var superAdmin = await _userManager.GetUsersInRoleAsync("SuperAdmin");
+            var valueReceiver = _accountService.TGetByID(superAdmin.FirstOrDefault().Id);
 
             valueSender.Balance -= total;
-           valueReceiver.Balance += total;
+            valueReceiver.Balance += total;
 
             List<Account> modifiedAccounts = new List<Account>()
             {

@@ -41,6 +41,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 Contact contact = new Contact();
                 contact.Name = user.Name;
                 contact.Email = user.Email;
+                contact.UserName = user.UserName;
                 return View(contact);
 
             }
@@ -56,6 +57,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
                 contact.Name = user.Name;
                 contact.Email = user.Email;
+                contact.UserName = user.UserName;
             }
             contact.Date = DateTime.Now;
 

@@ -32,7 +32,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:5001/api/Campaign");
+            var responseMessage = await client.GetAsync("https://localhost:5005/api/Campaign");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -56,7 +56,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(campaignViewModel);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PostAsync("https://localhost:5001/api/Campaign", content);
+            var responseMessage = await client.PostAsync("https://localhost:5005/api/Campaign", content);
             if (responseMessage.IsSuccessStatusCode)
             {
                 var url = Url.RouteUrl("areas", new { controller = "Campaign", action = "Index", area = "Admin" });
@@ -68,7 +68,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"https://localhost:5001/api/Campaign/{id}");
+            var responseMessage = await client.DeleteAsync($"https://localhost:5005/api/Campaign/{id}");
             if(responseMessage.IsSuccessStatusCode)
             {
                 var url = Url.RouteUrl("areas", new { controller = "Campaign", action = "Index", area = "Admin" });
@@ -81,7 +81,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync($"https://localhost:5001/api/Campaign/{id}");
+            var responseMessage = await client.GetAsync($"https://localhost:5005/api/Campaign/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -97,7 +97,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(campaignViewModel);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("https://localhost:5001/api/Campaign", content);
+            var responseMessage = await client.PutAsync("https://localhost:5005/api/Campaign", content);
             if (responseMessage.IsSuccessStatusCode)
             {
                 var url = Url.RouteUrl("areas", new { controller = "Campaign", action = "Index", area = "Admin" });

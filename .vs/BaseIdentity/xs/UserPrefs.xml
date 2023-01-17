@@ -1,24 +1,23 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
         <StartupItem ItemId="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}" ItemName="API-Campaign" ConfigurationId="UpSchool_WebApi" />
         <StartupItem ItemId="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}" ItemName="BaseIdentity.PresentationLayer" ConfigurationId="WebApplication1" />
+        <StartupItem ItemId="{7AEFD194-0B72-4593-9591-3A58DF2C190E}" ItemName="SignalR" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Areas/Admin/Views/Role/AssignRole.cshtml">
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="938" Y="594" Width="641" Height="481">
-        <Files>
-          <File FileName="BaseIdentity/Areas/Admin/Views/Role/AssignRole.cshtml" Line="14" Column="33" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SignalR/Hubs/AnalyticsHub.cs">
+    <Files>
+      <File FileName="BaseIdentity/Service/ContactService.cs" Line="12" Column="45" />
+      <File FileName="SignalR/Hubs/AnalyticsHub.cs" Line="135" Column="57" />
+      <File FileName="BaseIdentity/Controllers/ContactController.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -26,58 +25,30 @@
             <Node name="BaseIdentity.PresentationLayer" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="CourseCQRS" expanded="True" />
-                    <Node name="Role" expanded="True">
-                      <Node name="AssignRole.cshtml" selected="True" />
-                    </Node>
+                    <Node name="Home" expanded="True" />
                     <Node name="User" expanded="True" />
                   </Node>
                 </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Mapping" expanded="True">
-                <Node name="AutoMapperProfile" expanded="True" />
-              </Node>
-              <Node name="ViewComponents" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Cart" expanded="True" />
-                <Node name="Contact" expanded="True" />
-                <Node name="Course" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Instructor" expanded="True" />
-                <Node name="Login" expanded="True" />
-                <Node name="Password" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="CartTotal" expanded="True" />
-                    <Node name="RecentlyAddedCourses" expanded="True" />
-                    <Node name="SidebarCourseDetails" expanded="True" />
-                    <Node name="User" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Service" expanded="True" />
             </Node>
-            <Node name="DTOLayer" expanded="True">
-              <Node name="DTOs" expanded="True">
-                <Node name="ContactDTO" expanded="True" />
-                <Node name="TodoItemDTOs" expanded="True" />
+            <Node name="SignalR" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
               </Node>
+              <Node name="Hubs" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="94" column="1" />
-    </BreakpointStore>
+    <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+    <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

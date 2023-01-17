@@ -33,7 +33,12 @@
                     <div class="form-group">
                         <input asp-for="Email" placeholder="Email" type="text" class="form-control" value="@(Model?.Email ?? "")" readonly="@(Model?.Email != null ? "readonly" : false)" />
                     </div>
-
+                    @if (Model?.UserName != null)
+                    {
+                        <div class="form-group">
+                            <input asp-for="UserName" placeholder="Username" type="text" class="form-control" value="@(Model?.UserName ?? "")" readonly/>
+                        </div>
+                    }
 
                     <div class="form-group">
                         <input asp-for="Subject" type="text" class="form-control" placeholder="Subject" />

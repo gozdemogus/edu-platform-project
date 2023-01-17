@@ -61,6 +61,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
                         return RedirectToAction("EmailConfirmed", "Register");
                     }
                 }
+                else
+                {
+                    ModelState.AddModelError("", "Password or username is wrong.");
+
+                }
             }
             return View();
         }

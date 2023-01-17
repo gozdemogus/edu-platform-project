@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Timers;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using SignalR.Models;
 
 namespace SignalR.Hubs
@@ -33,6 +35,7 @@ namespace SignalR.Hubs
                     await GetAnalytics();
                     await GetTrafficSources();
                     await RandomChartValues();
+                    await GetBitcoinPrice();
                 }
             }
             catch (Exception ex)
@@ -114,6 +117,24 @@ namespace SignalR.Hubs
                 total += source.Total;
             }
             return total;
+        }
+
+        public async Task GetBitcoinPrice()
+        {
+            // Make API request to CoinDesk
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://api.coindesk.com/v1/bpi/currentprice.json");
+                var response = await client.GetAsync("");
+                var result = await response.Content.ReadAsStringAsync();
+
+               
+                dynamic data = JsonConvert.DeserializeObject(result);
+                string price = data.bpi.USD.rate;
+
+            
+                await Clients.All.SendAsync("ReceiveBitcoinPrice", price);
+            }
         }
 
     }

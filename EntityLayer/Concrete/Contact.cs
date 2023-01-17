@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace BaseIdentity.EntityLayer.Concrete
 {
 	public class Contact
@@ -9,7 +11,8 @@ namespace BaseIdentity.EntityLayer.Concrete
 		public string Message { get; set; }
 		public string Email { get; set; }
         public DateTime Date { get; set; }
+        public string? UserName { get; set; }
 
-    }
+	}
 }
 

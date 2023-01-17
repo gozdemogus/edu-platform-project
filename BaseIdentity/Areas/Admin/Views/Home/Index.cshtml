@@ -89,6 +89,11 @@
         });
 
 
+    connection.on("ReceiveBitcoinPrice", (price) => {
+        console.log(`Bitcoin price: ${price}`);
+        $("#rateBTC").html(price);
+    });
+
 
     connection.on("ChartValues", function (test2, shuffleNames) {
         console.log(test2)
@@ -208,14 +213,16 @@
     <div class="col-xl-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-3">Recent Activity</h4>
+                <h4 class="card-title mb-3">Bitcoin Rate</h4>
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-dark">
-                            @await Component.InvokeAsync("Messages")
-
-                         
-                           
+                            @*@await Component.InvokeAsync("Messages")*@
+                                
+                                    <img style="display: block; margin: auto; width: 120px; height: 120px" src="https://media4.giphy.com/media/dt1GOk4LEoZRfE4AqW/giphy.gif?cid=790b7611d3176d4cb8be4350a4f188ac534bcf059e997e88&rid=giphy.gif&ct=s" alt="image">
+                          <br />
+                            <div>
+                            <h1 style="text-align:center;" class="font-weight-bold text-info ml-sm-2" id="rateBTC"></h1></div>
                         </div>
                     </div>
                 </div>

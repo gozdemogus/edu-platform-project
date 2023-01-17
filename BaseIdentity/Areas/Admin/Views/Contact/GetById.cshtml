@@ -4,6 +4,9 @@
     Layout = "~/Views/Shared/_AreaLayout.cshtml";
 }
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
 <div class="col-md-6 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
@@ -13,11 +16,70 @@
             </p>
             <p><b>From: </b>@Model.Name</p>
             <p><b>Date: </b>@Model.Date</p>
-            <p></p>
+            @if (Model.UserName != null)
+            {
+                <p><b>User:</b>@Model.UserName </p>
+            }
+            else
+            {
+                <p><b>From unregistered user</b></p>
+            }
             <p>@Model.Message</p>
             <p>
-                <b>Contact: </b><a href="mailto:@Model.Email">Send email</a>
+                <b>Mail: </b><a href="mailto:@Model.Email">@Model.Email</a>
             </p>
         </div>
     </div>
 </div>
+
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea id="message" type="text" class="form-control" placeholder="Your Response"></textarea>
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <button id="subButton" type="submit" class="btn btn-secondary btn-block">Send</button>
+                    </div>
+                    <div class="col-md-12 mt-2" id="response-message"></div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script>$(document).ready(function () {
+        $('#subButton').click(function (e) {
+            e.preventDefault();
+            console.log("dneeme")
+            var message = $('#message').val();
+var email = '@Model.Email';
+
+            $.ajax({
+                url: '/Admin/Contact/SendMail/',
+                type: 'POST',
+                data: { message: message, MailReceiver: email },
+
+                success: function (response) {
+                    $('#message').hide();
+                    $('#subButton').hide();
+                    $('#response-message').html('<div class="alert alert-success">Your message has been sent!</div>').show();
+                    setTimeout(function () {
+                        $('#response-message').hide();
+                        $('#message').show();
+                        $('#subButton').show();
+                    }, 3000);
+
+                },
+                error: function (error) {
+
+                }
+            });
+        });
+    });</script>

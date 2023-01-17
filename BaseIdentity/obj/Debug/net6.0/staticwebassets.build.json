@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZDxTlGPydK7f+HZUxBDbH37+8GAy71SuCIz6Dxm68Pc=",
+  "Hash": "VpzI5XM/NGrG6FWn2zGMBaG3uMhrOy5WPedTDkbq61I=",
   "Source": "BaseIdentity",
   "BasePath": "_content/BaseIdentity",
   "Mode": "Default",
@@ -14771,6 +14771,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/UserImage/8fd2270b-d79d-4c44-8cff-c4783483105a.jpeg"
+    },
+    {
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/c1256aaf-a97e-4e7b-b22b-2f376f1999a1.jpeg",
+      "SourceId": "BaseIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
+      "BasePath": "_content/BaseIdentity",
+      "RelativePath": "UserImage/c1256aaf-a97e-4e7b-b22b-2f376f1999a1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/UserImage/c1256aaf-a97e-4e7b-b22b-2f376f1999a1.jpeg"
     }
   ]
 }
