@@ -1,16 +1,49 @@
-﻿<Properties StartupConfiguration="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}|UpSchool_WebApi" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="96" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="BaseIdentity/Views/Shared/_AreaLayout.cshtml" Line="118" Column="117" />
+      <File FileName="BaseIdentity/Views/Shared/_Layout.cshtml" Line="42" Column="165" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.BusinessLayer" expanded="True">
+              <Node name="Abstract" expanded="True">
+                <Node name="AbstractUOW" expanded="True" />
+              </Node>
+              <Node name="Concrete" expanded="True">
+                <Node name="ConcreteUOW" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="BaseIdentity.DataAccessLayer" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="EntityFramework" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="UnitOfWork" expanded="True" />
+            </Node>
+            <Node name="BaseIdentity.EntityLayer" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Contact" expanded="True" />
+                <Node name="Course" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -20,31 +53,13 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="API-Campaign/Controllers/MembersController.cs">
-    <Files>
-      <File FileName="API-Campaign/Startup.cs" Line="55" Column="60" />
-      <File FileName="API-Campaign/JWT/IJwtAuth.cs" Line="6" Column="65" />
-      <File FileName="API-Campaign/JWT/Auth.cs" Line="59" Column="18" />
-      <File FileName="API-Campaign/Controllers/MembersController.cs" Line="25" Column="43" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="API-Campaign" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="MembersController.cs" selected="True" />
-              </Node>
-              <Node name="JWT" expanded="True">
-                <Node name="Models" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="96" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

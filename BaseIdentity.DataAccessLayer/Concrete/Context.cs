@@ -94,6 +94,8 @@ namespace BaseIdentity.DataAccessLayer.Concrete
         public DbSet<Contact> Contacts { get; set; }
 
         public DbSet<Account> Accounts { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+
 
     }
 

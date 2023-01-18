@@ -37,18 +37,12 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
-            <br />
             @if (User.IsInRole("Admin"))
             {
-                <div>
-                    <center>
-                        <a href="/Admin/Home/Index/">
-                            <span class="badge badge-primary" style="color:yellow"> <span class="icon-user" style="font-size: 200%;"></span> &nbsp; Admin</span>
-                        </a>
-                    </center>
-                </div>
-
+                <li class="btn btn-success"><a href="/Admin/Home/Index/" class="nav-link" style="color:white"><span class="icon icon-user"></span>&nbsp; Admin Panel</a></li>
             }
+            <br />
+
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     @*nav-item active olunca degisiyo*@
@@ -65,17 +59,14 @@
                     <li class="nav-item"><a href="/Contact/Index/" class="nav-link">Contact</a></li>
                     @if (User.Identity.IsAuthenticated)
                     {
-
-
-                        <li class="nav-item cta mr-md-1"><a href="/Account/Index/" class="nav-link"><span class="icon  icon-user"></span> Account</a></li>
+                        <li class="nav-item cta mr-md-1"><a href="/Account/Index/" class="nav-link"><span class="icon icon-user"></span> Account</a></li>
                         <li class="nav-item cta mr-md-1"><a href="/Login/Logout/" class="nav-link"><span class="fa fa-sign-out"></span> Logout</a></li>
                         <li class="nav-item cta cta-colored">
                             <a href="/Cart/Index/" class="nav-link">
-                                <span class="icon  icon-shopping-cart"></span> Cart &nbsp;
+                                <span class="icon icon-shopping-cart"></span> Cart &nbsp;
                                 @await Component.InvokeAsync("Badge")
                             </a>
                         </li>
-
                     }
                     else
                     {
