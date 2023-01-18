@@ -24,7 +24,7 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var valueSender = _accountService.TGetByID(user.Id);
+            var valueSender = _accountService.GetByAppUserId(user.Id);
 
             ViewBag.balance = valueSender.Balance;
             AccountBalanceViewModel accountBalanceViewModel = new AccountBalanceViewModel();

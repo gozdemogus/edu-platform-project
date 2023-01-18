@@ -7,6 +7,8 @@ namespace BaseIdentity.DataAccessLayer.Abstract
      
         void Update(T t);
 
+        void Delete(T t);
+
         void MultiUpdate(List<T> t);
 
         T GetByID(int id);

@@ -5,6 +5,9 @@ namespace BaseIdentity.BusinessLayer.Abstract.AbstractUOW
 {
 	public interface IAccountService:IGenericUOWService<Account>
 	{
-	}
+        public Account GetByAppUserId(int id);
+
+
+    }
 }
 

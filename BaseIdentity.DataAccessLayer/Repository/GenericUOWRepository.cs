@@ -33,6 +33,11 @@ namespace BaseIdentity.DataAccessLayer.Repository
         {
             return _context.Set<T>().Find(id);
         }
+
+        public void Delete(T t)
+        {
+            _context.Remove(t);
+        }
     }
 }
 

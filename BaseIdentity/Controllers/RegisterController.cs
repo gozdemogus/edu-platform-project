@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using MimeKit;
 using MailKit.Net.Smtp;
 using AutoMapper;
+using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -22,11 +23,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
         private readonly UserManager<AppUser> _userManager;
         private readonly IConfiguration _configuration;
+        private readonly IAccountService _accountService;
 
-        public RegisterController(UserManager<AppUser> userManager, IConfiguration configuration)
+
+        public RegisterController(UserManager<AppUser> userManager, IConfiguration configuration, IAccountService accountService)
         {
             _userManager = userManager;
             _configuration = configuration;
+            _accountService = accountService;
         }
 
         // GET: /<controller>/
@@ -59,6 +63,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
                     if (result.Succeeded)
                     {
                         SendMail(appUser.MailCode, p.Mail);
+                        var user = await _userManager.FindByNameAsync(appUser.UserName);
+
+                        Account account = new Account();
+                        account.AppUserId = user.Id;
+                        account.Balance = 2000;
+                        _accountService.TInsert(account);
+
                         return RedirectToAction("EmailConfirmed", "Register");
                     }
                     else

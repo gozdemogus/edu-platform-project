@@ -17,6 +17,17 @@ namespace BaseIdentity.BusinessLayer.Concrete.ConcreteUOW
             _iUOWDal = iUOWDal;
         }
 
+        public Account GetByAppUserId(int id)
+        {
+           return _accountDal.GetByAppUserId(id);
+        }
+
+        public void TDelete(Account t)
+        {
+            _accountDal.Delete(t);
+            _iUOWDal.Save();
+        }
+
         public Account TGetByID(int id)
         {
            return _accountDal.GetByID(id);

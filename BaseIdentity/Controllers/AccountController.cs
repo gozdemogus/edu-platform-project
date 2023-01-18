@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Models;
 using Microsoft.AspNetCore.Authentication;
@@ -18,12 +19,15 @@ namespace BaseIdentity.PresentationLayer.Controllers
     {
 
         private readonly UserManager<AppUser> _userManager;
+        private readonly IAccountService _accountService;
 
 
-        public AccountController( UserManager<AppUser> userManager)
+
+        public AccountController(UserManager<AppUser> userManager, IAccountService accountService)
         {
-    
+
             _userManager = userManager;
+            _accountService = accountService;
         }
 
 
@@ -39,6 +43,8 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public async Task<IActionResult> DeleteAccount()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var account = _accountService.GetByAppUserId(user.Id);
+            _accountService.TDelete(account);
             var result = await _userManager.DeleteAsync(user);
             if (result.Succeeded)
             {

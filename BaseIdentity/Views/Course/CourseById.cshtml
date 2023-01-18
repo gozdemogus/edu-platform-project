@@ -17,7 +17,7 @@
                                 <span class="location mb-0">@Model.Level  </span>
                                 <h2>@Model.Title</h2>
                                 <p>By @Model.Instructor.Name @Model.Instructor.Surname </p>
-                                <span class="position">@Model.Category.CategoryName</span>
+                                <span class="position">@Model.Category?.CategoryName</span>
                                 <p class="mb-2"><span class="icon icon-calendar" style="color:lightcoral"></span> Date Added:  @Model.DateAdded</p>
 
                                 <p class="mb-2"><span class="icon icon-book" style="color:lightgreen"></span> Total Enrollment:  @Model.Enrollments.Count</p>

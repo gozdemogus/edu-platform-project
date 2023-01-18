@@ -7,6 +7,8 @@ namespace BaseIdentity.BusinessLayer.Abstract.AbstractUOW
 
         void TUpdate(T t);
 
+        void TDelete(T t);
+
         void TMultiUpdate(List<T> t);
 
         T TGetByID(int id);
