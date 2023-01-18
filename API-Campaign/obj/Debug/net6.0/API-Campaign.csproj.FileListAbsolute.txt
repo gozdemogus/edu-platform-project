@@ -68,3 +68,4 @@
 /Users/gozdemogus/Desktop/Edu/API-Campaign/obj/Debug/net6.0/HotelAPI.pdb
 /Users/gozdemogus/Desktop/Edu/API-Campaign/obj/Debug/net6.0/API-Campaign.genruntimeconfig.cache
 /Users/gozdemogus/Desktop/Edu/API-Campaign/obj/Debug/net6.0/ref/HotelAPI.dll
+/Users/gozdemogus/Desktop/Edu/API-Campaign/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

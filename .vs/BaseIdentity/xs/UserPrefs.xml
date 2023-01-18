@@ -1,5 +1,16 @@
-﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{3C62F585-11E0-4973-9E0C-A0EC260E9B5D}|UpSchool_WebApi" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="96" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -9,55 +20,26 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BusinessLayer/Concrete/CategoryManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API-Campaign/Controllers/MembersController.cs">
     <Files>
-      <File FileName="BaseIdentity/Areas/Admin/Controllers/CategoryController.cs" Line="56" Column="34" />
-      <File FileName="BaseIdentity/Areas/Admin/Views/Role/UpdateRole.cshtml" Line="6" Column="1" />
-      <File FileName="BusinessLayer/Concrete/CategoryManager.cs" Line="24" Column="36" />
+      <File FileName="API-Campaign/Startup.cs" Line="55" Column="60" />
+      <File FileName="API-Campaign/JWT/IJwtAuth.cs" Line="6" Column="65" />
+      <File FileName="API-Campaign/JWT/Auth.cs" Line="59" Column="18" />
+      <File FileName="API-Campaign/Controllers/MembersController.cs" Line="25" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.BusinessLayer" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="CategoryManager.cs" selected="True" />
+            <Node name="API-Campaign" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="ValidationRules" expanded="True">
-                <Node name="ContactValidation" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MembersController.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Category" expanded="True" />
-                    <Node name="Contact" expanded="True" />
-                    <Node name="CourseCQRS" expanded="True" />
-                    <Node name="Role" expanded="True" />
-                    <Node name="TodoList" expanded="True" />
-                    <Node name="User" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Contact" expanded="True" />
-                <Node name="Register" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="User" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="wwwroot" expanded="True" />
-            </Node>
-            <Node name="DTOLayer" expanded="True">
-              <Node name="DTOs" expanded="True">
-                <Node name="ContactDTO" expanded="True" />
+              <Node name="JWT" expanded="True">
+                <Node name="Models" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -65,12 +47,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="96" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

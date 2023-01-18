@@ -1,4 +1,5 @@
 ﻿using APICampaign.DAL.Entities;
+using APICampaign.JWT.Models;
 using APIPayment.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using static System.Net.Mime.MediaTypeNames;
@@ -14,6 +15,8 @@ namespace UpSchool_WebApi.DAL
 
         public DbSet<CampaignAssignee> CampaignAssignee { get; set; }
         public DbSet<Campaign> Campaigns { get; set; }
+        public DbSet<UserCredential> UserCredentials { get; set; }
+
 
     }
 }
