@@ -30,6 +30,8 @@
                                 <th>
                                     Message
                                 </th>
+
+                                <th>Response Status</th>
                                 <th>
                                     Details
                                 </th>
@@ -43,10 +45,9 @@
                             {
                                 <tr>
                                     <td>
-                                        @item.Id
+                                        <span style="color:orange; width:75px; height:75px">✮</span>@item.Id
                                     </td>
                                     <td>
-                                        <span class="checkmark" style="color:gold; width:50px; height:50px">✮</span>
                                         @item.Date
 
                                     </td>
@@ -56,6 +57,25 @@
                                     <td>
                                         @item.Message
                                     </td>
+
+
+
+                                    <td>
+                                        @if (item.Responsed == true)
+                                        {
+
+
+                                            <label class="badge badge-success">Answered</label>
+
+                                        }
+                                        else
+                                        {
+                                            <label class="badge badge-danger">Waiting</label>
+
+                                        }
+                                    </td>
+
+
                                     <td>
                                         <a href="/Admin/Contact/GetById/@item.Id" class="icon text-center d-flex justify-content-center align-items-center icon mr-2">
                                             <span class="icon-open" style="color:purple"></span>

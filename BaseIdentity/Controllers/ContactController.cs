@@ -60,7 +60,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 contact.UserName = user.UserName;
             }
             contact.Date = DateTime.Now;
-
+            contact.Responsed = false;
             //VALIDATION
             AddContactValidator validationRules = new AddContactValidator();
             ValidationResult result = validationRules.Validate(contact);

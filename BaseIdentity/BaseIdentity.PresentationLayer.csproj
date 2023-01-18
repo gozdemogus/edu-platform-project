@@ -95,6 +95,7 @@
     <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
     <None Remove="Mapping\AutoMapperProfile\" />
     <None Remove="Areas\Admin\Views\Contact\" />
+    <None Remove="Areas\Admin\Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -182,6 +183,7 @@
     <Folder Include="Mapping\" />
     <Folder Include="Mapping\AutoMapperProfile\" />
     <Folder Include="Areas\Admin\Views\Contact\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />

@@ -12,8 +12,22 @@
         <div class="card-body">
             <h1>  @Model.Subject </h1>
             <p class="card-description">
-
             </p>
+
+            <b>Status:</b>
+            @if (Model.Responsed == true)
+            {
+                <p style="color:green">
+                  <b>Answered</b>  
+                </p>
+            }
+            else
+            {
+                <p style="color:red">
+                 <b>Waiting</b>
+                </p>
+            }
+
             <p><b>From: </b>@Model.Name</p>
             <p><b>Date: </b>@Model.Date</p>
             @if (Model.UserName != null)
@@ -45,7 +59,6 @@
                         <button id="subButton" type="submit" class="btn btn-secondary btn-block">Send</button>
                     </div>
                     <div class="col-md-12 mt-2" id="response-message"></div>
-
                 </div>
             </form>
         </div>
@@ -59,12 +72,12 @@
             e.preventDefault();
             console.log("dneeme")
             var message = $('#message').val();
-var email = '@Model.Email';
-
+            var email = '@Model.Email';
+            var messageId = '@Model.Id';
             $.ajax({
                 url: '/Admin/Contact/SendMail/',
                 type: 'POST',
-                data: { message: message, MailReceiver: email },
+                data: { message: message, MailReceiver: email, messageId: messageId  },
 
                 success: function (response) {
                     $('#message').hide();

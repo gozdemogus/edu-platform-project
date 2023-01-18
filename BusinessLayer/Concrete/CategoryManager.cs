@@ -21,7 +21,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TDelete(Category t)
         {
-            throw new NotImplementedException();
+            _categoryDal.Delete(t);
         }
 
         public Category TGetById(int id)
@@ -41,7 +41,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TUpdate(Category t)
         {
-            throw new NotImplementedException();
+            _categoryDal.Update(t);
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.EntityLayer.Concrete;
+using DocumentFormat.OpenXml.Office2010.Excel;
 using DTOLayer.DTOs.ContactDTO;
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Mvc;
@@ -54,7 +55,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public void SendMail(string message, string MailReceiver)
+        public void SendMail(string message, string MailReceiver, int messageId)
         {
             string mailKey = _configuration["MailKey"];
 
@@ -77,6 +78,10 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
             smtp.Authenticate("goezdem6@gmail.com", mailKey); //kod
             smtp.Send(mimeMessage);
             smtp.Disconnect(true);
+
+            var values = _contactService.TGetById(messageId);
+            values.Responsed = true;
+            _contactService.TUpdate(values);
         }
     }
 }

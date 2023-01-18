@@ -1,0 +1,34 @@
+﻿
+@model Category
+
+@{
+    Layout = "~/Views/Shared/_AreaLayout.cshtml";
+}
+
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+
+          
+                        <h1>Update Category</h1>
+                        <form method="post">
+                            <input type="hidden" value="@Model.CategoryID" name="CategoryID" />
+                            <label>Name</label>
+                            <input type="text" name="CategoryName" value="@Model.CategoryName" class="form-control" />
+                            <br />
+                            <label>Icon</label>
+                            <input type="text" name="Icon" value="@Model.Icon" class="form-control" />
+                            <br />
+                            <label>Description</label>
+                            <input type="text" name="Description" value="@Model.Description" class="form-control" />
+                            <br />
+                            <button class="btn btn-success">Update</button>
+                        </form>
+                    </div>
+                </div>
+    
+    </div>
+</div>
+
+
