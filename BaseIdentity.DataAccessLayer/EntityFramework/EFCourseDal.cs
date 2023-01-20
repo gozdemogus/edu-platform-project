@@ -80,6 +80,23 @@ namespace BaseIdentity.DataAccessLayer.EntityFramework
             }
         }
 
+        public List<Course> SearchCourseHome(string language, string category)
+        {
+            using (var context = new Context())
+            {
+
+                var courses2 = context.Courses.ToList();
+
+                var courses = context.Courses
+                    .Include(x => x.Category)
+                    .Where(x => x.Title.Contains(language) || x.Category.CategoryName.Contains(category))
+                     .Include(x => x.Instructor)
+                     .ToList();
+
+                return courses;
+            }
+        }
+
         public List<Course> GetListWithDetail()
         {
            using (var context = new Context())

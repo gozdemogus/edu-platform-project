@@ -76,6 +76,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
             ViewBag.keyword = keyword;
             return View(values);
         }
+
+
+        public IActionResult SearchCourseHome(SearchCourseHomeViewModel searchCourseHomeViewModel)
+        {
+            var values = _CourseService.SearchCourseHome(searchCourseHomeViewModel.Language, searchCourseHomeViewModel.CategoryName);
+            ViewBag.keyword = searchCourseHomeViewModel.Language + " " + searchCourseHomeViewModel.CategoryName;
+            return View(values);
+        }
     }
 }
 

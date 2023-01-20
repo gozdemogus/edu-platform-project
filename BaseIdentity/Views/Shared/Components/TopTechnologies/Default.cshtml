@@ -1,0 +1,21 @@
+﻿@model List<Category>
+
+<div class="col-lg-3 sidebar">
+    <div class="row justify-content-center pb-3">
+        <div class="col-md-12 heading-section ftco-animate">
+            <h2 class="mb-4">This Week's Top Technologies</h2>
+        </div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="sidebar-box ftco-animate">
+            <div class="">
+                <a href="/Course/ByCategory/@item.CategoryID" class="company-wrap"><img width="120px" height="120px" style="border-radius:50%" src="@item.Icon" class="img-fluid"></a>
+                <div class="text p-3">
+                    <h3><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName</a></h3>
+                    @*<p><span class="number">500</span> <span>Open position</span></p>*@
+                </div>
+            </div>
+        </div>
+    }
+</div>

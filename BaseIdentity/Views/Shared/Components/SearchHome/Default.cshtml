@@ -1,0 +1,35 @@
+﻿@model SearchCourseHomeViewModel
+
+<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+    <form asp-action="SearchCourseHome" asp-controller="Course" class="search-job">
+        <div class="row no-gutters">
+            <div class="col-md mr-md-2">
+                <div class="form-group">
+                    <div class="form-field">
+                        <div class="icon"><span class="icon-briefcase"></span></div>
+                        <input type="text" class="form-control" asp-for="Language" placeholder="C#, JavaScript, PHP, Java etc.">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md mr-md-2">
+                <div class="form-group">
+                    <div class="form-field">
+                        <div class="select-wrap">
+                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                            @Html.DropDownListFor(x => x.CategoryName, (List<SelectListItem>)ViewBag.cat, new { @class = "form-control", @asp_for = "CategoryName" })
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md">
+                <div class="form-group">
+                    <div class="form-field">
+                        <button type="submit" class="form-control btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

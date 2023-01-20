@@ -96,6 +96,8 @@
     <None Remove="Mapping\AutoMapperProfile\" />
     <None Remove="Areas\Admin\Views\Contact\" />
     <None Remove="Areas\Admin\Views\Category\" />
+    <None Remove="Views\Shared\Components\TopTechnologies\" />
+    <None Remove="Views\Shared\Components\SearchHome\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -184,6 +186,8 @@
     <Folder Include="Mapping\AutoMapperProfile\" />
     <Folder Include="Areas\Admin\Views\Contact\" />
     <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="Views\Shared\Components\TopTechnologies\" />
+    <Folder Include="Views\Shared\Components\SearchHome\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\regal\.git\config" />

@@ -172,6 +172,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL1NlYXJjaENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Course/SearchCourseHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL1NlYXJjaENvdXJzZUhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Enrollment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5yb2xsbWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -264,6 +268,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUmVjZW50bHlBZGRlZENvdXJzZXMvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/SearchHome/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2VhcmNoSG9tZS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/SendComment/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2VuZENvbW1lbnQvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -290,6 +298,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/TopLecturers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wTGVjdHVyZXJzL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/TopTechnologies/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVG9wVGVjaG5vbG9naWVzL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gozdemogus/Desktop/Edu/BaseIdentity/Views/Shared/Components/User/Default.cshtml]

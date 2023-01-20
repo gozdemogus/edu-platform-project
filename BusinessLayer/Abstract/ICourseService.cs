@@ -17,6 +17,7 @@ namespace BaseIdentity.BusinessLayer.Abstract
 
         public List<Course> GetListWithDetail();
 
+        public List<Course> SearchCourseHome(string language, string category);
     }
 }
 

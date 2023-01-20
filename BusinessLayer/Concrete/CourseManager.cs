@@ -45,6 +45,11 @@ namespace BaseIdentity.BusinessLayer.Concrete
             return _courseDal.SearchCourse(keyword);
         }
 
+        public List<Course> SearchCourseHome(string language, string category)
+        {
+            return _courseDal.SearchCourseHome(language, category);
+        }
+
         public void TDelete(Course t)
         {
             throw new NotImplementedException();

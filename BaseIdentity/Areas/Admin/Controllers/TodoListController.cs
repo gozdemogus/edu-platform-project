@@ -100,6 +100,10 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
            var todoListByUSer =  _todoListService.getTodoListByUser(user.Id);
+            if(details == null)
+            {
+                details = "Not Specified";
+            }
 
             if(todoListByUSer != null)
             {
