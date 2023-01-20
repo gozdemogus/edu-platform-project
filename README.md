@@ -29,7 +29,8 @@ The project topic selection is left to the individuals, however, the desired fea
 - Unit Of Work
 - Dynamic data extraction from a source like Rapid API.
 - SQL Trigger
-- Json Web Token
+- [JSON Web Token](#json-web-token)
+
 
 # About
 
@@ -99,6 +100,61 @@ At Admin Panel, admin can list the users and get the user list data as Excel and
 
 In this part, I benefited heavily from **jQuery** and **Ajax** technologies. The user can update the status, view the details of the list items and delete the list item by performing the requests without refreshing the page.
 <img width="1273" alt="image" src="https://user-images.githubusercontent.com/107196935/213717207-a4000d8a-9247-42e2-aaa6-d258d40a3bcf.png">
+
+## SignalR - Instant Dashboard
+
+With SignalR, I transferred various analysis and statistical data to the dashboard instantly and pulled the instant Bitcoin data through an API and displayed it on the screen.
+<img width="1441" alt="image" src="https://user-images.githubusercontent.com/107196935/213720459-ed4d77e3-41c1-400c-8be6-b890f9861dab.png">
+
+## CQRS - Unit Of Work
+
+I did all the operations in the Course entity with CQRS. I carried out the approval processes in the payment system - Approval with Unit of Work.
+
+<img width="284" alt="image" src="https://user-images.githubusercontent.com/107196935/213721863-b6f477e2-d572-47c1-ada0-38a1ba5d7de8.png">
+<img width="1346" alt="image" src="https://user-images.githubusercontent.com/107196935/213722212-3666197a-16bd-4a8d-83bb-b963693d6f0b.png">
+
+## Dynamic API Consume
+
+With the translator API that I have integrated, translation can be made in the desired target language and search results can be accessed via the search engine API.
+<img width="1288" alt="image" src="https://user-images.githubusercontent.com/107196935/213723182-c2d92eaa-49d3-48c6-8636-4202fdff0a89.png">
+<img width="1288" alt="image" src="https://user-images.githubusercontent.com/107196935/213723599-5ab1ef7b-4ff8-4705-9827-50fd4a0ace0d.png">
+
+## SQL Trigger
+
+I created a trigger that allows records to be posted to the Notifications table when a record is sent to the Contacts table, and inserts parameters from the contacts table there.
+
+``` sql
+CREATE TRIGGER NotificationTrigger ON Contacts
+AFTER INSERT
+AS BEGIN TRY
+  SET NOCOUNT ON;
+  INSERT INTO Notifications (Message, DateTime, MessageWriter)
+  SELECT 'A new contact message received', GETDATE(), ISNULL(inserted.UserName, 'Unknown User')
+  FROM inserted;
+END TRY
+BEGIN CATCH
+      ROLLBACK TRANSACTION;
+      THROW;
+END CATCH
+```
+
+## JSON Web Token
+
+I included JSON Web Token in API-Campaign layer and used it in campaigns access service. I set token duration as 5 minutes and after accessing the token, I saved it over the cookies for future requests.
+<img width="1325" alt="image" src="https://user-images.githubusercontent.com/107196935/213728479-2630487b-07ab-4a81-96a4-f5aa0d673cec.png">
+
+```csharp
+   Response.Cookies.Append("access_token", (string)token, new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true, // set to true if you're using https
+                        Expires = DateTime.Now.AddMinutes(5)
+                   });
+                   
+  ```
+  
+ <img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213727940-526307f8-ba9e-4db9-99bb-c406da76ac9b.png">
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213728098-b79c08f0-358b-43ba-a897-9dbded308fc1.png">
 
 
 ## Courses
