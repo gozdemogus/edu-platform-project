@@ -19,16 +19,15 @@ The project topic selection is left to the individuals, however, the desired fea
 - Presentation Layer
 - DTO Layer
 - API Layer
-- Identity
-- Fluent Validation
-- DI Container
-- Reporting 
-- Dynamic Schedule (A To-Do List on Admin Panel)
-- SignalR (Instant Dashboard)
-- CQRS 
-- Unit Of Work
-- Dynamic data extraction from a source like Rapid API.
-- SQL Trigger
+- [Identity](#identity)
+- [Fluent Validation](#fluent-validation)
+- [DI Container](#di-container)
+- [Reporting](#reporting) 
+- [Dynamic Schedule (To-Do List)](#dynamic-schedule-to-do-list)
+- [SignalR - Instant Dashboard](#signalr---instant-dashboard)
+- [CQRS - Unit Of Work](#cqrs---unit-of-work)
+- [Dynamic API Consume](#dynamic-api-consume)
+- [SQL Trigger](#sql-trigger)
 - [JSON Web Token](#json-web-token)
 
 
