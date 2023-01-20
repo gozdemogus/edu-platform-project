@@ -166,7 +166,7 @@ I included JSON Web Token in API-Campaign layer and used it in campaigns access 
                    
   ```
   
- <img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213727940-526307f8-ba9e-4db9-99bb-c406da76ac9b.png">
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213756238-31f6418a-cac7-43c7-9b93-8e2d22bdbf08.png">
 <img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213728098-b79c08f0-358b-43ba-a897-9dbded308fc1.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -199,7 +199,13 @@ Courses are listed dynamically and be filtered by instructor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Error Pages
+404 - Not Found
+<img width="1250" alt="image" src="https://user-images.githubusercontent.com/107196935/213753275-31414b4c-302a-4e0b-9e61-94f064c2e8ab.png">
+403 - Unauthorized
+<img width="1106" alt="image" src="https://user-images.githubusercontent.com/107196935/213754364-3e5b1c76-162c-4f85-babf-92a0f064da56.png">
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
