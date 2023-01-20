@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oryDFsOZCMkXNmxr/4b3aBETd8U5CnMk+nysQTwhA6o=",
+  "Hash": "PhejisTbI23A7yyih43K25zCf/qMkJd+EhtTslkLz9c=",
   "Source": "BaseIdentity",
   "BasePath": "_content/BaseIdentity",
   "Mode": "Default",
@@ -204,12 +204,12 @@
       "OriginalItemSpec": "wwwroot/403/w3layouts-License.txt"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/dist/index.html",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/css/style-freedom.css",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/dist/index.html",
+      "RelativePath": "404/css/style-freedom.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/dist/index.html"
+      "OriginalItemSpec": "wwwroot/404/css/style-freedom.css"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/dist/style.css",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.eot",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/dist/style.css",
+      "RelativePath": "404/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/dist/style.css"
+      "OriginalItemSpec": "wwwroot/404/fonts/fontawesome-webfont.eot"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/LICENSE.txt",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.svg",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/LICENSE.txt",
+      "RelativePath": "404/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/404/fonts/fontawesome-webfont.svg"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/README.md",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.ttf",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/README.md",
+      "RelativePath": "404/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/README.md"
+      "OriginalItemSpec": "wwwroot/404/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/src/index.html",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.woff",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/src/index.html",
+      "RelativePath": "404/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/src/index.html"
+      "OriginalItemSpec": "wwwroot/404/fonts/fontawesome-webfont.woff"
     },
     {
-      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/src/style.css",
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.woff2",
       "SourceId": "BaseIdentity",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
       "BasePath": "_content/BaseIdentity",
-      "RelativePath": "404-error-example-2/src/style.css",
+      "RelativePath": "404/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,7 +303,58 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/404-error-example-2/src/style.css"
+      "OriginalItemSpec": "wwwroot/404/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/FontAwesome.otf",
+      "SourceId": "BaseIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
+      "BasePath": "_content/BaseIdentity",
+      "RelativePath": "404/fonts/FontAwesome.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/404/fonts/FontAwesome.otf"
+    },
+    {
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/images/404.jpg",
+      "SourceId": "BaseIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
+      "BasePath": "_content/BaseIdentity",
+      "RelativePath": "404/images/404.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/404/images/404.jpg"
+    },
+    {
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/index.html",
+      "SourceId": "BaseIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
+      "BasePath": "_content/BaseIdentity",
+      "RelativePath": "404/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/404/index.html"
     },
     {
       "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/css/site.css",

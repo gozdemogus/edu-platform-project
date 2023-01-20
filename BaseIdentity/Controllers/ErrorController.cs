@@ -15,6 +15,12 @@ namespace BaseIdentity.PresentationLayer.Controllers
         {
             return View();
         }
+
+        [Route("/NotFound")]
+        public IActionResult NotFound()
+        {
+            return View();
+        }
     }
 }
 

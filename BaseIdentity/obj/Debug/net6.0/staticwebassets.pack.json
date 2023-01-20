@@ -45,28 +45,40 @@
       "PackagePath": "staticwebassets/403/w3layouts-License.txt"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/LICENSE.txt",
-      "PackagePath": "staticwebassets/404-error-example-2/LICENSE.txt"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/css/style-freedom.css",
+      "PackagePath": "staticwebassets/404/css/style-freedom.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/README.md",
-      "PackagePath": "staticwebassets/404-error-example-2/README.md"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/404/fonts/FontAwesome.otf"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/dist/index.html",
-      "PackagePath": "staticwebassets/404-error-example-2/dist/index.html"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/404/fonts/fontawesome-webfont.eot"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/dist/style.css",
-      "PackagePath": "staticwebassets/404-error-example-2/dist/style.css"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/404/fonts/fontawesome-webfont.svg"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/src/index.html",
-      "PackagePath": "staticwebassets/404-error-example-2/src/index.html"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/404/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404-error-example-2/src/style.css",
-      "PackagePath": "staticwebassets/404-error-example-2/src/style.css"
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/404/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/404/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/images/404.jpg",
+      "PackagePath": "staticwebassets/404/images/404.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/404/index.html",
+      "PackagePath": "staticwebassets/404/index.html"
     },
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/PdfReports/user.pdf",
