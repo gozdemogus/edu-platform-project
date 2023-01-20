@@ -13,7 +13,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
     public class HomeController : Controller
     {
         [Area("Admin")]
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
 
