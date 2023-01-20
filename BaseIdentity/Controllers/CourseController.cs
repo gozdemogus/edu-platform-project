@@ -35,8 +35,8 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public IActionResult CourseByLecturer(int id)
         {
             var values = _CourseService.GetCourseByLecturer(id);
-            var name = values.FirstOrDefault().Instructor.Name;
-            var surname = values.FirstOrDefault().Instructor.Surname;
+            var name = values.FirstOrDefault()?.Instructor.Name;
+            var surname = values.FirstOrDefault()?.Instructor.Surname;
 
             ViewBag.Name = name;
             ViewBag.Surname = surname;

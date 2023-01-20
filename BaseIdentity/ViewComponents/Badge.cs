@@ -27,9 +27,14 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
             if(User.Identity.Name != null)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                var course = _courseService.FindForCart(user.Id);
-                ViewBag.Count = course.Count;
-
+                if (user != null)
+                {
+                    var course = _courseService.FindForCart(user.Id);
+                    if (course != null)
+                    {
+                        ViewBag.Count = course.Count;
+                    }
+                }
             }
 
 

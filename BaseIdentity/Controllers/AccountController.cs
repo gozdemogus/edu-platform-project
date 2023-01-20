@@ -8,6 +8,7 @@ using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,8 +35,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
         // GET: /<controller>/
         public async Task<IActionResult> IndexAsync()
         {
-         var aaaa= User.Identity.IsAuthenticated;
-         var user= await _userManager.FindByNameAsync(User.Identity.Name);
+            var aaaa = User.Identity.IsAuthenticated;
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var credit = _accountService.GetByAppUserId(user.Id).Balance;
+            ViewBag.credit = credit;
+
             return View(user);
         }
 
@@ -46,6 +50,13 @@ namespace BaseIdentity.PresentationLayer.Controllers
             var account = _accountService.GetByAppUserId(user.Id);
             _accountService.TDelete(account);
             var result = await _userManager.DeleteAsync(user);
+
+            foreach (var key in HttpContext.Request.Cookies.Keys)
+            {
+                HttpContext.Response.Cookies.Append(key, "", new CookieOptions { Expires = DateTime.Now.AddDays(-1) });
+            }
+
+
             if (result.Succeeded)
             {
                 return RedirectToAction("Index", "Home");
@@ -114,7 +125,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
             userUpdateViewModel.About = values.About;
             userUpdateViewModel.University = values.University;
             userUpdateViewModel.City = values.City;
-         
+
 
             return View(userUpdateViewModel);
         }
@@ -149,7 +160,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
             values.University = model.University;
             values.Website = model.Website;
             values.Speciality = model.Speciality;
-         
+
 
             var saved = await _userManager.UpdateAsync(values);
             if (saved.Succeeded)

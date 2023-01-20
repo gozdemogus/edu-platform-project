@@ -2,7 +2,7 @@
 
 @await Component.InvokeAsync("Hero", "Wishlist")
 
-@if (ViewBag.wlistnull)
+@if (ViewBag.wlistnull != null)
 {
     <section class="ftco-section bg-light">
         <div class="container">

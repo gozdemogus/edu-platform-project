@@ -13,7 +13,7 @@
                             <div class="team d-md-flex p-4 bg-white">
                                 @if (!object.ReferenceEquals(@item.Image, null))
                                 {
-                                    <div class="img" style="background-image: url(@item.Image);"></div>
+                                    <img src="~/UserImage/@item.Image" style=" border-radius: 50%; width:100px;height:100px">
                                 }
                                 else
                                 {
@@ -21,8 +21,8 @@
                                 }
 
                                 @*<div class="img">
-                                        <img src="@item.Image" style="border-radius:50%; width:200px; height:200px" alt="Avatar">
-                                    </div>*@
+            <img src="@item.Image" style="border-radius:50%; width:200px; height:200px" alt="Avatar">
+        </div>*@
 
                                 <div class="text pl-md-4">
                                     <span class="location mb-0">@item.About  </span>

@@ -37,11 +37,16 @@ namespace BaseIdentity.PresentationLayer.Controllers
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var valueSender = _accountService.TGetByID(user.Id);
-            var superAdmin = await _userManager.GetUsersInRoleAsync("SuperAdmin");
-            var valueReceiver = _accountService.TGetByID(superAdmin.FirstOrDefault().Id);
 
-            valueSender.Balance -= total;
-            valueReceiver.Balance += total;
+            var usersInRole = await _userManager.GetUsersInRoleAsync("SuperAdmin");
+            var superAdmin = usersInRole.FirstOrDefault();
+
+
+            if (superAdmin != null)
+            {
+                var valueReceiver = _accountService.GetByAppUserId(superAdmin.Id);
+                valueSender.Balance -= total;
+                valueReceiver.Balance += total;
 
             List<Account> modifiedAccounts = new List<Account>()
             {
@@ -50,6 +55,8 @@ namespace BaseIdentity.PresentationLayer.Controllers
             };
 
             _accountService.TMultiUpdate(modifiedAccounts);
+
+            }
 
             return RedirectToAction("Enroll", "Enrollment");
         }
