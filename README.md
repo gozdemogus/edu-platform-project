@@ -199,6 +199,9 @@ Courses are listed dynamically and be filtered by instructor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Cart
+
 ## Error Pages
 404 - Not Found
 <img width="1250" alt="image" src="https://user-images.githubusercontent.com/107196935/213753275-31414b4c-302a-4e0b-9e61-94f064c2e8ab.png">
