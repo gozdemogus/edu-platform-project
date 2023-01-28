@@ -1,7 +1,5 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -11,32 +9,6 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Views/Error/Index.cshtml">
-    <Files>
-      <File FileName="BaseIdentity/Views/Error/Index.cshtml" Line="52" Column="17" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Error">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="DTOLayer" expanded="True">
-              <Node name="DTOs" expanded="True">
-                <Node name="ContactDTO" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
@@ -44,5 +16,37 @@
       <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/RoleController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" line="96" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Controllers/AccountBalanceController.cs">
+    <Files>
+      <File FileName="BaseIdentity/Controllers/AccountBalanceController.cs" Line="46" Column="1" />
+      <File FileName="BusinessLayer/Concrete/ConcreteUOW/AccountManager.cs" Line="17" Column="32" />
+      <File FileName="BusinessLayer/Abstract/AbstractUOW/IGenericUOWService.cs" Line="15" Column="1" />
+      <File FileName="BusinessLayer/Abstract/AbstractUOW/IAccountService.cs" Line="8" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.BusinessLayer" expanded="True">
+              <Node name="Abstract" expanded="True">
+                <Node name="AbstractUOW" expanded="True" />
+              </Node>
+              <Node name="Concrete" expanded="True">
+                <Node name="ConcreteUOW" expanded="True">
+                  <Node name="AccountManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

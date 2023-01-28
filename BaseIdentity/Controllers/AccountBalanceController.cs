@@ -36,14 +36,12 @@ namespace BaseIdentity.PresentationLayer.Controllers
         public async Task<IActionResult> DoPayment(decimal total)
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var valueSender = _accountService.TGetByID(user.Id);
+            var valueSender = _accountService.GetByAppUserId(user.Id);
 
             var usersInRole = await _userManager.GetUsersInRoleAsync("SuperAdmin");
             var superAdmin = usersInRole.FirstOrDefault();
 
 
-            if (superAdmin != null)
-            {
                 var valueReceiver = _accountService.GetByAppUserId(superAdmin.Id);
                 valueSender.Balance -= total;
                 valueReceiver.Balance += total;
@@ -56,7 +54,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
             _accountService.TMultiUpdate(modifiedAccounts);
 
-            }
+
 
             return RedirectToAction("Enroll", "Enrollment");
         }
