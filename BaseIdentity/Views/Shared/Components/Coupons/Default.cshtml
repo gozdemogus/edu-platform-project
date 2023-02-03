@@ -17,17 +17,9 @@
             background-position: -500px 0
         }
     }
-
 </style>
 
-
-
-
 @model List<CampaignViewModel>
-
-
-
-
 <div class="sidebar-box bg-white p-4 ftco-animate">
 
     <center>
@@ -35,14 +27,14 @@
         <ul>
             @foreach (var item in Model)
             {
-                <i>@item.startDate.ToShortDateString() - @item.endDate.ToShortDateString()</i>
+                <b style="color:orange">📅 @item.startDate.ToShortDateString() - @item.endDate.ToShortDateString()</b>
                 <br />
                 <b class="animated_rainbow_2">@item.campaignName</b>
                 <b>@item.code</b>
                 <br />
             }
         </ul>
-      
+
     </center>
 
 </div>
