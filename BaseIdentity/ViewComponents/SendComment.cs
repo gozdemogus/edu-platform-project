@@ -17,9 +17,12 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            if(User.Identity.IsAuthenticated == true)
+            {
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
-            ViewBag.user = user;
+                ViewBag.user = user;
+            }
 
             Comment comment = new Comment();
             return View(comment);

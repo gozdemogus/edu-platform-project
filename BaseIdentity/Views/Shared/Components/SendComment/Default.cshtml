@@ -57,7 +57,7 @@
             <textarea name="Text" id="messageforcomment" class="form-control"></textarea>
         </div>
         <div class="form-group">
-            <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+            <input type="submit" value="Post Comment" id="addCommentButton" class="btn py-3 px-4 btn-primary">
         </div>
 
     </form>
@@ -71,7 +71,7 @@
 
 
         <script>$(document).ready(function () {
-                $('form').submit(function (event) {
+                $("#form").submit(function (event) {
                     debugger
                     event.preventDefault();
 

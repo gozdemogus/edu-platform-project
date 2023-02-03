@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
@@ -26,12 +27,14 @@ namespace BaseIdentity.PresentationLayer.Controllers
         }
 
         // GET: /<controller>/
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var values = _CourseService.GetListWithDetail();
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult CourseByLecturer(int id)
         {
             var values = _CourseService.GetCourseByLecturer(id);
@@ -44,16 +47,26 @@ namespace BaseIdentity.PresentationLayer.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> CourseById(int id)
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var values = _CourseService.GetCourseById(id);
-            var isEnrolled = values.Enrollments.Where(x => x.AppUserId == user.Id).ToList();
 
-            if (isEnrolled.Count != 0)
+
+            if (User.Identity.IsAuthenticated != false)
             {
-                ViewBag.Enrolled = true;
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+                var isEnrolled = values.Enrollments.Where(x => x.AppUserId == user.Id).ToList();
+
+                if (isEnrolled.Count != 0)
+                {
+                    ViewBag.Enrolled = true;
+                }
+
+                return View(values);
             }
+
+          
             else
             {
                 ViewBag.Enrolled = false;
@@ -62,6 +75,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult ByCategory(int id)
         {
             var values = _CourseService.GetCourseByCategory(id).ToList();
@@ -69,7 +83,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
         }
 
 
-
+        [AllowAnonymous]
         public IActionResult SearchCourse(string keyword)
         {
            var values = _CourseService.SearchCourse(keyword);
@@ -77,7 +91,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
             return View(values);
         }
 
-
+        [AllowAnonymous]
         public IActionResult SearchCourseHome(SearchCourseHomeViewModel searchCourseHomeViewModel)
         {
             var values = _CourseService.SearchCourseHome(searchCourseHomeViewModel.Language, searchCourseHomeViewModel.CategoryName);

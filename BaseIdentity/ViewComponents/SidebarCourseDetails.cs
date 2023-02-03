@@ -30,17 +30,20 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync(int id)
         {
-
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var result =   _enrollmentDal.GetEnrollmentByOwner(user.Id);
-
-            var isEnrolled =  result.Where(x => x.CourseId == id).ToList();
-
-            if(isEnrolled.Count != 0)
+            if (User.Identity.IsAuthenticated == true)
             {
-                ViewBag.Enrolled = true;
-                ViewBag.EnrollDate = isEnrolled.FirstOrDefault().EnrollmentDate.ToShortDateString();
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+                var result = _enrollmentDal.GetEnrollmentByOwner(user.Id);
+                var isEnrolled = result.Where(x => x.CourseId == id).ToList();
+
+                if (isEnrolled.Count != 0)
+                {
+                    ViewBag.Enrolled = true;
+                    ViewBag.EnrollDate = isEnrolled.FirstOrDefault().EnrollmentDate.ToShortDateString();
+                }
             }
+
+         
             else
             {
                 ViewBag.Enrolled = false;
