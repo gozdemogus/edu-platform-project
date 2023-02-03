@@ -14,15 +14,15 @@ namespace BaseIdentity.PresentationLayer.Controllers
 {
     public class EnrollmentController : Controller
     {
-        private readonly IEnrollmentDal _enrollmentDal;
+        private readonly IEnrollmentService _enrollmentService;
         private readonly UserManager<AppUser> _userManager;
         private readonly ICourseService _courseService;
         private readonly ICartService _cartService;
 
 
-        public EnrollmentController(IEnrollmentDal enrollmentDal, UserManager<AppUser> userManager, ICourseService courseService, ICartService cartService)
+        public EnrollmentController(IEnrollmentService enrollmentService, UserManager<AppUser> userManager, ICourseService courseService, ICartService cartService)
         {
-            _enrollmentDal = enrollmentDal;
+            _enrollmentService = enrollmentService;
             _userManager = userManager;
             _courseService = courseService;
 
@@ -37,7 +37,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
         {
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var values = _enrollmentDal.GetEnrollmentByOwner(user.Id);
+            var values = _enrollmentService.GetEnrollmentByOwner(user.Id);
 
             return View(values);
 
@@ -57,7 +57,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
                 enrollment.CourseId = item.Id;
                 enrollment.EnrollmentDate = DateTime.Now;
 
-                _enrollmentDal.Insert(enrollment);
+                _enrollmentService.TInsert(enrollment);
                
             }
 

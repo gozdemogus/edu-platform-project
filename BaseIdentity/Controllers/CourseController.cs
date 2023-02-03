@@ -19,18 +19,25 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
         private readonly UserManager<AppUser> _userManager;
         private readonly ICourseService _CourseService;
+        private readonly IEnrollmentService _enrollmentService;
 
-        public CourseController(ICourseService CourseService, UserManager<AppUser> userManager)
+
+        public CourseController(ICourseService CourseService, UserManager<AppUser> userManager, IEnrollmentService enrollmentService)
         {
             _CourseService = CourseService;
             _userManager = userManager;
+            _enrollmentService = enrollmentService;
         }
 
         // GET: /<controller>/
         [AllowAnonymous]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var values = _CourseService.GetListWithDetail();
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            var enrolledCourses = _enrollmentService.GetEnrollmentByOwner(user.Id);
+            ViewBag.enrolled = enrolledCourses;
             return View(values);
         }
 
