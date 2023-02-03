@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zq1Hbk/7RN5cUrt0hgefS3kdrwDtXsyq2hn5Dqs83so=",
+  "Hash": "hVuQrQyRfXX1db7Uu0KNwIZQr0e+SvdAc+h6+1I4VCY=",
   "Source": "BaseIdentity",
   "BasePath": "_content/BaseIdentity",
   "Mode": "Default",
@@ -12000,6 +12000,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/regal/vendors/typeahead.js/typeahead.bundle.min.js"
+    },
+    {
+      "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/.DS_Store",
+      "SourceId": "BaseIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/",
+      "BasePath": "_content/BaseIdentity",
+      "RelativePath": "tema/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/tema/.DS_Store"
     },
     {
       "Identity": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/blog-single.html",

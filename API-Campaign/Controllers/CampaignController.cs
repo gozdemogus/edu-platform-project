@@ -31,6 +31,19 @@ namespace APIPayment.Controllers
             }
         }
 
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("api/[controller]/ListForCustomer")]
+        public IActionResult ListForCustomer()
+        {
+            using (var context = new Context())
+            {
+                var values = context.Campaigns.Include(c => c.CampaignAssignees).ToList();
+                return Ok(values);
+            }
+        }
+
         [HttpPost]
         public IActionResult CampaignAdd(Campaign campaign)
         {

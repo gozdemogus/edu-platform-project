@@ -2841,6 +2841,10 @@
       "PackagePath": "staticwebassets/regal/vendors/typeahead.js/typeahead.bundle.min.js"
     },
     {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/.DS_Store",
+      "PackagePath": "staticwebassets/tema/.DS_Store"
+    },
+    {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/tema/blog-single.html",
       "PackagePath": "staticwebassets/tema/blog-single.html"
     },
