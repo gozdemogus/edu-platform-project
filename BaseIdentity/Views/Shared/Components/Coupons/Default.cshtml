@@ -36,10 +36,11 @@
         <ul>
             @foreach (var item in Model)
             {
-                <b class="animated_rainbow_2">@item.campaignName : @item.code</b>
-                <br />
                 <i>@item.startDate.ToShortDateString() - @item.endDate.ToShortDateString()</i>
-             <br /> 
+                <br />
+                <b class="animated_rainbow_2">@item.campaignName</b>
+                <b>@item.code</b>
+                <br />
             }
         </ul>
       

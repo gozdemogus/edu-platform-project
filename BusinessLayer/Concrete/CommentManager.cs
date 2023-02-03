@@ -36,7 +36,7 @@ namespace BaseIdentity.BusinessLayer.Concrete
 
         public void TInsert(Comment t)
         {
-            throw new NotImplementedException();
+            _CommentDal.Insert(t);
         }
 
         public void TUpdate(Comment t)
