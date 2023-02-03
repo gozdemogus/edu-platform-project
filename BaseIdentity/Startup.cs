@@ -1,9 +1,12 @@
+using BaseIdentity.BusinessLayer.Abstract.AbstractUOW;
 using BaseIdentity.BusinessLayer.DIContainer;
 using BaseIdentity.DataAccessLayer.Concrete;
 using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Controllers;
 using BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers;
 using BaseIdentity.PresentationLayer.Models;
+using BaseIdentity.PresentationLayer.ViewComponents;
+using DocumentFormat.OpenXml.Spreadsheet;
 using DTOLayer.DTOs.AppUserDTOs;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -20,6 +23,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static ClosedXML.Excel.XLPredefinedFormat;
 
 namespace WebApplication1
 {
@@ -76,7 +80,7 @@ namespace WebApplication1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -106,6 +110,10 @@ namespace WebApplication1
             app.UseAuthentication();
             app.UseRouting();
 
+            //seed
+            CreateSuperAdmin(serviceProvider).Wait();
+            CreateSuperAdminUser(serviceProvider).Wait();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -127,5 +135,57 @@ namespace WebApplication1
             });
 
         }
+
+        private async Task CreateSuperAdmin(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<AppRole>>();
+
+            if (!await roleManager.RoleExistsAsync("SuperAdmin"))
+            {
+                var superAdminRole = new AppRole()
+                {
+                    Name = "SuperAdmin"
+                };
+
+                var result = await roleManager.CreateAsync(superAdminRole);
+            }
+        }
+
+
+        private async Task CreateSuperAdminUser(IServiceProvider serviceProvider)
+        {
+            var userManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<AppRole>>();
+            var accountService = serviceProvider.GetRequiredService<IAccountService>();
+
+            var existingUser = await userManager.FindByNameAsync("superadmin");
+            if (existingUser == null)
+            {
+                AppUser appUser = new AppUser()
+                {
+                    UserName = "superadmin",
+                    Name = "super",
+                    Surname = "admin"
+                };
+
+                var result = await userManager.CreateAsync(appUser, "Sa12345*");
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(appUser, "SuperAdmin");
+                }
+
+                var hasAccount = accountService.GetByAppUserId(appUser.Id);
+                if(hasAccount == null)
+                {
+                    Account account = new Account();
+                    account.AppUserId = appUser.Id;
+                    account.Balance = 2000;
+                    accountService.TInsert(account);
+                }
+              
+            }
+        }
+
+
     }
 }
