@@ -130,7 +130,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
                 var result = await _userManager.UpdateAsync(user);
 
-                // await _userManager.AddToRoleAsync(user, "Employee");
+                 await _userManager.AddToRoleAsync(user, "User");
 
                 return RedirectToAction("Index", "Login");
             }
