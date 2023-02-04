@@ -149,6 +149,16 @@ namespace WebApplication1
 
                 var result = await roleManager.CreateAsync(superAdminRole);
             }
+
+            if (!await roleManager.RoleExistsAsync("User"))
+            {
+                var userRole = new AppRole()
+                {
+                    Name = "User"
+                };
+
+                var result = await roleManager.CreateAsync(userRole);
+            }
         }
 
 
