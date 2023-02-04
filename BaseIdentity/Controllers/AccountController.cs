@@ -21,24 +21,29 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
         private readonly UserManager<AppUser> _userManager;
         private readonly IAccountService _accountService;
+        private readonly RoleManager<AppRole> _roleManager;
 
 
-
-        public AccountController(UserManager<AppUser> userManager, IAccountService accountService)
+        public AccountController(UserManager<AppUser> userManager, IAccountService accountService, RoleManager<AppRole> roleManager)
         {
 
             _userManager = userManager;
             _accountService = accountService;
+            _roleManager = roleManager;
         }
 
 
         // GET: /<controller>/
         public async Task<IActionResult> IndexAsync()
         {
-            var aaaa = User.Identity.IsAuthenticated;
+          //  var aaaa = User.Identity.IsAuthenticated;
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
             var credit = _accountService.GetByAppUserId(user.Id).Balance;
+            var roles = await _userManager.GetRolesAsync(user);
+
             ViewBag.credit = credit;
+            ViewBag.roles = roles;
 
             return View(user);
         }
