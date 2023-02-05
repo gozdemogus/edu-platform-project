@@ -104,7 +104,8 @@
 
 
                             <td>
-                                <a href="/Admin/TodoList/Remove/@item.Id" id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                <a id="delButton" class="icon text-center d-flex justify-content-center align-items-center icon mr-2" data-item-id="@item.Id">
+                                    @*href="/Admin/TodoList/Remove/@item.Id"*@
                                     <span class="icon-trash" style="color:red"></span>
                                 </a>
                             </td>
@@ -162,20 +163,22 @@
         });
     });
 
-        //$(document).on('click', '#delButton', function (e) {
-        //    e.preventDefault(); // prevent the link from redirecting the page
+        $(document).on('click', '#delButton', function (e) {
+            e.preventDefault(); // prevent the link from redirecting the page
 
-        //    var itemId = $(this).data('item-id');
-        //    var url = '/Admin/TodoList/Remove/' + itemId;
+            var itemId = $(this).data('item-id');
+            var url = '/Admin/TodoList/Remove/' + itemId;
 
-        //    $.ajax({
-        //        type: 'DELETE',
-        //        url: url,
-        //        success: function (result) {
-        //            location.reload();
-        //        },
-        //        error: function (xhr, status, error) {
-        //            // handle the error
-        //        }
-        //    });
-        //});</script>
+            $.ajax({
+                type: 'DELETE',
+                url: url,
+                success: function (result) {
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    // handle the error
+                }
+            });
+        });
+
+    </script>

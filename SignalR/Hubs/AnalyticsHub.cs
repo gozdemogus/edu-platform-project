@@ -59,7 +59,7 @@ namespace SignalR.Hubs
             var shuffleNames = Shuffle(words1);
 
             await Clients.All.SendAsync("ChartValues", test2, shuffleNames);
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(3000);
         }
 
         public string[] Shuffle(string[] wordArray)
@@ -82,7 +82,7 @@ namespace SignalR.Hubs
             var analytics = _context.Analytics.FirstOrDefault(a => a.Id == 1);
           
             await Clients.All.SendAsync("ReceiveAnalytics", analytics);
-          //  System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(1000);
 
         }
 
@@ -93,7 +93,7 @@ namespace SignalR.Hubs
             var totalCount = CalculateTotalTrafficSources(trafficSources);
             var goal = Math.Round(totalCount * 2.65, 1) ;
             await Clients.All.SendAsync("ReceiveTrafficSources", trafficSources, totalCount, goal);
-         //   System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(1000);
         }
 
         public void UpdateTrafficSourcesRandomly(List<TrafficSource> trafficSources)

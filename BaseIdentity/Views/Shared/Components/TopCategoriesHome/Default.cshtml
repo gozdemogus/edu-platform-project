@@ -5,7 +5,7 @@
         <div class="row justify-content-center mb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
                 <span class="subheading">Course Categories</span>
-                <h2 class="mb-0">Top Categories</h2>
+                <h2 class="mb-0">Trending Categories</h2>
             </div>
         </div>
         @*<div class="row">
@@ -24,7 +24,9 @@
                 <ul class="category text-center">
                     @foreach (var item in Model)
                     {
-                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br><span class="number">@item.Courses.Count</span> <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
+                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br>
+                            @*<span class="number">@item.Courses.Count</span>*@
+                            <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
 
                     }
 
@@ -34,7 +36,9 @@
                 <ul class="category text-center">
                     @foreach (var item in ViewBag.c2)
                     {
-                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br><span class="number">@item.Courses.Count</span> <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
+                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br>
+                            @*<span class="number">@item.Courses.Count</span>*@
+                            <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
 
                     }
 
@@ -44,7 +48,9 @@
                 <ul class="category text-center">
                     @foreach (var item in ViewBag.c3)
                     {
-                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br><span class="number">@item.Courses.Count</span> <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
+                        <li><a href="/Course/ByCategory/@item.CategoryID">@item.CategoryName <br>
+                            @*<span class="number">@item.Courses.Count</span>*@
+                            <span>@item.Description</span><i class="ion-ios-arrow-forward"></i></a></li>
 
                     }
 
