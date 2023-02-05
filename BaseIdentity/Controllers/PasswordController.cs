@@ -37,7 +37,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
             MimeMessage mimeMessage = new MimeMessage();
 
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("Bloggy", "goezdem6@gmail.com");
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Edumy", "goezdem6@gmail.com");
             mimeMessage.From.Add(mailboxAddressFrom);
 
             MailboxAddress mailboxAddressTo = new MailboxAddress("User", email);
@@ -51,7 +51,7 @@ namespace BaseIdentity.PresentationLayer.Controllers
 
             var body = new TextPart("plain")
             {
-                Text = link
+                Text = "Dear User, you can reset your password with this link: " + link
             };
 
             mimeMessage.Body = body;

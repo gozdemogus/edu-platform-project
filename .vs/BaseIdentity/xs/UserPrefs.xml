@@ -1,21 +1,15 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Program.cs">
-    <Files>
-      <File FileName="BaseIdentity/Startup.cs" Line="114" Column="1" />
-      <File FileName="BaseIdentity/Program.cs" Line="16" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.PresentationLayer" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/EnrollmentController.cs" relfile="BaseIdentity/Controllers/EnrollmentController.cs" line="42" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -25,13 +19,51 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Views/Account/Index.cshtml">
+    <Files>
+      <File FileName="BaseIdentity/Views/Home/Index.cshtml" Line="338" Column="23" />
+      <File FileName="BaseIdentity/Views/Shared/_Layout.cshtml" Line="40" Column="10" />
+      <File FileName="BaseIdentity/Views/Account/Index.cshtml" Line="19" Column="45" />
+      <File FileName="BaseIdentity/Controllers/AccountController.cs" Line="42" Column="13" />
+      <File FileName="BaseIdentity/Areas/Admin/Controllers/RoleController.cs" Line="21" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Cart" expanded="True" />
+                <Node name="Enrollment" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Badge" expanded="True" />
+                    <Node name="CartTotal" expanded="True" />
+                    <Node name="Coupons" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="regal" expanded="True">
+                  <Node name="images" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
