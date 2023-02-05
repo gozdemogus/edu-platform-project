@@ -151,7 +151,7 @@ I carried out the approval processes in the payment system with **Unit of Work**
 
 ## Dynamic API Consume
 
-With the translator API that I have integrated, translation can be made in the desired target language and search results can be accessed via the search engine API.
+With the translator API that I have integrated, translation can be made in the desired target language and web search results can be accessed via the search engine API.
 <img width="1288" alt="image" src="https://user-images.githubusercontent.com/107196935/213723182-c2d92eaa-49d3-48c6-8636-4202fdff0a89.png">
 <img width="1288" alt="image" src="https://user-images.githubusercontent.com/107196935/213723599-5ab1ef7b-4ff8-4705-9827-50fd4a0ace0d.png">
 
