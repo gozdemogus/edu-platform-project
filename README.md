@@ -76,8 +76,9 @@ https://user-images.githubusercontent.com/107196935/216830514-1e5b39d5-46d6-40de
 ## Project Layers
 
 In project I used N Tier architecture and also all of the required layers are provided.
-
+<p align="center">
 <img width="276" alt="image" src="https://user-images.githubusercontent.com/107196935/213684327-08cc7b52-a297-482b-8f10-c57d6c5f8ee2.png">
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
