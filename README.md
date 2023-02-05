@@ -11,9 +11,9 @@ This repo includes my project I developed as Up School graduation project.
 
 # About
 
-<img width="1233" alt="image" src="https://user-images.githubusercontent.com/107196935/213699163-9e274b70-b984-4388-a7d4-dc41a991339d.png">
+https://user-images.githubusercontent.com/107196935/216828760-08215020-a1cb-42ac-a9b8-657e63c86751.mov
 
-A software development training web app similar to [Udemy](https://www.udemy.com/), where users can access educational content in various categories, add courses to the cart and purchase, view the profiles of content producers and filter courses accordingly.
+An education aimed web app similar to [Udemy](https://www.udemy.com/), where users can access educational content in various categories, add courses to the cart and purchase, view the profiles of content producers and filter courses accordingly.
 
 In addition, adding courses with the admin panel, assigning courses to content producers, adding categories, creating campaigns, displaying notifications, displaying data via instant dashboard, creating a to-do list and performing CRUD operations on this list, creating user documents in Excel and also as PDF, consume APIs and with the help of APIs doing translations or searching the internet.
 
@@ -22,7 +22,7 @@ Also, creating a role, assigning a role to users, viewing the communication mess
 
 # Intro
 
-The project topic selection is left to the individuals, however, the desired features in the project content are as follows:
+The project topic selection is left to the individuals, however, the desired and completed features in the project content are as follows:
 - AspNet Core 3.1 / 5.0 / 6.0 / 7.0
 - N Tier Architecture
 - Entity Layer
@@ -57,6 +57,17 @@ The project topic selection is left to the individuals, however, the desired fea
 - Fluent Validation
 - Auto Mapper
 
+## Division
+
+The showcase section, which is offered to the end user, where operations such as course listing, enrollment and purchasing are carried out.
+
+
+
+Admin Panel with dynamic dashboard where operations such as adding courses, managing, assigning roles, user document operations are done.
+I used SignalR in order to get instant data on charts and analysis at widgets and used jQuery and Ajax for updating To-Do's. Also, an API is consumed in order to get instant Bitcoin rate.
+
+https://user-images.githubusercontent.com/107196935/216830514-1e5b39d5-46d6-40de-9b80-ce95c0155152.mov
+
 ## Project Layers
 
 In project I used N Tier architecture and also all of the required layers are provided.
@@ -77,16 +88,16 @@ Project contains Identity framework. User can:
 - Reset Password via user page
 - Access role based pages
 
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213691302-f4a84e0e-1444-44b6-b4ec-7cd795542264.png">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213694744-2347a625-3e52-47d5-93f1-d33cb994d703.png">
-All forms input fields are able to validate the inputs.
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213695477-0f535ebb-84fe-44dd-86b6-6be5c3bb90e4.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213691302-f4a84e0e-1444-44b6-b4ec-7cd795542264.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213694744-2347a625-3e52-47d5-93f1-d33cb994d703.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216823341-bb3a94b7-06c5-49ba-9220-fd18929128bf.png">All forms input fields are able to validate the inputs.
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213695477-0f535ebb-84fe-44dd-86b6-6be5c3bb90e4.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## DI Container
 
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213712711-b7765cf5-1a20-4821-8ff4-3ff37a0d1b62.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213712711-b7765cf5-1a20-4821-8ff4-3ff37a0d1b62.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,26 +198,31 @@ I developed Campaign entities in API layer and provided all the CRUD operations 
 ## Fluent Validation
 
 Fluent Validation is used in input fields.
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213712284-0b4062ed-5b36-4af8-8fec-5e9ae74e2266.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213712284-0b4062ed-5b36-4af8-8fec-5e9ae74e2266.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Courses
 
 Courses are listed dynamically and be filtered by instructor.
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213711052-2d3adcac-c9aa-4ed0-81a1-748961dd9116.png">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213710332-f2f8d702-d0f8-4ce5-b6c1-3b33119bfb5a.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216821845-1eabfc5f-2cd0-468e-93aa-1d908f360182.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213710332-f2f8d702-d0f8-4ce5-b6c1-3b33119bfb5a.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Cart
 
+Users can add the courses they want to buy to the cart, see the total amount in the cart and buy them. In addition, the undesired courses can be removed from the cart, the updated new amount is reflected in the cart.
+
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216821538-f91a0df9-ef06-4af3-b8f5-8aaae6586f97.png">
+
+
 ## Error Pages
 404 - Not Found
-<img width="1250" alt="image" src="https://user-images.githubusercontent.com/107196935/213753275-31414b4c-302a-4e0b-9e61-94f064c2e8ab.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213753275-31414b4c-302a-4e0b-9e61-94f064c2e8ab.png">
 403 - Unauthorized
-<img width="1106" alt="image" src="https://user-images.githubusercontent.com/107196935/213754364-3e5b1c76-162c-4f85-babf-92a0f064da56.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213754364-3e5b1c76-162c-4f85-babf-92a0f064da56.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
