@@ -21,6 +21,7 @@
                 <br />
                 <label>Language</label>
                 <select name="Language" id="languages" class="form-control">
+                    <option value="">Select</option>
                     <option value="Turkish" @(Model.Language == "Turkish" ? "selected" : "")>Turkish</option>
                     <option value="English" @(Model.Language == "English" ? "selected" : "")>English</option>
                     <option value="German" @(Model.Language == "German" ? "selected" : "")>German</option>
@@ -55,24 +56,27 @@
                 <br />
                 <label>Category</label>
                 <select name="CategoryId" class="form-control">
+                    <option value="">Select</option>
                     @foreach (var category in ViewBag.Categories)
                     {
-                        <option value="@category.CategoryID">@category.CategoryName</option>
+                        <option value="@category.CategoryID" @(Model.CategoryId == category.CategoryID ? "selected" : "")>@category.CategoryName</option>
                     }
                 </select>
                 <br />
                 <label>Level</label>
                 <select name="Level" id="languages" class="form-control">
-                    <option value="Beginner" @(Model.Language == "Beginner" ? "selected" : "")>Beginner</option>
-                    <option value="Middle" @(Model.Language == "Middle" ? "selected" : "")>Middle</option>
-                    <option value="Advanced" @(Model.Language == "Advanced" ? "selected" : "")>Advanced</option>
+                    <option value="">Select</option>
+                    <option value="Beginner" @(Model.Level == "Beginner" ? "selected" : "")>Beginner</option>
+                    <option value="Middle" @(Model.Level == "Middle" ? "selected" : "")>Middle</option>
+                    <option value="Advanced" @(Model.Level == "Advanced" ? "selected" : "")>Advanced</option>
                 </select>
                 <br />
                 <label>Instructor</label>
                 <select name="InstructorId" class="form-control">
+                    <option value="">Select</option>
                     @foreach (var instructor in ViewBag.Instructors)
                     {
-                        <option value="@instructor.Id">@instructor.Name @instructor.Surname</option>
+                        <option value="@instructor.Id" @(instructor.Id == Model.InstructorId ? "selected" : "")>@instructor.Name @instructor.Surname</option>
                     }
                 </select>
                 <br />

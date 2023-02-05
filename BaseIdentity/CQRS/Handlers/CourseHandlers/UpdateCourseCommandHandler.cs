@@ -16,15 +16,42 @@ namespace BaseIdentity.PresentationLayer.CQRS.Handlers.CourseHandlers
         public void Handle(UpdateCourseCommand command)
         {
             var values = _context.Courses.Find(command.CourseId);
-            values.Title = command.Title;
-            values.Language = command.Language;
-            values.Price = command.Price;
-            values.Level = command.Level;
-            values.ContentURL = command.ContentURL;
-            values.CoverPhoto = command.CoverPhoto;
-            values.Description = command.Description;
-            values.CategoryId = command.CategoryId;
-            values.InstructorId = command.InstructorId;
+            if (!string.IsNullOrEmpty(command.Title))
+            {
+                values.Title = command.Title;
+            }
+            if (!string.IsNullOrEmpty(command.Language))
+            {
+                values.Language = command.Language;
+            }
+            if (command.Price > 0)
+            {
+                values.Price = command.Price;
+            }
+            if (!string.IsNullOrEmpty(command.Level))
+            {
+                values.Level = command.Level;
+            }
+            if (!string.IsNullOrEmpty(command.ContentURL))
+            {
+                values.ContentURL = command.ContentURL;
+            }
+            if (!string.IsNullOrEmpty(command.CoverPhoto))
+            {
+                values.CoverPhoto = command.CoverPhoto;
+            }
+            if (!string.IsNullOrEmpty(command.Description))
+            {
+                values.Description = command.Description;
+            }
+            if (command.CategoryId > 0)
+            {
+                values.CategoryId = command.CategoryId;
+            }
+            if (command.InstructorId > 0)
+            {
+                values.InstructorId = command.InstructorId;
+            }
             _context.SaveChanges();
         }
     }

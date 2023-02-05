@@ -85,8 +85,24 @@
       "PackagePath": "staticwebassets/PdfReports/user.pdf"
     },
     {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/0d94a94c-5103-42c0-a324-67982cbf9cfc.png",
+      "PackagePath": "staticwebassets/UserImage/0d94a94c-5103-42c0-a324-67982cbf9cfc.png"
+    },
+    {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/2d2d6339-28c6-436b-91fc-ce4f2442821b.jpeg",
       "PackagePath": "staticwebassets/UserImage/2d2d6339-28c6-436b-91fc-ce4f2442821b.jpeg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/5f0ab4cc-7306-421a-acda-12c46616d25e.png",
+      "PackagePath": "staticwebassets/UserImage/5f0ab4cc-7306-421a-acda-12c46616d25e.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/5fb823af-35ce-4e42-a273-52751d48d8cc.png",
+      "PackagePath": "staticwebassets/UserImage/5fb823af-35ce-4e42-a273-52751d48d8cc.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/73ca2b95-1b3e-461d-8394-f76de51669cf.jpg",
+      "PackagePath": "staticwebassets/UserImage/73ca2b95-1b3e-461d-8394-f76de51669cf.jpg"
     },
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/7fe6b187-9964-413d-b7b7-1ac9401dbe7d.jpeg",
@@ -101,8 +117,20 @@
       "PackagePath": "staticwebassets/UserImage/8fd2270b-d79d-4c44-8cff-c4783483105a.jpeg"
     },
     {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/9e5458e2-e9d7-455c-921e-dd895a839fbf.avif",
+      "PackagePath": "staticwebassets/UserImage/9e5458e2-e9d7-455c-921e-dd895a839fbf.avif"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/a1de47b4-2a4b-40a5-a533-15df320cc4d0.jpg",
+      "PackagePath": "staticwebassets/UserImage/a1de47b4-2a4b-40a5-a533-15df320cc4d0.jpg"
+    },
+    {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/c1256aaf-a97e-4e7b-b22b-2f376f1999a1.jpeg",
       "PackagePath": "staticwebassets/UserImage/c1256aaf-a97e-4e7b-b22b-2f376f1999a1.jpeg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/UserImage/eea40152-abee-4ec8-8694-367bb1218eb6.png",
+      "PackagePath": "staticwebassets/UserImage/eea40152-abee-4ec8-8694-367bb1218eb6.png"
     },
     {
       "Id": "/Users/gozdemogus/Desktop/Edu/BaseIdentity/wwwroot/css/site.css",
