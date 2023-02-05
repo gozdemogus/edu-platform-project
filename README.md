@@ -131,11 +131,19 @@ With SignalR, I transferred various analysis and statistical data to the dashboa
 
 ## CQRS - Unit Of Work
 
-I did all the operations in the Course entity with CQRS. I carried out the approval processes in the payment system - Approval with Unit of Work.
+I did all the operations in the Course entity with CQRS. 
 
 <img width="1552" alt="Ekran Resmi 2023-02-05 20 16 05" src="https://user-images.githubusercontent.com/107196935/216835287-eccf22f6-e1cf-4075-9c64-0ed1627ad930.png">
-
+<p align="center">
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/107196935/213721863-b6f477e2-d572-47c1-ada0-38a1ba5d7de8.png">
+</p>
+
+I carried out the approval processes in the payment system with **Unit of Work**. I assigned a SuperAdmin user as default and when user wants to buy the course credits passing into the SuperAdmin's balance.
+
+<p align="center">
+<img width="779" alt="image" src="https://user-images.githubusercontent.com/107196935/216837259-45ad9c5d-3916-4326-ab4e-fb4748e82498.png">
+</p>
+
 <img width="1346" alt="image" src="https://user-images.githubusercontent.com/107196935/213722212-3666197a-16bd-4a8d-83bb-b963693d6f0b.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
