@@ -97,6 +97,8 @@ Project contains Identity framework. User can:
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213694744-2347a625-3e52-47d5-93f1-d33cb994d703.png">
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216823341-bb3a94b7-06c5-49ba-9220-fd18929128bf.png">All forms input fields are able to validate the inputs.
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/213695477-0f535ebb-84fe-44dd-86b6-6be5c3bb90e4.png">
+<img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216840425-5b99bd36-ec68-43b4-b285-7130cb8d59e8.png">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +194,7 @@ I included JSON Web Token in API-Campaign layer and used it in campaigns access 
                    
   ```
   
-<img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213756238-31f6418a-cac7-43c7-9b93-8e2d22bdbf08.png">
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/216840595-46e95866-4552-48de-a31e-e8b4c6bf3cca.png">
 <img width="1047" alt="image" src="https://user-images.githubusercontent.com/107196935/213728098-b79c08f0-358b-43ba-a897-9dbded308fc1.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -201,6 +203,8 @@ I included JSON Web Token in API-Campaign layer and used it in campaigns access 
 
 I developed Campaign entities in API layer and provided all the CRUD operations via API requests.
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213732724-264e43e0-ae6d-4018-8141-846ea56b5f0e.png">
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/216840504-5de6532e-01b0-4a88-b5d7-4e2315ed59c4.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
