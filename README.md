@@ -55,6 +55,9 @@ The project topic selection is left to the individuals, however, the desired and
 - External API's
 - Fluent Validation
 - Auto Mapper
+- Repository Design Pattern
+- Unit of Work
+- CQRS
 
 ## Division
 
