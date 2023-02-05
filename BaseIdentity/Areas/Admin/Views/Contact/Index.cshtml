@@ -55,10 +55,17 @@
                                         @item.Subject
                                     </td>
                                     <td>
-                                        @item.Message
+                                        @{
+                                            var message = @item.Message;
+                                            var maxLength = 20;
+                                            if (message.Length > maxLength)
+                                            {
+                                                int index = message.ToString().LastIndexOf(" ", maxLength);
+                                                message = message.ToString().Substring(0, index) + " ...";
+                                            }
+                                        }
+                                        @message
                                     </td>
-
-
 
                                     <td>
                                         @if (item.Responsed == true)

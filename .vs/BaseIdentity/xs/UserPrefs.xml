@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity/Controllers/EnrollmentController.cs">
-    <Files>
-      <File FileName="BaseIdentity/Areas/Admin/Controllers/TodoListController.cs" Line="64" Column="1" />
-      <File FileName="BaseIdentity/Areas/Admin/Views/Shared/Components/ToDoList/Default.cshtml" Line="1" Column="1" />
-      <File FileName="BaseIdentity/Views/Shared/Components/CommentsByCourse/Default.cshtml" Line="22" Column="1" />
-      <File FileName="BaseIdentity/Views/Shared/Components/TopLecturers/Default.cshtml" Line="20" Column="55" />
-      <File FileName="BaseIdentity/Controllers/EnrollmentController.cs" Line="42" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseIdentity" expanded="True">
             <Node name="BaseIdentity.PresentationLayer" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True">
