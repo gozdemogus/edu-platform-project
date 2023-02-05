@@ -11,14 +11,13 @@ This repo includes my project I developed as Up School graduation project.
 
 # About
 
-https://user-images.githubusercontent.com/107196935/216828760-08215020-a1cb-42ac-a9b8-657e63c86751.mov
-
 An education aimed web app similar to [Udemy](https://www.udemy.com/), where users can access educational content in various categories, add courses to the cart and purchase, view the profiles of content producers and filter courses accordingly.
 
 In addition, adding courses with the admin panel, assigning courses to content producers, adding categories, creating campaigns, displaying notifications, displaying data via instant dashboard, creating a to-do list and performing CRUD operations on this list, creating user documents in Excel and also as PDF, consume APIs and with the help of APIs doing translations or searching the internet.
 
 Also, creating a role, assigning a role to users, viewing the communication messages received on the site and replying to them by e-mail, getting informed automatically when a new contact message received.
 
+https://user-images.githubusercontent.com/107196935/216828760-08215020-a1cb-42ac-a9b8-657e63c86751.mov
 
 # Intro
 
@@ -208,6 +207,10 @@ I developed Campaign entities in API layer and provided all the CRUD operations 
 ## DTO Layer
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/107196935/213733044-0100da55-6bfc-4b1b-aa76-901aea48f7c9.png">
+
+**AutoMapper** is used for DTO mapping
+<img width="1305" alt="image" src="https://user-images.githubusercontent.com/107196935/216839956-bdff1023-c7a2-4302-a151-f68ff1c99f5d.png">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
