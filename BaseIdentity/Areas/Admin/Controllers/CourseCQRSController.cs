@@ -17,7 +17,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+    [Authorize(Roles = "Admin")]
     public class CourseCQRSController : Controller
     {
         private readonly GetAllCourseQueryHandler _getAllCourseQueryHandler;

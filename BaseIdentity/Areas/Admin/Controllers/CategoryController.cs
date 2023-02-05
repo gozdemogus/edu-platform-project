@@ -6,6 +6,7 @@ using AutoMapper;
 using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.EntityLayer.Concrete;
 using DTOLayer.DTOs.ContactDTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
@@ -14,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;

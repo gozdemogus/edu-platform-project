@@ -10,6 +10,7 @@ using BaseIdentity.EntityLayer.Concrete;
 using ClosedXML.Excel;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +22,7 @@ namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
   
 
     [Area("Admin")]
-    // [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class ReportController : Controller
     {
 

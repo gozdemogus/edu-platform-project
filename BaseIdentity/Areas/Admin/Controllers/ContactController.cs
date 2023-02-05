@@ -8,6 +8,7 @@ using BaseIdentity.EntityLayer.Concrete;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using DTOLayer.DTOs.ContactDTO;
 using MailKit.Net.Smtp;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using MimeKit;
@@ -17,6 +18,7 @@ using MimeKit;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ContactController : Controller
     {
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BaseIdentity.BusinessLayer.Abstract;
 using BaseIdentity.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    // [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class TodoListController : Controller
     {
         private readonly ITodoListService _todoListService;

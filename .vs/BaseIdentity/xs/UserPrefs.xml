@@ -1,36 +1,15 @@
-﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BaseIdentity" expanded="True">
-            <Node name="BaseIdentity.PresentationLayer" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="CommentsByCourse" expanded="True" />
-                    <Node name="TopLecturers" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="SignalR" expanded="True">
-              <Node name="Hubs" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
+      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/TodoListController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/TodoListController.cs" line="61" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -40,13 +19,38 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.API-Campaign PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.SignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Controllers/fff.cs" relfile="BaseIdentity/Controllers/fff.cs" line="27" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" relfile="BaseIdentity/Areas/Admin/Controllers/CourseCQRS2Controller.cs" line="16" column="1" />
-      <Breakpoint file="/Users/gozdemogus/Desktop/Edu/BaseIdentity/Areas/Admin/Controllers/TodoListController.cs" relfile="BaseIdentity/Areas/Admin/Controllers/TodoListController.cs" line="61" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="API-Campaign/DAL/Entities/UserCredential.cs">
+    <Files>
+      <File FileName="API-Campaign/JWT/Auth.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/JWT/IJwtAuth.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/Program.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/Startup.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/DAL/Entities/Campaign.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/DAL/Entities/UserCredential.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/DAL/Entities/CampaignAssignee.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/Controllers/LoginController.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/DAL/Context.cs" Line="1" Column="1" />
+      <File FileName="API-Campaign/Controllers/CampaignController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity" expanded="True">
+            <Node name="API-Campaign" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="UserCredential.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="JWT" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

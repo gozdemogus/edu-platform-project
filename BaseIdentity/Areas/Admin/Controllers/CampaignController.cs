@@ -9,6 +9,7 @@ using BaseIdentity.EntityLayer.Concrete;
 using BaseIdentity.PresentationLayer.Areas.Admin.Models;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using Irony.Parsing;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +22,7 @@ using Newtonsoft.Json.Linq;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CampaignController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

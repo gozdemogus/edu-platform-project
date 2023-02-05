@@ -14,7 +14,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 namespace BaseIdentity.PresentationLayer.Areas.Admin.Controllers
 {
     [Area("Admin")]
-  //  [Authorize(Roles = "Admin")]
+   [Authorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly RoleManager<AppRole> _roleManager;
