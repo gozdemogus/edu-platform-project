@@ -61,10 +61,11 @@ The project topic selection is left to the individuals, however, the desired and
 
 The showcase section, which is offered to the end user, where operations such as course listing, enrollment and purchasing are carried out.
 
-
+https://user-images.githubusercontent.com/107196935/216832870-471b64eb-52ba-4223-99a5-f824cac12b17.mov
 
 Admin Panel with dynamic dashboard where operations such as adding courses, managing, assigning roles, user document operations are done.
-I used SignalR in order to get instant data on charts and analysis at widgets and used jQuery and Ajax for updating To-Do's. Also, an API is consumed in order to get instant Bitcoin rate.
+
+I used **SignalR** in order to get instant data on charts and analysis at widgets and used **jQuery** and **Ajax** for updating To-Do's. Also, an **API** is consumed in order to get instant Bitcoin rate. The data exchange interval especially kept this short in order to show the instant change.
 
 https://user-images.githubusercontent.com/107196935/216830514-1e5b39d5-46d6-40de-9b80-ce95c0155152.mov
 
