@@ -36,7 +36,7 @@ namespace BaseIdentity.PresentationLayer.ViewComponents
                     .Select(cc => cc.Course.Price)
                     .SumAsync();
 
-                ViewBag.Total = total;
+                ViewBag.Total = Math.Round((decimal)total, 2);
             }
             return View();
         }
