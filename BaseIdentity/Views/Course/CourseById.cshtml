@@ -14,8 +14,11 @@
                             <div class="img" style="background-image: url(@Model.CoverPhoto);"></div>
 
                             <div class="text pl-md-4">
-                                <span class="location mb-0">@Model.Level  </span>
-                                <h2>@Model.Title</h2>
+                                <span class="location mb-0">@Model.Level  </span><span class="badge" style="color:gold"> @Model.Price $</span>
+
+                                <h2>
+                                    @Model.Title
+                                </h2>
                                 <p>By @Model.Instructor.Name @Model.Instructor.Surname </p>
                                 <span class="position">@Model.Category?.CategoryName</span>
                                 <p class="mb-2"><span class="icon icon-calendar" style="color:lightcoral"></span> Date Added:  @Model.DateAdded</p>
