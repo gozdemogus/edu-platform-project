@@ -65,7 +65,7 @@ The project topic selection is left to the individuals, however, the desired and
 
 Which is offered to the end user, where operations such as course listing, enrollment and purchasing are carried out.
 
-https://user-images.githubusercontent.com/107196935/216832870-471b64eb-52ba-4223-99a5-f824cac12b17.mov
+https://user-images.githubusercontent.com/107196935/217352887-8de6a9ef-a507-4ddc-9897-bf65fe9bca53.mov
 
 ### Admin Panel
 
@@ -180,6 +180,8 @@ BEGIN CATCH
 END CATCH
 ```
 
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/107196935/217353513-37bc1b83-e0bc-4de6-b6e0-8cd14cad0a3e.png">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## JSON Web Token
@@ -242,6 +244,14 @@ Courses are listed dynamically and be filtered by instructor.
 Users can add the courses they want to buy to the cart, see the total amount in the cart and buy them. In addition, the undesired courses can be removed from the cart, the updated new amount is reflected in the cart.
 
 <img width="1403" alt="image" src="https://user-images.githubusercontent.com/107196935/216821538-f91a0df9-ef06-4af3-b8f5-8aaae6586f97.png">
+
+## Contacts
+
+Contact messages can be sent by anonymous or logged in user. Admin can view them to see if they have replied before, replies are sent via e-mail via the admin panel.
+
+<img width="1552" alt="image" src="https://user-images.githubusercontent.com/107196935/217354181-3201f9db-7b0b-40cb-91d8-870a35844877.png">
+<img width="1552" alt="image" src="https://user-images.githubusercontent.com/107196935/217354275-86ef01c0-8e5a-4840-a7ef-5f9f112eae6c.png">
+<img width="1006" alt="image" src="https://user-images.githubusercontent.com/107196935/217354774-a2beafe5-7baa-4e91-8d2b-68fa9cac9183.png">
 
 
 ## Error Pages
