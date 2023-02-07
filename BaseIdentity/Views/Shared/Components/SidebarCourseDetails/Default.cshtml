@@ -114,6 +114,18 @@
             type: 'POST',
             success: function (response) {
                 // Replace the content of the div with the response from the server
+
+                var _url = '@Url.Action("GetMyViewComponent", "Cart")';
+                $.ajax({
+                    type: "GET",
+                    url: _url,
+                    data: {  },
+                    success: function (result) {
+                        $("#badge").html(result);
+                    },
+                });
+
+
                 $('#messageCart').html(response);
                 setTimeout(function () {
                     $('#messageCart').fadeOut();

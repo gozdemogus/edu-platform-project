@@ -79,6 +79,11 @@ namespace BaseIdentity.PresentationLayer.Controllers
             }
 
         }
+
+        public IActionResult GetMyViewComponent()
+        {
+            return ViewComponent("Badge");
+        }
     }
 
 }
